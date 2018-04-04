@@ -2,15 +2,36 @@
 
 namespace App;
 
-use Illuminate\Database\Eloquent\Collection;
+use App\Jobs\CreateSection;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\SoftDeletes;
+use Illuminate\Database\Eloquent\Collection;
 
 class Bridge extends Model
 {
+    protected $casts = [
+        'user_id' => 'int'
+    ];
+
     protected $fillable = [
         'name', 'user_id', 'slug', 'nr_images', 'nr_icons', 'nr_fonts', 'nr_colors'
     ];
+
+
+    public static function boot()
+    {
+        parent::boot();
+
+        static::created(function ($bridge) {
+            foreach ([
+                                 SectionType::getColorsSectionType(),
+                                 SectionType::getIconsSectionType(),
+                                 SectionType::getImagesSectionType()
+                             ] as $sectionType) {
+                (new CreateSection($bridge, $sectionType))->handle();
+            }
+        });
+    }
+
 
     public function user()
     {
@@ -57,14 +78,14 @@ class Bridge extends Model
     public function getSectionsFromType(Collection $collection, $type)
     {
         $sectionType = SectionType::where('name', $type)->get()->first();
-        return $collection->filter(function($value, $key) use ($sectionType) {
+        return $collection->filter(function ($value, $key) use ($sectionType) {
             return $value->section_type_id === $sectionType->id;
         });
     }
 
     public function getSectionsFromTypeModel(Collection $collection, $type)
     {
-        return $collection->filter(function($value, $key) use ($type) {
+        return $collection->filter(function ($value, $key) use ($type) {
             return $value->section_type_id === $type->id;
         });
     }
@@ -88,5 +109,4 @@ class Bridge extends Model
     {
         return $this->hasMany(Color::class, 'bridge_id', 'id');
     }
-
 }

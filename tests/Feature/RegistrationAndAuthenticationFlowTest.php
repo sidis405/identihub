@@ -6,11 +6,11 @@ use App\User;
 use Tests\TestCase;
 use App\Mail\ActivationLinkMail;
 use Illuminate\Support\Facades\Mail;
-use Illuminate\Foundation\Testing\DatabaseMigrations;
+use Illuminate\Foundation\Testing\RefreshDatabase;
 
 class RegistrationAndAuthenticationFlowTest extends TestCase
 {
-    use DatabaseMigrations;
+    use RefreshDatabase;
 
     /** @test */
     public function theUserCanRegisterAndMailIsSent()

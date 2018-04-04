@@ -15,7 +15,7 @@
 Route::group(['middleware' => 'auth:api', 'namespace' => 'Api\V1', 'prefix' => 'v1'], function () {
     Route::get('/me', 'UsersController@me');
     Route::resource('bridges', 'BridgeController');
-    Route::patch('bridges/{id}/name', 'BridgeController@updateName');
+    Route::patch('bridges/{bridge}/name', 'BridgeController@update')->name('bridges.updateName');
     Route::resource('bridges.sections', 'SectionController');
     Route::patch('bridges/{bridgeId}/sections/{sectionId}/updateTitle', 'SectionController@updateTitle');
     Route::patch('bridges/{bridgeId}/sections/{sectionId}/updateDescription', 'SectionController@updateDescription');
@@ -35,7 +35,7 @@ Route::group(['middleware' => 'auth:api', 'namespace' => 'Api\V1', 'prefix' => '
     Route::post('/bridges/{bridgeId}/icons/{iconId}/converted', 'SourceFileController@addIconConverted');
     Route::post('/bridges/{bridgeId}/icons/{iconId}/filename', 'SourceFileController@updateIconFile');
 
-    Route::patch('/bridges/{bridgeId}/slug', 'BridgeController@updateSlug');
+    Route::patch('/bridges/{bridge}/slug', 'BridgeController@updateSlug')->name('bridges.updateSlug');
     Route::post('/bridges/{bridgeId}/images/', 'SourceFileController@storeImage');
     Route::post('/bridges/{bridgeId}/images/{imageId}/converted', 'SourceFileController@addImageConverted');
     Route::post('/bridges/{bridgeId}/images/{imageId}/filename', 'SourceFileController@updateImageFile');

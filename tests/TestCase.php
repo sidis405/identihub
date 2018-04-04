@@ -3,9 +3,11 @@
 namespace Tests;
 
 use App\User;
+use App\SectionType;
 use App\Exceptions\Handler;
 use Laravel\Passport\Passport;
 use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Contracts\Debug\ExceptionHandler;
 use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
@@ -14,6 +16,7 @@ abstract class TestCase extends BaseTestCase
 {
     use CreatesApplication;
 
+    protected static $migrationsRun = false;
     protected $baseUser;
 
     protected function setUp()
@@ -32,7 +35,18 @@ abstract class TestCase extends BaseTestCase
 
         // Storage::fake('images');
         // Mail::fake();
+        if (!static::$migrationsRun) {
+            Artisan::call('migrate');
+            static::$migrationsRun = true;
+        }
+
+        create(SectionType::class, ['name' => 'ICONS']);
+        create(SectionType::class, ['name' => 'FONTS']);
+        create(SectionType::class, ['name' => 'IMAGES']);
+        create(SectionType::class, ['name' => 'COLORS']);
     }
+
+
 
     public function signIn($user = null)
     {

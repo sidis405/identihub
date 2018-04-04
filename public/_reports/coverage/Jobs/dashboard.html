@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /Users/sid/Code/web/identihub/app/Jobs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../.css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../.css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../.css/style.css" rel="stylesheet" type="text/css">
+  <!--[if lt IE 9]>
+  <script src="../.js/html5shiv.min.js"></script>
+  <script src="../.js/respond.min.js"></script>
+  <![endif]-->
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <div class="row">
+     <div class="col-md-12">
+      <ol class="breadcrumb">
+        <li><a href="../index.html">/Users/sid/Code/web/identihub/app</a></li>
+        <li><a href="index.html">Jobs</a></li>
+        <li class="active">(Dashboard)</li>
+
+      </ol>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="CreateColor.php.html#13">App\Jobs\CreateColor</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CreateFont.php.html#14">App\Jobs\CreateFont</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CreateFontFamily.php.html#12">App\Jobs\CreateFontFamily</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CreateFontImage.php.html#12">App\Jobs\CreateFontImage</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CreateFontVariant.php.html#13">App\Jobs\CreateFontVariant</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DeleteBridge.php.html#12">App\Jobs\DeleteBridge</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DeleteFile.php.html#11">App\Jobs\DeleteFile</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DeleteFontFamily.php.html#11">App\Jobs\DeleteFontFamily</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DeleteFontVariant.php.html#11">App\Jobs\DeleteFontVariant</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DeleteSection.php.html#12">App\Jobs\DeleteSection</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReorderAfterDelete.php.html#12">App\Jobs\ReorderAfterDelete</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StoreUser.php.html#8">App\Jobs\StoreUser</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UpdateColor.php.html#12">App\Jobs\UpdateColor</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UpdateFontFamily.php.html#12">App\Jobs\UpdateFontFamily</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UpdateFontList.php.html#13">App\Jobs\UpdateFontList</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UpdateFontVariant.php.html#13">App\Jobs\UpdateFontVariant</a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="CreateFontImage.php.html#12">App\Jobs\CreateFontImage</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="ReorderAfterDelete.php.html#12">App\Jobs\ReorderAfterDelete</a></td><td class="text-right">12</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="CreateColor.php.html#39"><abbr title="App\Jobs\CreateColor::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DeleteFontVariant.php.html#30"><abbr title="App\Jobs\DeleteFontVariant::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UpdateFontVariant.php.html#40"><abbr title="App\Jobs\UpdateFontVariant::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UpdateFontList.php.html#34"><abbr title="App\Jobs\UpdateFontList::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UpdateFontList.php.html#24"><abbr title="App\Jobs\UpdateFontList::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UpdateFontFamily.php.html#43"><abbr title="App\Jobs\UpdateFontFamily::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UpdateFontFamily.php.html#32"><abbr title="App\Jobs\UpdateFontFamily::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UpdateColor.php.html#50"><abbr title="App\Jobs\UpdateColor::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UpdateColor.php.html#38"><abbr title="App\Jobs\UpdateColor::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StoreUser.php.html#41"><abbr title="App\Jobs\StoreUser::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="StoreUser.php.html#29"><abbr title="App\Jobs\StoreUser::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReorderAfterDelete.php.html#37"><abbr title="App\Jobs\ReorderAfterDelete::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ReorderAfterDelete.php.html#27"><abbr title="App\Jobs\ReorderAfterDelete::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DeleteSection.php.html#36"><abbr title="App\Jobs\DeleteSection::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DeleteSection.php.html#26"><abbr title="App\Jobs\DeleteSection::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DeleteFontVariant.php.html#20"><abbr title="App\Jobs\DeleteFontVariant::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CreateColor.php.html#51"><abbr title="App\Jobs\CreateColor::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DeleteFontFamily.php.html#30"><abbr title="App\Jobs\DeleteFontFamily::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DeleteFontFamily.php.html#20"><abbr title="App\Jobs\DeleteFontFamily::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DeleteFile.php.html#30"><abbr title="App\Jobs\DeleteFile::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DeleteFile.php.html#20"><abbr title="App\Jobs\DeleteFile::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DeleteBridge.php.html#36"><abbr title="App\Jobs\DeleteBridge::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="DeleteBridge.php.html#26"><abbr title="App\Jobs\DeleteBridge::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CreateFontVariant.php.html#51"><abbr title="App\Jobs\CreateFontVariant::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CreateFontVariant.php.html#39"><abbr title="App\Jobs\CreateFontVariant::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CreateFontImage.php.html#36"><abbr title="App\Jobs\CreateFontImage::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CreateFontImage.php.html#26"><abbr title="App\Jobs\CreateFontImage::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CreateFontFamily.php.html#36"><abbr title="App\Jobs\CreateFontFamily::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CreateFontFamily.php.html#26"><abbr title="App\Jobs\CreateFontFamily::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CreateFont.php.html#49"><abbr title="App\Jobs\CreateFont::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CreateFont.php.html#38"><abbr title="App\Jobs\CreateFont::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="UpdateFontVariant.php.html#52"><abbr title="App\Jobs\UpdateFontVariant::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="CreateFontImage.php.html#36"><abbr title="App\Jobs\CreateFontImage::handle">handle</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ReorderAfterDelete.php.html#37"><abbr title="App\Jobs\ReorderAfterDelete::handle">handle</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 6.0.1</a> using <a href="https://secure.php.net/" target="_top">PHP 7.1.13</a> with <a href="https://xdebug.org/">Xdebug 2.5.5</a> and <a href="https://phpunit.de/">PHPUnit 7.0.3</a> at Wed Apr 4 23:22:08 UTC 2018.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../.js/jquery.min.js" type="text/javascript"></script>
+  <script src="../.js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../.js/holder.min.js" type="text/javascript"></script>
+  <script src="../.js/d3.min.js" type="text/javascript"></script>
+  <script src="../.js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([16,0,0,0,0,0,0,0,0,0,0,3], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([32,0,0,0,0,0,0,0,0,0,0,6], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[100,2,"<a href=\"CreateActivationLink.php.html#12\">App\\Jobs\\CreateActivationLink<\/a>"],[100,3,"<a href=\"CreateBulkColors.php.html#13\">App\\Jobs\\CreateBulkColors<\/a>"],[0,2,"<a href=\"CreateColor.php.html#13\">App\\Jobs\\CreateColor<\/a>"],[0,2,"<a href=\"CreateFont.php.html#14\">App\\Jobs\\CreateFont<\/a>"],[0,2,"<a href=\"CreateFontFamily.php.html#12\">App\\Jobs\\CreateFontFamily<\/a>"],[0,3,"<a href=\"CreateFontImage.php.html#12\">App\\Jobs\\CreateFontImage<\/a>"],[0,2,"<a href=\"CreateFontVariant.php.html#13\">App\\Jobs\\CreateFontVariant<\/a>"],[100,2,"<a href=\"CreateSection.php.html#14\">App\\Jobs\\CreateSection<\/a>"],[0,2,"<a href=\"DeleteBridge.php.html#12\">App\\Jobs\\DeleteBridge<\/a>"],[0,2,"<a href=\"DeleteFile.php.html#11\">App\\Jobs\\DeleteFile<\/a>"],[0,2,"<a href=\"DeleteFontFamily.php.html#11\">App\\Jobs\\DeleteFontFamily<\/a>"],[0,2,"<a href=\"DeleteFontVariant.php.html#11\">App\\Jobs\\DeleteFontVariant<\/a>"],[0,2,"<a href=\"DeleteSection.php.html#12\">App\\Jobs\\DeleteSection<\/a>"],[0,3,"<a href=\"ReorderAfterDelete.php.html#12\">App\\Jobs\\ReorderAfterDelete<\/a>"],[0,2,"<a href=\"StoreUser.php.html#8\">App\\Jobs\\StoreUser<\/a>"],[0,2,"<a href=\"UpdateColor.php.html#12\">App\\Jobs\\UpdateColor<\/a>"],[0,2,"<a href=\"UpdateFontFamily.php.html#12\">App\\Jobs\\UpdateFontFamily<\/a>"],[0,2,"<a href=\"UpdateFontList.php.html#13\">App\\Jobs\\UpdateFontList<\/a>"],[0,2,"<a href=\"UpdateFontVariant.php.html#13\">App\\Jobs\\UpdateFontVariant<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"CreateActivationLink.php.html#26\">App\\Jobs\\CreateActivationLink::__construct<\/a>"],[100,1,"<a href=\"CreateActivationLink.php.html#35\">App\\Jobs\\CreateActivationLink::handle<\/a>"],[100,1,"<a href=\"CreateBulkColors.php.html#39\">App\\Jobs\\CreateBulkColors::__construct<\/a>"],[100,2,"<a href=\"CreateBulkColors.php.html#51\">App\\Jobs\\CreateBulkColors::handle<\/a>"],[0,1,"<a href=\"CreateColor.php.html#39\">App\\Jobs\\CreateColor::__construct<\/a>"],[0,1,"<a href=\"CreateColor.php.html#51\">App\\Jobs\\CreateColor::handle<\/a>"],[0,1,"<a href=\"CreateFont.php.html#38\">App\\Jobs\\CreateFont::__construct<\/a>"],[0,1,"<a href=\"CreateFont.php.html#49\">App\\Jobs\\CreateFont::handle<\/a>"],[0,1,"<a href=\"CreateFontFamily.php.html#26\">App\\Jobs\\CreateFontFamily::__construct<\/a>"],[0,1,"<a href=\"CreateFontFamily.php.html#36\">App\\Jobs\\CreateFontFamily::handle<\/a>"],[0,1,"<a href=\"CreateFontImage.php.html#26\">App\\Jobs\\CreateFontImage::__construct<\/a>"],[0,2,"<a href=\"CreateFontImage.php.html#36\">App\\Jobs\\CreateFontImage::handle<\/a>"],[0,1,"<a href=\"CreateFontVariant.php.html#39\">App\\Jobs\\CreateFontVariant::__construct<\/a>"],[0,1,"<a href=\"CreateFontVariant.php.html#51\">App\\Jobs\\CreateFontVariant::handle<\/a>"],[100,1,"<a href=\"CreateSection.php.html#33\">App\\Jobs\\CreateSection::__construct<\/a>"],[100,1,"<a href=\"CreateSection.php.html#44\">App\\Jobs\\CreateSection::handle<\/a>"],[0,1,"<a href=\"DeleteBridge.php.html#26\">App\\Jobs\\DeleteBridge::__construct<\/a>"],[0,1,"<a href=\"DeleteBridge.php.html#36\">App\\Jobs\\DeleteBridge::handle<\/a>"],[0,1,"<a href=\"DeleteFile.php.html#20\">App\\Jobs\\DeleteFile::__construct<\/a>"],[0,1,"<a href=\"DeleteFile.php.html#30\">App\\Jobs\\DeleteFile::handle<\/a>"],[0,1,"<a href=\"DeleteFontFamily.php.html#20\">App\\Jobs\\DeleteFontFamily::__construct<\/a>"],[0,1,"<a href=\"DeleteFontFamily.php.html#30\">App\\Jobs\\DeleteFontFamily::handle<\/a>"],[0,1,"<a href=\"DeleteFontVariant.php.html#20\">App\\Jobs\\DeleteFontVariant::__construct<\/a>"],[0,1,"<a href=\"DeleteFontVariant.php.html#30\">App\\Jobs\\DeleteFontVariant::handle<\/a>"],[0,1,"<a href=\"DeleteSection.php.html#26\">App\\Jobs\\DeleteSection::__construct<\/a>"],[0,1,"<a href=\"DeleteSection.php.html#36\">App\\Jobs\\DeleteSection::handle<\/a>"],[0,1,"<a href=\"ReorderAfterDelete.php.html#27\">App\\Jobs\\ReorderAfterDelete::__construct<\/a>"],[0,2,"<a href=\"ReorderAfterDelete.php.html#37\">App\\Jobs\\ReorderAfterDelete::handle<\/a>"],[0,1,"<a href=\"StoreUser.php.html#29\">App\\Jobs\\StoreUser::__construct<\/a>"],[0,1,"<a href=\"StoreUser.php.html#41\">App\\Jobs\\StoreUser::handle<\/a>"],[0,1,"<a href=\"UpdateColor.php.html#38\">App\\Jobs\\UpdateColor::__construct<\/a>"],[0,1,"<a href=\"UpdateColor.php.html#50\">App\\Jobs\\UpdateColor::handle<\/a>"],[0,1,"<a href=\"UpdateFontFamily.php.html#32\">App\\Jobs\\UpdateFontFamily::__construct<\/a>"],[0,1,"<a href=\"UpdateFontFamily.php.html#43\">App\\Jobs\\UpdateFontFamily::handle<\/a>"],[0,1,"<a href=\"UpdateFontList.php.html#24\">App\\Jobs\\UpdateFontList::__construct<\/a>"],[0,1,"<a href=\"UpdateFontList.php.html#34\">App\\Jobs\\UpdateFontList::handle<\/a>"],[0,1,"<a href=\"UpdateFontVariant.php.html#40\">App\\Jobs\\UpdateFontVariant::__construct<\/a>"],[0,1,"<a href=\"UpdateFontVariant.php.html#52\">App\\Jobs\\UpdateFontVariant::handle<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

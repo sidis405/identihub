@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /Users/sid/Code/web/identihub/app</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href=".css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href=".css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href=".css/style.css" rel="stylesheet" type="text/css">
+  <!--[if lt IE 9]>
+  <script src=".js/html5shiv.min.js"></script>
+  <script src=".js/respond.min.js"></script>
+  <![endif]-->
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <div class="row">
+     <div class="col-md-12">
+      <ol class="breadcrumb">
+        <li><a href="index.html">/Users/sid/Code/web/identihub/app</a></li>
+        <li class="active">(Dashboard)</li>
+
+      </ol>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Models/ImageConverted.php.html#8">App\ImageConverted</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/DeleteFontFamily.php.html#11">App\Jobs\DeleteFontFamily</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/SectionTitleRequest.php.html#7">App\Http\Requests\SectionTitleRequest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/StoreColorRequest.php.html#7">App\Http\Requests\StoreColorRequest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/StoreFontRequest.php.html#7">App\Http\Requests\StoreFontRequest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/StoreOrganization.php.html#7">App\Http\Requests\StoreOrganization</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/UserStoreRequest.php.html#7">App\Http\Requests\UserStoreRequest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/CreateColor.php.html#13">App\Jobs\CreateColor</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/CreateFont.php.html#14">App\Jobs\CreateFont</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/CreateFontFamily.php.html#12">App\Jobs\CreateFontFamily</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/CreateFontImage.php.html#12">App\Jobs\CreateFontImage</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/CreateFontVariant.php.html#13">App\Jobs\CreateFontVariant</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/DeleteBridge.php.html#12">App\Jobs\DeleteBridge</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/DeleteFile.php.html#11">App\Jobs\DeleteFile</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/DeleteFontVariant.php.html#11">App\Jobs\DeleteFontVariant</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/InstallationDatabaseStore.php.html#7">App\Http\Requests\InstallationDatabaseStore</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/DeleteSection.php.html#12">App\Jobs\DeleteSection</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/ReorderAfterDelete.php.html#12">App\Jobs\ReorderAfterDelete</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/StoreUser.php.html#8">App\Jobs\StoreUser</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/UpdateColor.php.html#12">App\Jobs\UpdateColor</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/UpdateFontFamily.php.html#12">App\Jobs\UpdateFontFamily</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/UpdateFontList.php.html#13">App\Jobs\UpdateFontList</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/UpdateFontVariant.php.html#13">App\Jobs\UpdateFontVariant</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Font.php.html#7">App\Font</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/FontFamily.php.html#7">App\FontFamily</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/FontVariant.php.html#7">App\FontVariant</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Icon.php.html#8">App\Icon</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/IconConverted.php.html#8">App\IconConverted</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Image.php.html#8">App\Image</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/SectionDescriptionRequest.php.html#7">App\Http\Requests\SectionDescriptionRequest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/ImageStoreRequest.php.html#7">App\Http\Requests\ImageStoreRequest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/IconStoreRequest.php.html#7">App\Http\Requests\IconStoreRequest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/ForgotPasswordController.php.html#8">App\Http\Controllers\Auth\ForgotPasswordController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exceptions/DBConnectionError.php.html#9">App\Exceptions\DBConnectionError</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exceptions/IconShouldBeSVG.php.html#9">App\Exceptions\IconShouldBeSVG</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exceptions/ImageShouldBePNGOrJPG.php.html#9">App\Exceptions\ImageShouldBePNGOrJPG</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helpers/DatabaseChecker.php.html#6">App\Helpers\DatabaseChecker</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helpers/EnvWriter.php.html#6">App\Helpers\EnvWriter</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/FontsController.php.html#21">App\Http\Controllers\Api\V1\FontsController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/OrderController.php.html#17">App\Http\Controllers\Api\V1\OrderController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/SectionController.php.html#18">App\Http\Controllers\Api\V1\SectionController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/SourceFileController.php.html#24">App\Http\Controllers\Api\V1\SourceFileController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/App/AppController.php.html#10">App\Http\Controllers\App\AppController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/UsersController.php.html#8">App\Http\Controllers\Api\V1\UsersController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/ActivateLinkRequest.php.html#7">App\Http\Requests\ActivateLinkRequest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/ConvertedStoreRequest.php.html#7">App\Http\Requests\ConvertedStoreRequest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/ResetPasswordController.php.html#8">App\Http\Controllers\Auth\ResetPasswordController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/FrontController.php.html#6">App\Http\Controllers\FrontController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Installation/InstallationController.php.html#17">App\Http\Controllers\Installation\InstallationController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/CreateSectionRequest.php.html#7">App\Http\Requests\CreateSectionRequest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/CreateConvertedIcon.php.html#7">App\Http\Requests\CreateConvertedIcon</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/CreateColorRequest.php.html#7">App\Http\Requests\CreateColorRequest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Console/Commands/UpdateFonts.php.html#17">App\Console\Commands\UpdateFonts</a></td><td class="text-right">10%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/ColorsController.php.html#19">App\Http\Controllers\Api\V1\ColorsController</a></td><td class="text-right">16%</td></tr>
+       <tr><td><a href="Console/Commands/CreateImagesFromFontVariants.php.html#9">App\Console\Commands\CreateImagesFromFontVariants</a></td><td class="text-right">33%</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/ActivationLinkController.php.html#14">App\Http\Controllers\Auth\ActivationLinkController</a></td><td class="text-right">47%</td></tr>
+       <tr><td><a href="Events/BridgeDeleted.php.html#14">App\Events\BridgeDeleted</a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="Events/BridgeCreated.php.html#14">App\Events\BridgeCreated</a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/LoginController.php.html#13">App\Http\Controllers\Auth\LoginController</a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="Models/Bridge.php.html#9">App\Bridge</a></td><td class="text-right">56%</td></tr>
+       <tr><td><a href="Helpers/EnvWriterServiceProvider.php.html#8">App\Helpers\EnvWriterServiceProvider</a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Http/Middleware/RedirectIfAuthenticated.php.html#8">App\Http\Middleware\RedirectIfAuthenticated</a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Exceptions/Handler.php.html#11">App\Exceptions\Handler</a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Http/Middleware/InstallationChecker.php.html#8">App\Http\Middleware\InstallationChecker</a></td><td class="text-right">66%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Http/Controllers/Api/V1/SourceFileController.php.html#24">App\Http\Controllers\Api\V1\SourceFileController</a></td><td class="text-right">3422</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/OrderController.php.html#17">App\Http\Controllers\Api\V1\OrderController</a></td><td class="text-right">552</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/SectionController.php.html#18">App\Http\Controllers\Api\V1\SectionController</a></td><td class="text-right">380</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/ColorsController.php.html#19">App\Http\Controllers\Api\V1\ColorsController</a></td><td class="text-right">253</td></tr>
+       <tr><td><a href="Http/Controllers/Installation/InstallationController.php.html#17">App\Http\Controllers\Installation\InstallationController</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/FontsController.php.html#21">App\Http\Controllers\Api\V1\FontsController</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="Models/Bridge.php.html#9">App\Bridge</a></td><td class="text-right">48</td></tr>
+       <tr><td><a href="Console/Commands/UpdateFonts.php.html#17">App\Console\Commands\UpdateFonts</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Models/Icon.php.html#8">App\Icon</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Console/Commands/CreateImagesFromFontVariants.php.html#9">App\Console\Commands\CreateImagesFromFontVariants</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Jobs/CreateFontImage.php.html#12">App\Jobs\CreateFontImage</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Http/Controllers/App/AppController.php.html#10">App\Http\Controllers\App\AppController</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Jobs/ReorderAfterDelete.php.html#12">App\Jobs\ReorderAfterDelete</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/ActivationLinkController.php.html#14">App\Http\Controllers\Auth\ActivationLinkController</a></td><td class="text-right">11</td></tr>
+       <tr><td><a href="Exceptions/Handler.php.html#11">App\Exceptions\Handler</a></td><td class="text-right">10</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/LoginController.php.html#13">App\Http\Controllers\Auth\LoginController</a></td><td class="text-right">8</td></tr>
+       <tr><td><a href="Http/Controllers/FrontController.php.html#6">App\Http\Controllers\FrontController</a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Helpers/DatabaseChecker.php.html#6">App\Helpers\DatabaseChecker</a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Middleware/InstallationChecker.php.html#8">App\Http\Middleware\InstallationChecker</a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Http/Middleware/RedirectIfAuthenticated.php.html#8">App\Http\Middleware\RedirectIfAuthenticated</a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Console/Commands/CreateImagesFromFontVariants.php.html#42"><abbr title="App\Console\Commands\CreateImagesFromFontVariants::anonymousFunction:42#108">anonymousFunction:42#108</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/DeleteBridge.php.html#36"><abbr title="App\Jobs\DeleteBridge::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/CreateFontFamily.php.html#36"><abbr title="App\Jobs\CreateFontFamily::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/CreateFontImage.php.html#26"><abbr title="App\Jobs\CreateFontImage::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/CreateFontImage.php.html#36"><abbr title="App\Jobs\CreateFontImage::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/CreateFontVariant.php.html#39"><abbr title="App\Jobs\CreateFontVariant::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/CreateFontVariant.php.html#51"><abbr title="App\Jobs\CreateFontVariant::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/DeleteBridge.php.html#26"><abbr title="App\Jobs\DeleteBridge::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/DeleteFile.php.html#20"><abbr title="App\Jobs\DeleteFile::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/CreateFont.php.html#49"><abbr title="App\Jobs\CreateFont::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/DeleteFile.php.html#30"><abbr title="App\Jobs\DeleteFile::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/DeleteFontFamily.php.html#20"><abbr title="App\Jobs\DeleteFontFamily::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/DeleteFontFamily.php.html#30"><abbr title="App\Jobs\DeleteFontFamily::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/DeleteFontVariant.php.html#20"><abbr title="App\Jobs\DeleteFontVariant::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/DeleteFontVariant.php.html#30"><abbr title="App\Jobs\DeleteFontVariant::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/DeleteSection.php.html#26"><abbr title="App\Jobs\DeleteSection::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/CreateFontFamily.php.html#26"><abbr title="App\Jobs\CreateFontFamily::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/CreateFont.php.html#38"><abbr title="App\Jobs\CreateFont::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/ReorderAfterDelete.php.html#27"><abbr title="App\Jobs\ReorderAfterDelete::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/StoreColorRequest.php.html#24"><abbr title="App\Http\Requests\StoreColorRequest::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/InstallationDatabaseStore.php.html#24"><abbr title="App\Http\Requests\InstallationDatabaseStore::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/SectionDescriptionRequest.php.html#14"><abbr title="App\Http\Requests\SectionDescriptionRequest::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/SectionDescriptionRequest.php.html#24"><abbr title="App\Http\Requests\SectionDescriptionRequest::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/SectionTitleRequest.php.html#14"><abbr title="App\Http\Requests\SectionTitleRequest::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/SectionTitleRequest.php.html#24"><abbr title="App\Http\Requests\SectionTitleRequest::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/StoreColorRequest.php.html#14"><abbr title="App\Http\Requests\StoreColorRequest::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/StoreFontRequest.php.html#14"><abbr title="App\Http\Requests\StoreFontRequest::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/CreateColor.php.html#51"><abbr title="App\Jobs\CreateColor::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/StoreFontRequest.php.html#24"><abbr title="App\Http\Requests\StoreFontRequest::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/StoreOrganization.php.html#14"><abbr title="App\Http\Requests\StoreOrganization::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/StoreOrganization.php.html#24"><abbr title="App\Http\Requests\StoreOrganization::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/UserStoreRequest.php.html#14"><abbr title="App\Http\Requests\UserStoreRequest::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/UserStoreRequest.php.html#24"><abbr title="App\Http\Requests\UserStoreRequest::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/CreateColor.php.html#39"><abbr title="App\Jobs\CreateColor::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/DeleteSection.php.html#36"><abbr title="App\Jobs\DeleteSection::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/ReorderAfterDelete.php.html#37"><abbr title="App\Jobs\ReorderAfterDelete::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/ImageStoreRequest.php.html#24"><abbr title="App\Http\Requests\ImageStoreRequest::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Icon.php.html#29"><abbr title="App\Icon::save">save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Font.php.html#20"><abbr title="App\Font::save">save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Font.php.html#31"><abbr title="App\Font::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/FontFamily.php.html#19"><abbr title="App\FontFamily::variants">variants</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/FontVariant.php.html#19"><abbr title="App\FontVariant::fontFamily">fontFamily</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Icon.php.html#18"><abbr title="App\Icon::getFilenamePngAttribute">getFilenamePngAttribute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Icon.php.html#24"><abbr title="App\Icon::converted">converted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Icon.php.html#38"><abbr title="App\Icon::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Color.php.html#24"><abbr title="App\Color::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/IconConverted.php.html#18"><abbr title="App\IconConverted::icon">icon</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Image.php.html#18"><abbr title="App\Image::converted">converted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Image.php.html#23"><abbr title="App\Image::save">save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Image.php.html#33"><abbr title="App\Image::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/ImageConverted.php.html#18"><abbr title="App\ImageConverted::image">image</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/SectionType.php.html#40"><abbr title="App\SectionType::getFontsSectionType">getFontsSectionType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Font.php.html#15"><abbr title="App\Font::variant">variant</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Bridge.php.html#81"><abbr title="App\Bridge::anonymousFunction:81#440">anonymousFunction:81#440</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/StoreUser.php.html#29"><abbr title="App\Jobs\StoreUser::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/UpdateFontList.php.html#34"><abbr title="App\Jobs\UpdateFontList::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/StoreUser.php.html#41"><abbr title="App\Jobs\StoreUser::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/UpdateColor.php.html#38"><abbr title="App\Jobs\UpdateColor::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/UpdateColor.php.html#50"><abbr title="App\Jobs\UpdateColor::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/UpdateFontFamily.php.html#32"><abbr title="App\Jobs\UpdateFontFamily::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/UpdateFontFamily.php.html#43"><abbr title="App\Jobs\UpdateFontFamily::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/UpdateFontList.php.html#24"><abbr title="App\Jobs\UpdateFontList::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/UpdateFontVariant.php.html#40"><abbr title="App\Jobs\UpdateFontVariant::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Bridge.php.html#78"><abbr title="App\Bridge::getSectionsFromType">getSectionsFromType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Jobs/UpdateFontVariant.php.html#52"><abbr title="App\Jobs\UpdateFontVariant::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Bridge.php.html#36"><abbr title="App\Bridge::user">user</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Bridge.php.html#48"><abbr title="App\Bridge::scopeFromUser">scopeFromUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Bridge.php.html#58"><abbr title="App\Bridge::iconSections">iconSections</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Bridge.php.html#63"><abbr title="App\Bridge::fontSections">fontSections</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Bridge.php.html#68"><abbr title="App\Bridge::imageSections">imageSections</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/Bridge.php.html#73"><abbr title="App\Bridge::colorsSections">colorsSections</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/InstallationDatabaseStore.php.html#14"><abbr title="App\Http\Requests\InstallationDatabaseStore::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/ImageStoreRequest.php.html#14"><abbr title="App\Http\Requests\ImageStoreRequest::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Console/Commands/UpdateFonts.php.html#48"><abbr title="App\Console\Commands\UpdateFonts::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/SectionController.php.html#129"><abbr title="App\Http\Controllers\Api\V1\SectionController::updateDescription">updateDescription</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/OrderController.php.html#81"><abbr title="App\Http\Controllers\Api\V1\OrderController::inRange">inRange</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/OrderController.php.html#86"><abbr title="App\Http\Controllers\Api\V1\OrderController::changedSection">changedSection</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/OrderController.php.html#139"><abbr title="App\Http\Controllers\Api\V1\OrderController::checkIfBridgeIsFromTheSameUser">checkIfBridgeIsFromTheSameUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/SectionController.php.html#43"><abbr title="App\Http\Controllers\Api\V1\SectionController::store">store</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/SectionController.php.html#65"><abbr title="App\Http\Controllers\Api\V1\SectionController::destroy">destroy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/SectionController.php.html#98"><abbr title="App\Http\Controllers\Api\V1\SectionController::updateTitle">updateTitle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/SectionController.php.html#169"><abbr title="App\Http\Controllers\Api\V1\SectionController::updateOrder">updateOrder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/FontsController.php.html#83"><abbr title="App\Http\Controllers\Api\V1\FontsController::deleteFont">deleteFont</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/SourceFileController.php.html#26"><abbr title="App\Http\Controllers\Api\V1\SourceFileController::storeIcon">storeIcon</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/SourceFileController.php.html#95"><abbr title="App\Http\Controllers\Api\V1\SourceFileController::updateIconFile">updateIconFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/SourceFileController.php.html#144"><abbr title="App\Http\Controllers\Api\V1\SourceFileController::updateConvertedIcons">updateConvertedIcons</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/SourceFileController.php.html#161"><abbr title="App\Http\Controllers\Api\V1\SourceFileController::storeImage">storeImage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/SourceFileController.php.html#236"><abbr title="App\Http\Controllers\Api\V1\SourceFileController::addViewBoxAndScaleSvg">addViewBoxAndScaleSvg</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/SourceFileController.php.html#251"><abbr title="App\Http\Controllers\Api\V1\SourceFileController::addIconConverted">addIconConverted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/OrderController.php.html#20"><abbr title="App\Http\Controllers\Api\V1\OrderController::changedOrderOnSameSection">changedOrderOnSameSection</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/FontsController.php.html#33"><abbr title="App\Http\Controllers\Api\V1\FontsController::createFont">createFont</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/SourceFileController.php.html#351"><abbr title="App\Http\Controllers\Api\V1\SourceFileController::deleteIcon">deleteIcon</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exceptions/IconShouldBeSVG.php.html#11"><abbr title="App\Exceptions\IconShouldBeSVG::getMessageBag">getMessageBag</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Events/BridgeCreated.php.html#38"><abbr title="App\Events\BridgeCreated::broadcastOn">broadcastOn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Events/BridgeCreated.php.html#43"><abbr title="App\Events\BridgeCreated::broadcastWith">broadcastWith</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Events/BridgeDeleted.php.html#39"><abbr title="App\Events\BridgeDeleted::broadcastOn">broadcastOn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Events/BridgeDeleted.php.html#44"><abbr title="App\Events\BridgeDeleted::broadcastWith">broadcastWith</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exceptions/DBConnectionError.php.html#11"><abbr title="App\Exceptions\DBConnectionError::getMessageBag">getMessageBag</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exceptions/Handler.php.html#71"><abbr title="App\Exceptions\Handler::unauthenticated">unauthenticated</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exceptions/ImageShouldBePNGOrJPG.php.html#11"><abbr title="App\Exceptions\ImageShouldBePNGOrJPG::getMessageBag">getMessageBag</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/FontsController.php.html#24"><abbr title="App\Http\Controllers\Api\V1\FontsController::search">search</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helpers/DatabaseChecker.php.html#9"><abbr title="App\Helpers\DatabaseChecker::checkIfConnectionWorks">checkIfConnectionWorks</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helpers/EnvWriter.php.html#15"><abbr title="App\Helpers\EnvWriter::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Helpers/EnvWriter.php.html#26"><abbr title="App\Helpers\EnvWriter::writeNewEnvironmentFileWith">writeNewEnvironmentFileWith</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/ColorsController.php.html#56"><abbr title="App\Http\Controllers\Api\V1\ColorsController::createColor">createColor</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/ColorsController.php.html#90"><abbr title="App\Http\Controllers\Api\V1\ColorsController::updateColor">updateColor</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/ColorsController.php.html#121"><abbr title="App\Http\Controllers\Api\V1\ColorsController::deleteColor">deleteColor</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/IconStoreRequest.php.html#24"><abbr title="App\Http\Requests\IconStoreRequest::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/SourceFileController.php.html#299"><abbr title="App\Http\Controllers\Api\V1\SourceFileController::addImageConverted">addImageConverted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/SourceFileController.php.html#385"><abbr title="App\Http\Controllers\Api\V1\SourceFileController::deleteImage">deleteImage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Installation/InstallationController.php.html#73"><abbr title="App\Http\Controllers\Installation\InstallationController::organizationInformation">organizationInformation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/IconStoreRequest.php.html#14"><abbr title="App\Http\Requests\IconStoreRequest::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/CreateSectionRequest.php.html#24"><abbr title="App\Http\Requests\CreateSectionRequest::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/CreateSectionRequest.php.html#14"><abbr title="App\Http\Requests\CreateSectionRequest::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/CreateConvertedIcon.php.html#24"><abbr title="App\Http\Requests\CreateConvertedIcon::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/CreateConvertedIcon.php.html#14"><abbr title="App\Http\Requests\CreateConvertedIcon::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/CreateColorRequest.php.html#24"><abbr title="App\Http\Requests\CreateColorRequest::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/CreateColorRequest.php.html#14"><abbr title="App\Http\Requests\CreateColorRequest::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/ConvertedStoreRequest.php.html#24"><abbr title="App\Http\Requests\ConvertedStoreRequest::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/ConvertedStoreRequest.php.html#14"><abbr title="App\Http\Requests\ConvertedStoreRequest::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/ActivateLinkRequest.php.html#24"><abbr title="App\Http\Requests\ActivateLinkRequest::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/ActivateLinkRequest.php.html#14"><abbr title="App\Http\Requests\ActivateLinkRequest::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Installation/InstallationController.php.html#96"><abbr title="App\Http\Controllers\Installation\InstallationController::finishInstallation">finishInstallation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/SourceFileController.php.html#419"><abbr title="App\Http\Controllers\Api\V1\SourceFileController::updateImageFile">updateImageFile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Installation/InstallationController.php.html#78"><abbr title="App\Http\Controllers\Installation\InstallationController::saveOrganizationInformation">saveOrganizationInformation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Installation/InstallationController.php.html#84"><abbr title="App\Http\Controllers\Installation\InstallationController::checkThirdParty">checkThirdParty</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Installation/InstallationController.php.html#67"><abbr title="App\Http\Controllers\Installation\InstallationController::saveUserInformation">saveUserInformation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/ResetPasswordController.php.html#35"><abbr title="App\Http\Controllers\Auth\ResetPasswordController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/SourceFileController.php.html#474"><abbr title="App\Http\Controllers\Api\V1\SourceFileController::updateConvertedImages">updateConvertedImages</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/UsersController.php.html#10"><abbr title="App\Http\Controllers\Api\V1\UsersController::me">me</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/App/AppController.php.html#18"><abbr title="App\Http\Controllers\App\AppController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/App/AppController.php.html#28"><abbr title="App\Http\Controllers\App\AppController::publicIdentities">publicIdentities</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/ActivationLinkController.php.html#16"><abbr title="App\Http\Controllers\Auth\ActivationLinkController::activateLinkPage">activateLinkPage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/ActivationLinkController.php.html#23"><abbr title="App\Http\Controllers\Auth\ActivationLinkController::sendLink">sendLink</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/ForgotPasswordController.php.html#28"><abbr title="App\Http\Controllers\Auth\ForgotPasswordController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/FrontController.php.html#9"><abbr title="App\Http\Controllers\FrontController::welcome">welcome</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Installation/InstallationController.php.html#62"><abbr title="App\Http\Controllers\Installation\InstallationController::userInformation">userInformation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Installation/InstallationController.php.html#19"><abbr title="App\Http\Controllers\Installation\InstallationController::introduction">introduction</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Installation/InstallationController.php.html#24"><abbr title="App\Http\Controllers\Installation\InstallationController::databaseInformation">databaseInformation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Installation/InstallationController.php.html#29"><abbr title="App\Http\Controllers\Installation\InstallationController::saveDatabaseInformation">saveDatabaseInformation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Policies/BridgePolicy.php.html#31"><abbr title="App\Policies\BridgePolicy::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/LoginController.php.html#45"><abbr title="App\Http\Controllers\Auth\LoginController::login">login</abbr></a></td><td class="text-right">41%</td></tr>
+       <tr><td><a href="Helpers/EnvWriterServiceProvider.php.html#13"><abbr title="App\Helpers\EnvWriterServiceProvider::anonymousFunction:13#49">anonymousFunction:13#49</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="Models/Bridge.php.html#88"><abbr title="App\Bridge::anonymousFunction:88#498">anonymousFunction:88#498</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/ColorsController.php.html#21"><abbr title="App\Http\Controllers\Api\V1\ColorsController::createBulkColors">createBulkColors</abbr></a></td><td class="text-right">63%</td></tr>
+       <tr><td><a href="Http/Middleware/RedirectIfAuthenticated.php.html#18"><abbr title="App\Http\Middleware\RedirectIfAuthenticated::handle">handle</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Http/Middleware/InstallationChecker.php.html#17"><abbr title="App\Http\Middleware\InstallationChecker::handle">handle</abbr></a></td><td class="text-right">66%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Http/Controllers/Api/V1/OrderController.php.html#20"><abbr title="App\Http\Controllers\Api\V1\OrderController::changedOrderOnSameSection">changedOrderOnSameSection</abbr></a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/SourceFileController.php.html#161"><abbr title="App\Http\Controllers\Api\V1\SourceFileController::storeImage">storeImage</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/SourceFileController.php.html#419"><abbr title="App\Http\Controllers\Api\V1\SourceFileController::updateImageFile">updateImageFile</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/SourceFileController.php.html#26"><abbr title="App\Http\Controllers\Api\V1\SourceFileController::storeIcon">storeIcon</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Console/Commands/UpdateFonts.php.html#48"><abbr title="App\Console\Commands\UpdateFonts::handle">handle</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/OrderController.php.html#86"><abbr title="App\Http\Controllers\Api\V1\OrderController::changedSection">changedSection</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/SourceFileController.php.html#95"><abbr title="App\Http\Controllers\Api\V1\SourceFileController::updateIconFile">updateIconFile</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/ColorsController.php.html#121"><abbr title="App\Http\Controllers\Api\V1\ColorsController::deleteColor">deleteColor</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/SectionController.php.html#65"><abbr title="App\Http\Controllers\Api\V1\SectionController::destroy">destroy</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/SourceFileController.php.html#385"><abbr title="App\Http\Controllers\Api\V1\SourceFileController::deleteImage">deleteImage</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/SourceFileController.php.html#351"><abbr title="App\Http\Controllers\Api\V1\SourceFileController::deleteIcon">deleteIcon</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/SourceFileController.php.html#299"><abbr title="App\Http\Controllers\Api\V1\SourceFileController::addImageConverted">addImageConverted</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/FontsController.php.html#33"><abbr title="App\Http\Controllers\Api\V1\FontsController::createFont">createFont</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/SectionController.php.html#98"><abbr title="App\Http\Controllers\Api\V1\SectionController::updateTitle">updateTitle</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/SectionController.php.html#129"><abbr title="App\Http\Controllers\Api\V1\SectionController::updateDescription">updateDescription</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/ColorsController.php.html#90"><abbr title="App\Http\Controllers\Api\V1\ColorsController::updateColor">updateColor</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/ColorsController.php.html#56"><abbr title="App\Http\Controllers\Api\V1\ColorsController::createColor">createColor</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/FontsController.php.html#83"><abbr title="App\Http\Controllers\Api\V1\FontsController::deleteFont">deleteFont</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/SourceFileController.php.html#251"><abbr title="App\Http\Controllers\Api\V1\SourceFileController::addIconConverted">addIconConverted</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Http/Controllers/Installation/InstallationController.php.html#29"><abbr title="App\Http\Controllers\Installation\InstallationController::saveDatabaseInformation">saveDatabaseInformation</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/SourceFileController.php.html#474"><abbr title="App\Http\Controllers\Api\V1\SourceFileController::updateConvertedImages">updateConvertedImages</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/SectionController.php.html#43"><abbr title="App\Http\Controllers\Api\V1\SectionController::store">store</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/LoginController.php.html#45"><abbr title="App\Http\Controllers\Auth\LoginController::login">login</abbr></a></td><td class="text-right">7</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/ColorsController.php.html#21"><abbr title="App\Http\Controllers\Api\V1\ColorsController::createBulkColors">createBulkColors</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/FrontController.php.html#9"><abbr title="App\Http\Controllers\FrontController::welcome">welcome</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Jobs/CreateFontImage.php.html#36"><abbr title="App\Jobs\CreateFontImage::handle">handle</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Jobs/ReorderAfterDelete.php.html#37"><abbr title="App\Jobs\ReorderAfterDelete::handle">handle</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/ActivationLinkController.php.html#23"><abbr title="App\Http\Controllers\Auth\ActivationLinkController::sendLink">sendLink</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Console/Commands/CreateImagesFromFontVariants.php.html#42"><abbr title="App\Console\Commands\CreateImagesFromFontVariants::anonymousFunction:42#108">anonymousFunction:42#108</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/App/AppController.php.html#28"><abbr title="App\Http\Controllers\App\AppController::publicIdentities">publicIdentities</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/SourceFileController.php.html#236"><abbr title="App\Http\Controllers\Api\V1\SourceFileController::addViewBoxAndScaleSvg">addViewBoxAndScaleSvg</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/SourceFileController.php.html#144"><abbr title="App\Http\Controllers\Api\V1\SourceFileController::updateConvertedIcons">updateConvertedIcons</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/OrderController.php.html#139"><abbr title="App\Http\Controllers\Api\V1\OrderController::checkIfBridgeIsFromTheSameUser">checkIfBridgeIsFromTheSameUser</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/Api/V1/OrderController.php.html#81"><abbr title="App\Http\Controllers\Api\V1\OrderController::inRange">inRange</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Helpers/DatabaseChecker.php.html#9"><abbr title="App\Helpers\DatabaseChecker::checkIfConnectionWorks">checkIfConnectionWorks</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Exceptions/Handler.php.html#71"><abbr title="App\Exceptions\Handler::unauthenticated">unauthenticated</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Models/Icon.php.html#18"><abbr title="App\Icon::getFilenamePngAttribute">getFilenamePngAttribute</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Middleware/InstallationChecker.php.html#17"><abbr title="App\Http\Middleware\InstallationChecker::handle">handle</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Http/Middleware/RedirectIfAuthenticated.php.html#18"><abbr title="App\Http\Middleware\RedirectIfAuthenticated::handle">handle</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 6.0.1</a> using <a href="https://secure.php.net/" target="_top">PHP 7.1.13</a> with <a href="https://xdebug.org/">Xdebug 2.5.5</a> and <a href="https://phpunit.de/">PHPUnit 7.0.3</a> at Wed Apr 4 23:22:08 UTC 2018.</small>
+    </p>
+   </footer>
+  </div>
+  <script src=".js/jquery.min.js" type="text/javascript"></script>
+  <script src=".js/bootstrap.min.js" type="text/javascript"></script>
+  <script src=".js/holder.min.js" type="text/javascript"></script>
+  <script src=".js/d3.min.js" type="text/javascript"></script>
+  <script src=".js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([52,0,2,0,1,1,4,4,1,1,1,26], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([141,0,0,0,0,1,2,3,0,2,1,72], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[33.33333333333333,5,"<a href=\"Console\/Commands\/CreateImagesFromFontVariants.php.html#9\">App\\Console\\Commands\\CreateImagesFromFontVariants<\/a>"],[10,7,"<a href=\"Console\/Commands\/UpdateFonts.php.html#17\">App\\Console\\Commands\\UpdateFonts<\/a>"],[100,2,"<a href=\"Console\/Kernel.php.html#10\">App\\Console\\Kernel<\/a>"],[50,3,"<a href=\"Events\/BridgeCreated.php.html#14\">App\\Events\\BridgeCreated<\/a>"],[50,3,"<a href=\"Events\/BridgeDeleted.php.html#14\">App\\Events\\BridgeDeleted<\/a>"],[100,3,"<a href=\"Events\/BridgeUpdated.php.html#14\">App\\Events\\BridgeUpdated<\/a>"],[0,1,"<a href=\"Exceptions\/DBConnectionError.php.html#9\">App\\Exceptions\\DBConnectionError<\/a>"],[66.66666666666666,8,"<a href=\"Exceptions\/Handler.php.html#11\">App\\Exceptions\\Handler<\/a>"],[0,1,"<a href=\"Exceptions\/IconShouldBeSVG.php.html#9\">App\\Exceptions\\IconShouldBeSVG<\/a>"],[0,1,"<a href=\"Exceptions\/ImageShouldBePNGOrJPG.php.html#9\">App\\Exceptions\\ImageShouldBePNGOrJPG<\/a>"],[100,1,"<a href=\"Exceptions\/UserDoesntExist.php.html#15\">App\\Exceptions\\UserDoesntExist<\/a>"],[0,2,"<a href=\"Helpers\/DatabaseChecker.php.html#6\">App\\Helpers\\DatabaseChecker<\/a>"],[0,2,"<a href=\"Helpers\/EnvWriter.php.html#6\">App\\Helpers\\EnvWriter<\/a>"],[66.66666666666666,2,"<a href=\"Helpers\/EnvWriterServiceProvider.php.html#8\">App\\Helpers\\EnvWriterServiceProvider<\/a>"],[100,8,"<a href=\"Http\/Controllers\/Api\/V1\/BridgeController.php.html#16\">App\\Http\\Controllers\\Api\\V1\\BridgeController<\/a>"],[16.43835616438356,20,"<a href=\"Http\/Controllers\/Api\/V1\/ColorsController.php.html#19\">App\\Http\\Controllers\\Api\\V1\\ColorsController<\/a>"],[0,11,"<a href=\"Http\/Controllers\/Api\/V1\/FontsController.php.html#21\">App\\Http\\Controllers\\Api\\V1\\FontsController<\/a>"],[0,23,"<a href=\"Http\/Controllers\/Api\/V1\/OrderController.php.html#17\">App\\Http\\Controllers\\Api\\V1\\OrderController<\/a>"],[0,19,"<a href=\"Http\/Controllers\/Api\/V1\/SectionController.php.html#18\">App\\Http\\Controllers\\Api\\V1\\SectionController<\/a>"],[0,58,"<a href=\"Http\/Controllers\/Api\/V1\/SourceFileController.php.html#24\">App\\Http\\Controllers\\Api\\V1\\SourceFileController<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Api\/V1\/UsersController.php.html#8\">App\\Http\\Controllers\\Api\\V1\\UsersController<\/a>"],[0,3,"<a href=\"Http\/Controllers\/App\/AppController.php.html#10\">App\\Http\\Controllers\\App\\AppController<\/a>"],[47.61904761904761,6,"<a href=\"Http\/Controllers\/Auth\/ActivationLinkController.php.html#14\">App\\Http\\Controllers\\Auth\\ActivationLinkController<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Auth\/ForgotPasswordController.php.html#8\">App\\Http\\Controllers\\Auth\\ForgotPasswordController<\/a>"],[50,5,"<a href=\"Http\/Controllers\/Auth\/LoginController.php.html#13\">App\\Http\\Controllers\\Auth\\LoginController<\/a>"],[100,6,"<a href=\"Http\/Controllers\/Auth\/RegisterController.php.html#14\">App\\Http\\Controllers\\Auth\\RegisterController<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Auth\/ResetPasswordController.php.html#8\">App\\Http\\Controllers\\Auth\\ResetPasswordController<\/a>"],[100,1,"<a href=\"Http\/Controllers\/Controller.php.html#10\">App\\Http\\Controllers\\Controller<\/a>"],[0,2,"<a href=\"Http\/Controllers\/FrontController.php.html#6\">App\\Http\\Controllers\\FrontController<\/a>"],[0,12,"<a href=\"Http\/Controllers\/Installation\/InstallationController.php.html#17\">App\\Http\\Controllers\\Installation\\InstallationController<\/a>"],[100,0,"<a href=\"Http\/Kernel.php.html#7\">App\\Http\\Kernel<\/a>"],[100,0,"<a href=\"Http\/Middleware\/EncryptCookies.php.html#7\">App\\Http\\Middleware\\EncryptCookies<\/a>"],[66.66666666666666,2,"<a href=\"Http\/Middleware\/InstallationChecker.php.html#8\">App\\Http\\Middleware\\InstallationChecker<\/a>"],[66.66666666666666,2,"<a href=\"Http\/Middleware\/RedirectIfAuthenticated.php.html#8\">App\\Http\\Middleware\\RedirectIfAuthenticated<\/a>"],[100,0,"<a href=\"Http\/Middleware\/TrimStrings.php.html#7\">App\\Http\\Middleware\\TrimStrings<\/a>"],[100,0,"<a href=\"Http\/Middleware\/VerifyCsrfToken.php.html#7\">App\\Http\\Middleware\\VerifyCsrfToken<\/a>"],[0,2,"<a href=\"Http\/Requests\/ActivateLinkRequest.php.html#7\">App\\Http\\Requests\\ActivateLinkRequest<\/a>"],[100,2,"<a href=\"Http\/Requests\/BridgeStoreRequest.php.html#7\">App\\Http\\Requests\\BridgeStoreRequest<\/a>"],[100,2,"<a href=\"Http\/Requests\/BridgeUpdateRequest.php.html#7\">App\\Http\\Requests\\BridgeUpdateRequest<\/a>"],[0,2,"<a href=\"Http\/Requests\/ConvertedStoreRequest.php.html#7\">App\\Http\\Requests\\ConvertedStoreRequest<\/a>"],[100,2,"<a href=\"Http\/Requests\/CreateBulkColorRequest.php.html#7\">App\\Http\\Requests\\CreateBulkColorRequest<\/a>"],[0,2,"<a href=\"Http\/Requests\/CreateColorRequest.php.html#7\">App\\Http\\Requests\\CreateColorRequest<\/a>"],[0,2,"<a href=\"Http\/Requests\/CreateConvertedIcon.php.html#7\">App\\Http\\Requests\\CreateConvertedIcon<\/a>"],[0,2,"<a href=\"Http\/Requests\/CreateSectionRequest.php.html#7\">App\\Http\\Requests\\CreateSectionRequest<\/a>"],[0,2,"<a href=\"Http\/Requests\/IconStoreRequest.php.html#7\">App\\Http\\Requests\\IconStoreRequest<\/a>"],[0,2,"<a href=\"Http\/Requests\/ImageStoreRequest.php.html#7\">App\\Http\\Requests\\ImageStoreRequest<\/a>"],[0,2,"<a href=\"Http\/Requests\/InstallationDatabaseStore.php.html#7\">App\\Http\\Requests\\InstallationDatabaseStore<\/a>"],[0,2,"<a href=\"Http\/Requests\/SectionDescriptionRequest.php.html#7\">App\\Http\\Requests\\SectionDescriptionRequest<\/a>"],[0,2,"<a href=\"Http\/Requests\/SectionTitleRequest.php.html#7\">App\\Http\\Requests\\SectionTitleRequest<\/a>"],[0,2,"<a href=\"Http\/Requests\/StoreColorRequest.php.html#7\">App\\Http\\Requests\\StoreColorRequest<\/a>"],[0,2,"<a href=\"Http\/Requests\/StoreFontRequest.php.html#7\">App\\Http\\Requests\\StoreFontRequest<\/a>"],[0,2,"<a href=\"Http\/Requests\/StoreOrganization.php.html#7\">App\\Http\\Requests\\StoreOrganization<\/a>"],[100,2,"<a href=\"Http\/Requests\/UpdateBridgeSlugRequest.php.html#7\">App\\Http\\Requests\\UpdateBridgeSlugRequest<\/a>"],[0,2,"<a href=\"Http\/Requests\/UserStoreRequest.php.html#7\">App\\Http\\Requests\\UserStoreRequest<\/a>"],[100,2,"<a href=\"Jobs\/CreateActivationLink.php.html#12\">App\\Jobs\\CreateActivationLink<\/a>"],[100,3,"<a href=\"Jobs\/CreateBulkColors.php.html#13\">App\\Jobs\\CreateBulkColors<\/a>"],[0,2,"<a href=\"Jobs\/CreateColor.php.html#13\">App\\Jobs\\CreateColor<\/a>"],[0,2,"<a href=\"Jobs\/CreateFont.php.html#14\">App\\Jobs\\CreateFont<\/a>"],[0,2,"<a href=\"Jobs\/CreateFontFamily.php.html#12\">App\\Jobs\\CreateFontFamily<\/a>"],[0,3,"<a href=\"Jobs\/CreateFontImage.php.html#12\">App\\Jobs\\CreateFontImage<\/a>"],[0,2,"<a href=\"Jobs\/CreateFontVariant.php.html#13\">App\\Jobs\\CreateFontVariant<\/a>"],[100,2,"<a href=\"Jobs\/CreateSection.php.html#14\">App\\Jobs\\CreateSection<\/a>"],[0,2,"<a href=\"Jobs\/DeleteBridge.php.html#12\">App\\Jobs\\DeleteBridge<\/a>"],[0,2,"<a href=\"Jobs\/DeleteFile.php.html#11\">App\\Jobs\\DeleteFile<\/a>"],[0,2,"<a href=\"Jobs\/DeleteFontFamily.php.html#11\">App\\Jobs\\DeleteFontFamily<\/a>"],[0,2,"<a href=\"Jobs\/DeleteFontVariant.php.html#11\">App\\Jobs\\DeleteFontVariant<\/a>"],[0,2,"<a href=\"Jobs\/DeleteSection.php.html#12\">App\\Jobs\\DeleteSection<\/a>"],[0,3,"<a href=\"Jobs\/ReorderAfterDelete.php.html#12\">App\\Jobs\\ReorderAfterDelete<\/a>"],[0,2,"<a href=\"Jobs\/StoreUser.php.html#8\">App\\Jobs\\StoreUser<\/a>"],[0,2,"<a href=\"Jobs\/UpdateColor.php.html#12\">App\\Jobs\\UpdateColor<\/a>"],[0,2,"<a href=\"Jobs\/UpdateFontFamily.php.html#12\">App\\Jobs\\UpdateFontFamily<\/a>"],[0,2,"<a href=\"Jobs\/UpdateFontList.php.html#13\">App\\Jobs\\UpdateFontList<\/a>"],[0,2,"<a href=\"Jobs\/UpdateFontVariant.php.html#13\">App\\Jobs\\UpdateFontVariant<\/a>"],[100,2,"<a href=\"Mail\/ActivationLinkMail.php.html#10\">App\\Mail\\ActivationLinkMail<\/a>"],[100,2,"<a href=\"Models\/ActivationLink.php.html#8\">App\\ActivationLink<\/a>"],[56.52173913043478,19,"<a href=\"Models\/Bridge.php.html#9\">App\\Bridge<\/a>"],[90.69767441860465,9,"<a href=\"Models\/Color.php.html#7\">App\\Color<\/a>"],[0,3,"<a href=\"Models\/Font.php.html#7\">App\\Font<\/a>"],[0,1,"<a href=\"Models\/FontFamily.php.html#7\">App\\FontFamily<\/a>"],[0,1,"<a href=\"Models\/FontVariant.php.html#7\">App\\FontVariant<\/a>"],[0,5,"<a href=\"Models\/Icon.php.html#8\">App\\Icon<\/a>"],[0,1,"<a href=\"Models\/IconConverted.php.html#8\">App\\IconConverted<\/a>"],[0,3,"<a href=\"Models\/Image.php.html#8\">App\\Image<\/a>"],[0,1,"<a href=\"Models\/ImageConverted.php.html#8\">App\\ImageConverted<\/a>"],[100,0,"<a href=\"Models\/Section.php.html#7\">App\\Section<\/a>"],[80,5,"<a href=\"Models\/SectionType.php.html#7\">App\\SectionType<\/a>"],[100,0,"<a href=\"Models\/User.php.html#9\">App\\User<\/a>"],[75,4,"<a href=\"Policies\/BridgePolicy.php.html#9\">App\\Policies\\BridgePolicy<\/a>"],[100,2,"<a href=\"Providers\/AppServiceProvider.php.html#8\">App\\Providers\\AppServiceProvider<\/a>"],[100,1,"<a href=\"Providers\/AuthServiceProvider.php.html#7\">App\\Providers\\AuthServiceProvider<\/a>"],[100,1,"<a href=\"Providers\/BroadcastServiceProvider.php.html#8\">App\\Providers\\BroadcastServiceProvider<\/a>"],[100,1,"<a href=\"Providers\/EventServiceProvider.php.html#8\">App\\Providers\\EventServiceProvider<\/a>"],[100,4,"<a href=\"Providers\/RouteServiceProvider.php.html#8\">App\\Providers\\RouteServiceProvider<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"Console\/Commands\/CreateImagesFromFontVariants.php.html#30\">App\\Console\\Commands\\CreateImagesFromFontVariants::__construct<\/a>"],[100,2,"<a href=\"Console\/Commands\/CreateImagesFromFontVariants.php.html#40\">App\\Console\\Commands\\CreateImagesFromFontVariants::handle<\/a>"],[0,2,"<a href=\"Console\/Commands\/CreateImagesFromFontVariants.php.html#42\">App\\Console\\Commands\\CreateImagesFromFontVariants::anonymousFunction:42#108<\/a>"],[100,1,"<a href=\"Console\/Commands\/UpdateFonts.php.html#38\">App\\Console\\Commands\\UpdateFonts::__construct<\/a>"],[0,6,"<a href=\"Console\/Commands\/UpdateFonts.php.html#48\">App\\Console\\Commands\\UpdateFonts::handle<\/a>"],[100,1,"<a href=\"Console\/Kernel.php.html#28\">App\\Console\\Kernel::schedule<\/a>"],[100,1,"<a href=\"Console\/Kernel.php.html#39\">App\\Console\\Kernel::commands<\/a>"],[100,1,"<a href=\"Events\/BridgeCreated.php.html#28\">App\\Events\\BridgeCreated::__construct<\/a>"],[0,1,"<a href=\"Events\/BridgeCreated.php.html#38\">App\\Events\\BridgeCreated::broadcastOn<\/a>"],[0,1,"<a href=\"Events\/BridgeCreated.php.html#43\">App\\Events\\BridgeCreated::broadcastWith<\/a>"],[100,1,"<a href=\"Events\/BridgeDeleted.php.html#28\">App\\Events\\BridgeDeleted::__construct<\/a>"],[0,1,"<a href=\"Events\/BridgeDeleted.php.html#39\">App\\Events\\BridgeDeleted::broadcastOn<\/a>"],[0,1,"<a href=\"Events\/BridgeDeleted.php.html#44\">App\\Events\\BridgeDeleted::broadcastWith<\/a>"],[100,1,"<a href=\"Events\/BridgeUpdated.php.html#27\">App\\Events\\BridgeUpdated::__construct<\/a>"],[100,1,"<a href=\"Events\/BridgeUpdated.php.html#37\">App\\Events\\BridgeUpdated::broadcastOn<\/a>"],[100,1,"<a href=\"Events\/BridgeUpdated.php.html#47\">App\\Events\\BridgeUpdated::broadcastWith<\/a>"],[0,1,"<a href=\"Exceptions\/DBConnectionError.php.html#11\">App\\Exceptions\\DBConnectionError::getMessageBag<\/a>"],[100,1,"<a href=\"Exceptions\/Handler.php.html#35\">App\\Exceptions\\Handler::report<\/a>"],[85.71428571428571,5,"<a href=\"Exceptions\/Handler.php.html#47\">App\\Exceptions\\Handler::render<\/a>"],[0,2,"<a href=\"Exceptions\/Handler.php.html#71\">App\\Exceptions\\Handler::unauthenticated<\/a>"],[0,1,"<a href=\"Exceptions\/IconShouldBeSVG.php.html#11\">App\\Exceptions\\IconShouldBeSVG::getMessageBag<\/a>"],[0,1,"<a href=\"Exceptions\/ImageShouldBePNGOrJPG.php.html#11\">App\\Exceptions\\ImageShouldBePNGOrJPG::getMessageBag<\/a>"],[100,1,"<a href=\"Exceptions\/UserDoesntExist.php.html#23\">App\\Exceptions\\UserDoesntExist::getMessageBag<\/a>"],[0,2,"<a href=\"Helpers\/DatabaseChecker.php.html#9\">App\\Helpers\\DatabaseChecker::checkIfConnectionWorks<\/a>"],[0,1,"<a href=\"Helpers\/EnvWriter.php.html#15\">App\\Helpers\\EnvWriter::__construct<\/a>"],[0,1,"<a href=\"Helpers\/EnvWriter.php.html#26\">App\\Helpers\\EnvWriter::writeNewEnvironmentFileWith<\/a>"],[100,1,"<a href=\"Helpers\/EnvWriterServiceProvider.php.html#11\">App\\Helpers\\EnvWriterServiceProvider::register<\/a>"],[50,1,"<a href=\"Helpers\/EnvWriterServiceProvider.php.html#13\">App\\Helpers\\EnvWriterServiceProvider::anonymousFunction:13#49<\/a>"],[100,1,"<a href=\"Http\/Controllers\/Api\/V1\/BridgeController.php.html#18\">App\\Http\\Controllers\\Api\\V1\\BridgeController::index<\/a>"],[100,1,"<a href=\"Http\/Controllers\/Api\/V1\/BridgeController.php.html#32\">App\\Http\\Controllers\\Api\\V1\\BridgeController::show<\/a>"],[100,1,"<a href=\"Http\/Controllers\/Api\/V1\/BridgeController.php.html#48\">App\\Http\\Controllers\\Api\\V1\\BridgeController::store<\/a>"],[100,1,"<a href=\"Http\/Controllers\/Api\/V1\/BridgeController.php.html#83\">App\\Http\\Controllers\\Api\\V1\\BridgeController::update<\/a>"],[100,1,"<a href=\"Http\/Controllers\/Api\/V1\/BridgeController.php.html#103\">App\\Http\\Controllers\\Api\\V1\\BridgeController::updateSlug<\/a>"],[100,2,"<a href=\"Http\/Controllers\/Api\/V1\/BridgeController.php.html#125\">App\\Http\\Controllers\\Api\\V1\\BridgeController::getSlug<\/a>"],[100,1,"<a href=\"Http\/Controllers\/Api\/V1\/BridgeController.php.html#134\">App\\Http\\Controllers\\Api\\V1\\BridgeController::destroy<\/a>"],[63.1578947368421,5,"<a href=\"Http\/Controllers\/Api\/V1\/ColorsController.php.html#21\">App\\Http\\Controllers\\Api\\V1\\ColorsController::createBulkColors<\/a>"],[0,5,"<a href=\"Http\/Controllers\/Api\/V1\/ColorsController.php.html#56\">App\\Http\\Controllers\\Api\\V1\\ColorsController::createColor<\/a>"],[0,5,"<a href=\"Http\/Controllers\/Api\/V1\/ColorsController.php.html#90\">App\\Http\\Controllers\\Api\\V1\\ColorsController::updateColor<\/a>"],[0,5,"<a href=\"Http\/Controllers\/Api\/V1\/ColorsController.php.html#121\">App\\Http\\Controllers\\Api\\V1\\ColorsController::deleteColor<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Api\/V1\/FontsController.php.html#24\">App\\Http\\Controllers\\Api\\V1\\FontsController::search<\/a>"],[0,5,"<a href=\"Http\/Controllers\/Api\/V1\/FontsController.php.html#33\">App\\Http\\Controllers\\Api\\V1\\FontsController::createFont<\/a>"],[0,5,"<a href=\"Http\/Controllers\/Api\/V1\/FontsController.php.html#83\">App\\Http\\Controllers\\Api\\V1\\FontsController::deleteFont<\/a>"],[0,13,"<a href=\"Http\/Controllers\/Api\/V1\/OrderController.php.html#20\">App\\Http\\Controllers\\Api\\V1\\OrderController::changedOrderOnSameSection<\/a>"],[0,2,"<a href=\"Http\/Controllers\/Api\/V1\/OrderController.php.html#81\">App\\Http\\Controllers\\Api\\V1\\OrderController::inRange<\/a>"],[0,6,"<a href=\"Http\/Controllers\/Api\/V1\/OrderController.php.html#86\">App\\Http\\Controllers\\Api\\V1\\OrderController::changedSection<\/a>"],[0,2,"<a href=\"Http\/Controllers\/Api\/V1\/OrderController.php.html#139\">App\\Http\\Controllers\\Api\\V1\\OrderController::checkIfBridgeIsFromTheSameUser<\/a>"],[0,3,"<a href=\"Http\/Controllers\/Api\/V1\/SectionController.php.html#43\">App\\Http\\Controllers\\Api\\V1\\SectionController::store<\/a>"],[0,5,"<a href=\"Http\/Controllers\/Api\/V1\/SectionController.php.html#65\">App\\Http\\Controllers\\Api\\V1\\SectionController::destroy<\/a>"],[0,5,"<a href=\"Http\/Controllers\/Api\/V1\/SectionController.php.html#98\">App\\Http\\Controllers\\Api\\V1\\SectionController::updateTitle<\/a>"],[0,5,"<a href=\"Http\/Controllers\/Api\/V1\/SectionController.php.html#129\">App\\Http\\Controllers\\Api\\V1\\SectionController::updateDescription<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Api\/V1\/SectionController.php.html#169\">App\\Http\\Controllers\\Api\\V1\\SectionController::updateOrder<\/a>"],[0,8,"<a href=\"Http\/Controllers\/Api\/V1\/SourceFileController.php.html#26\">App\\Http\\Controllers\\Api\\V1\\SourceFileController::storeIcon<\/a>"],[0,6,"<a href=\"Http\/Controllers\/Api\/V1\/SourceFileController.php.html#95\">App\\Http\\Controllers\\Api\\V1\\SourceFileController::updateIconFile<\/a>"],[0,2,"<a href=\"Http\/Controllers\/Api\/V1\/SourceFileController.php.html#144\">App\\Http\\Controllers\\Api\\V1\\SourceFileController::updateConvertedIcons<\/a>"],[0,10,"<a href=\"Http\/Controllers\/Api\/V1\/SourceFileController.php.html#161\">App\\Http\\Controllers\\Api\\V1\\SourceFileController::storeImage<\/a>"],[0,2,"<a href=\"Http\/Controllers\/Api\/V1\/SourceFileController.php.html#236\">App\\Http\\Controllers\\Api\\V1\\SourceFileController::addViewBoxAndScaleSvg<\/a>"],[0,4,"<a href=\"Http\/Controllers\/Api\/V1\/SourceFileController.php.html#251\">App\\Http\\Controllers\\Api\\V1\\SourceFileController::addIconConverted<\/a>"],[0,5,"<a href=\"Http\/Controllers\/Api\/V1\/SourceFileController.php.html#299\">App\\Http\\Controllers\\Api\\V1\\SourceFileController::addImageConverted<\/a>"],[0,5,"<a href=\"Http\/Controllers\/Api\/V1\/SourceFileController.php.html#351\">App\\Http\\Controllers\\Api\\V1\\SourceFileController::deleteIcon<\/a>"],[0,5,"<a href=\"Http\/Controllers\/Api\/V1\/SourceFileController.php.html#385\">App\\Http\\Controllers\\Api\\V1\\SourceFileController::deleteImage<\/a>"],[0,8,"<a href=\"Http\/Controllers\/Api\/V1\/SourceFileController.php.html#419\">App\\Http\\Controllers\\Api\\V1\\SourceFileController::updateImageFile<\/a>"],[0,3,"<a href=\"Http\/Controllers\/Api\/V1\/SourceFileController.php.html#474\">App\\Http\\Controllers\\Api\\V1\\SourceFileController::updateConvertedImages<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Api\/V1\/UsersController.php.html#10\">App\\Http\\Controllers\\Api\\V1\\UsersController::me<\/a>"],[0,1,"<a href=\"Http\/Controllers\/App\/AppController.php.html#18\">App\\Http\\Controllers\\App\\AppController::index<\/a>"],[0,2,"<a href=\"Http\/Controllers\/App\/AppController.php.html#28\">App\\Http\\Controllers\\App\\AppController::publicIdentities<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Auth\/ActivationLinkController.php.html#16\">App\\Http\\Controllers\\Auth\\ActivationLinkController::activateLinkPage<\/a>"],[0,2,"<a href=\"Http\/Controllers\/Auth\/ActivationLinkController.php.html#23\">App\\Http\\Controllers\\Auth\\ActivationLinkController::sendLink<\/a>"],[83.33333333333334,3,"<a href=\"Http\/Controllers\/Auth\/ActivationLinkController.php.html#36\">App\\Http\\Controllers\\Auth\\ActivationLinkController::activate<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Auth\/ForgotPasswordController.php.html#28\">App\\Http\\Controllers\\Auth\\ForgotPasswordController::__construct<\/a>"],[100,1,"<a href=\"Http\/Controllers\/Auth\/LoginController.php.html#40\">App\\Http\\Controllers\\Auth\\LoginController::__construct<\/a>"],[41.66666666666667,4,"<a href=\"Http\/Controllers\/Auth\/LoginController.php.html#45\">App\\Http\\Controllers\\Auth\\LoginController::login<\/a>"],[100,1,"<a href=\"Http\/Controllers\/Auth\/RegisterController.php.html#41\">App\\Http\\Controllers\\Auth\\RegisterController::__construct<\/a>"],[100,1,"<a href=\"Http\/Controllers\/Auth\/RegisterController.php.html#53\">App\\Http\\Controllers\\Auth\\RegisterController::validator<\/a>"],[100,2,"<a href=\"Http\/Controllers\/Auth\/RegisterController.php.html#62\">App\\Http\\Controllers\\Auth\\RegisterController::register<\/a>"],[100,1,"<a href=\"Http\/Controllers\/Auth\/RegisterController.php.html#74\">App\\Http\\Controllers\\Auth\\RegisterController::registered<\/a>"],[100,1,"<a href=\"Http\/Controllers\/Auth\/RegisterController.php.html#89\">App\\Http\\Controllers\\Auth\\RegisterController::create<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Auth\/ResetPasswordController.php.html#35\">App\\Http\\Controllers\\Auth\\ResetPasswordController::__construct<\/a>"],[100,1,"<a href=\"Http\/Controllers\/Controller.php.html#19\">App\\Http\\Controllers\\Controller::__construct<\/a>"],[0,2,"<a href=\"Http\/Controllers\/FrontController.php.html#9\">App\\Http\\Controllers\\FrontController::welcome<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Installation\/InstallationController.php.html#19\">App\\Http\\Controllers\\Installation\\InstallationController::introduction<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Installation\/InstallationController.php.html#24\">App\\Http\\Controllers\\Installation\\InstallationController::databaseInformation<\/a>"],[0,4,"<a href=\"Http\/Controllers\/Installation\/InstallationController.php.html#29\">App\\Http\\Controllers\\Installation\\InstallationController::saveDatabaseInformation<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Installation\/InstallationController.php.html#62\">App\\Http\\Controllers\\Installation\\InstallationController::userInformation<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Installation\/InstallationController.php.html#67\">App\\Http\\Controllers\\Installation\\InstallationController::saveUserInformation<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Installation\/InstallationController.php.html#73\">App\\Http\\Controllers\\Installation\\InstallationController::organizationInformation<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Installation\/InstallationController.php.html#78\">App\\Http\\Controllers\\Installation\\InstallationController::saveOrganizationInformation<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Installation\/InstallationController.php.html#84\">App\\Http\\Controllers\\Installation\\InstallationController::checkThirdParty<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Installation\/InstallationController.php.html#96\">App\\Http\\Controllers\\Installation\\InstallationController::finishInstallation<\/a>"],[66.66666666666666,2,"<a href=\"Http\/Middleware\/InstallationChecker.php.html#17\">App\\Http\\Middleware\\InstallationChecker::handle<\/a>"],[66.66666666666666,2,"<a href=\"Http\/Middleware\/RedirectIfAuthenticated.php.html#18\">App\\Http\\Middleware\\RedirectIfAuthenticated::handle<\/a>"],[0,1,"<a href=\"Http\/Requests\/ActivateLinkRequest.php.html#14\">App\\Http\\Requests\\ActivateLinkRequest::authorize<\/a>"],[0,1,"<a href=\"Http\/Requests\/ActivateLinkRequest.php.html#24\">App\\Http\\Requests\\ActivateLinkRequest::rules<\/a>"],[100,1,"<a href=\"Http\/Requests\/BridgeStoreRequest.php.html#14\">App\\Http\\Requests\\BridgeStoreRequest::authorize<\/a>"],[100,1,"<a href=\"Http\/Requests\/BridgeStoreRequest.php.html#24\">App\\Http\\Requests\\BridgeStoreRequest::rules<\/a>"],[100,1,"<a href=\"Http\/Requests\/BridgeUpdateRequest.php.html#14\">App\\Http\\Requests\\BridgeUpdateRequest::authorize<\/a>"],[100,1,"<a href=\"Http\/Requests\/BridgeUpdateRequest.php.html#24\">App\\Http\\Requests\\BridgeUpdateRequest::rules<\/a>"],[0,1,"<a href=\"Http\/Requests\/ConvertedStoreRequest.php.html#14\">App\\Http\\Requests\\ConvertedStoreRequest::authorize<\/a>"],[0,1,"<a href=\"Http\/Requests\/ConvertedStoreRequest.php.html#24\">App\\Http\\Requests\\ConvertedStoreRequest::rules<\/a>"],[100,1,"<a href=\"Http\/Requests\/CreateBulkColorRequest.php.html#14\">App\\Http\\Requests\\CreateBulkColorRequest::authorize<\/a>"],[100,1,"<a href=\"Http\/Requests\/CreateBulkColorRequest.php.html#24\">App\\Http\\Requests\\CreateBulkColorRequest::rules<\/a>"],[0,1,"<a href=\"Http\/Requests\/CreateColorRequest.php.html#14\">App\\Http\\Requests\\CreateColorRequest::authorize<\/a>"],[0,1,"<a href=\"Http\/Requests\/CreateColorRequest.php.html#24\">App\\Http\\Requests\\CreateColorRequest::rules<\/a>"],[0,1,"<a href=\"Http\/Requests\/CreateConvertedIcon.php.html#14\">App\\Http\\Requests\\CreateConvertedIcon::authorize<\/a>"],[0,1,"<a href=\"Http\/Requests\/CreateConvertedIcon.php.html#24\">App\\Http\\Requests\\CreateConvertedIcon::rules<\/a>"],[0,1,"<a href=\"Http\/Requests\/CreateSectionRequest.php.html#14\">App\\Http\\Requests\\CreateSectionRequest::authorize<\/a>"],[0,1,"<a href=\"Http\/Requests\/CreateSectionRequest.php.html#24\">App\\Http\\Requests\\CreateSectionRequest::rules<\/a>"],[0,1,"<a href=\"Http\/Requests\/IconStoreRequest.php.html#14\">App\\Http\\Requests\\IconStoreRequest::authorize<\/a>"],[0,1,"<a href=\"Http\/Requests\/IconStoreRequest.php.html#24\">App\\Http\\Requests\\IconStoreRequest::rules<\/a>"],[0,1,"<a href=\"Http\/Requests\/ImageStoreRequest.php.html#14\">App\\Http\\Requests\\ImageStoreRequest::authorize<\/a>"],[0,1,"<a href=\"Http\/Requests\/ImageStoreRequest.php.html#24\">App\\Http\\Requests\\ImageStoreRequest::rules<\/a>"],[0,1,"<a href=\"Http\/Requests\/InstallationDatabaseStore.php.html#14\">App\\Http\\Requests\\InstallationDatabaseStore::authorize<\/a>"],[0,1,"<a href=\"Http\/Requests\/InstallationDatabaseStore.php.html#24\">App\\Http\\Requests\\InstallationDatabaseStore::rules<\/a>"],[0,1,"<a href=\"Http\/Requests\/SectionDescriptionRequest.php.html#14\">App\\Http\\Requests\\SectionDescriptionRequest::authorize<\/a>"],[0,1,"<a href=\"Http\/Requests\/SectionDescriptionRequest.php.html#24\">App\\Http\\Requests\\SectionDescriptionRequest::rules<\/a>"],[0,1,"<a href=\"Http\/Requests\/SectionTitleRequest.php.html#14\">App\\Http\\Requests\\SectionTitleRequest::authorize<\/a>"],[0,1,"<a href=\"Http\/Requests\/SectionTitleRequest.php.html#24\">App\\Http\\Requests\\SectionTitleRequest::rules<\/a>"],[0,1,"<a href=\"Http\/Requests\/StoreColorRequest.php.html#14\">App\\Http\\Requests\\StoreColorRequest::authorize<\/a>"],[0,1,"<a href=\"Http\/Requests\/StoreColorRequest.php.html#24\">App\\Http\\Requests\\StoreColorRequest::rules<\/a>"],[0,1,"<a href=\"Http\/Requests\/StoreFontRequest.php.html#14\">App\\Http\\Requests\\StoreFontRequest::authorize<\/a>"],[0,1,"<a href=\"Http\/Requests\/StoreFontRequest.php.html#24\">App\\Http\\Requests\\StoreFontRequest::rules<\/a>"],[0,1,"<a href=\"Http\/Requests\/StoreOrganization.php.html#14\">App\\Http\\Requests\\StoreOrganization::authorize<\/a>"],[0,1,"<a href=\"Http\/Requests\/StoreOrganization.php.html#24\">App\\Http\\Requests\\StoreOrganization::rules<\/a>"],[100,1,"<a href=\"Http\/Requests\/UpdateBridgeSlugRequest.php.html#14\">App\\Http\\Requests\\UpdateBridgeSlugRequest::authorize<\/a>"],[100,1,"<a href=\"Http\/Requests\/UpdateBridgeSlugRequest.php.html#24\">App\\Http\\Requests\\UpdateBridgeSlugRequest::rules<\/a>"],[0,1,"<a href=\"Http\/Requests\/UserStoreRequest.php.html#14\">App\\Http\\Requests\\UserStoreRequest::authorize<\/a>"],[0,1,"<a href=\"Http\/Requests\/UserStoreRequest.php.html#24\">App\\Http\\Requests\\UserStoreRequest::rules<\/a>"],[100,1,"<a href=\"Jobs\/CreateActivationLink.php.html#26\">App\\Jobs\\CreateActivationLink::__construct<\/a>"],[100,1,"<a href=\"Jobs\/CreateActivationLink.php.html#35\">App\\Jobs\\CreateActivationLink::handle<\/a>"],[100,1,"<a href=\"Jobs\/CreateBulkColors.php.html#39\">App\\Jobs\\CreateBulkColors::__construct<\/a>"],[100,2,"<a href=\"Jobs\/CreateBulkColors.php.html#51\">App\\Jobs\\CreateBulkColors::handle<\/a>"],[0,1,"<a href=\"Jobs\/CreateColor.php.html#39\">App\\Jobs\\CreateColor::__construct<\/a>"],[0,1,"<a href=\"Jobs\/CreateColor.php.html#51\">App\\Jobs\\CreateColor::handle<\/a>"],[0,1,"<a href=\"Jobs\/CreateFont.php.html#38\">App\\Jobs\\CreateFont::__construct<\/a>"],[0,1,"<a href=\"Jobs\/CreateFont.php.html#49\">App\\Jobs\\CreateFont::handle<\/a>"],[0,1,"<a href=\"Jobs\/CreateFontFamily.php.html#26\">App\\Jobs\\CreateFontFamily::__construct<\/a>"],[0,1,"<a href=\"Jobs\/CreateFontFamily.php.html#36\">App\\Jobs\\CreateFontFamily::handle<\/a>"],[0,1,"<a href=\"Jobs\/CreateFontImage.php.html#26\">App\\Jobs\\CreateFontImage::__construct<\/a>"],[0,2,"<a href=\"Jobs\/CreateFontImage.php.html#36\">App\\Jobs\\CreateFontImage::handle<\/a>"],[0,1,"<a href=\"Jobs\/CreateFontVariant.php.html#39\">App\\Jobs\\CreateFontVariant::__construct<\/a>"],[0,1,"<a href=\"Jobs\/CreateFontVariant.php.html#51\">App\\Jobs\\CreateFontVariant::handle<\/a>"],[100,1,"<a href=\"Jobs\/CreateSection.php.html#33\">App\\Jobs\\CreateSection::__construct<\/a>"],[100,1,"<a href=\"Jobs\/CreateSection.php.html#44\">App\\Jobs\\CreateSection::handle<\/a>"],[0,1,"<a href=\"Jobs\/DeleteBridge.php.html#26\">App\\Jobs\\DeleteBridge::__construct<\/a>"],[0,1,"<a href=\"Jobs\/DeleteBridge.php.html#36\">App\\Jobs\\DeleteBridge::handle<\/a>"],[0,1,"<a href=\"Jobs\/DeleteFile.php.html#20\">App\\Jobs\\DeleteFile::__construct<\/a>"],[0,1,"<a href=\"Jobs\/DeleteFile.php.html#30\">App\\Jobs\\DeleteFile::handle<\/a>"],[0,1,"<a href=\"Jobs\/DeleteFontFamily.php.html#20\">App\\Jobs\\DeleteFontFamily::__construct<\/a>"],[0,1,"<a href=\"Jobs\/DeleteFontFamily.php.html#30\">App\\Jobs\\DeleteFontFamily::handle<\/a>"],[0,1,"<a href=\"Jobs\/DeleteFontVariant.php.html#20\">App\\Jobs\\DeleteFontVariant::__construct<\/a>"],[0,1,"<a href=\"Jobs\/DeleteFontVariant.php.html#30\">App\\Jobs\\DeleteFontVariant::handle<\/a>"],[0,1,"<a href=\"Jobs\/DeleteSection.php.html#26\">App\\Jobs\\DeleteSection::__construct<\/a>"],[0,1,"<a href=\"Jobs\/DeleteSection.php.html#36\">App\\Jobs\\DeleteSection::handle<\/a>"],[0,1,"<a href=\"Jobs\/ReorderAfterDelete.php.html#27\">App\\Jobs\\ReorderAfterDelete::__construct<\/a>"],[0,2,"<a href=\"Jobs\/ReorderAfterDelete.php.html#37\">App\\Jobs\\ReorderAfterDelete::handle<\/a>"],[0,1,"<a href=\"Jobs\/StoreUser.php.html#29\">App\\Jobs\\StoreUser::__construct<\/a>"],[0,1,"<a href=\"Jobs\/StoreUser.php.html#41\">App\\Jobs\\StoreUser::handle<\/a>"],[0,1,"<a href=\"Jobs\/UpdateColor.php.html#38\">App\\Jobs\\UpdateColor::__construct<\/a>"],[0,1,"<a href=\"Jobs\/UpdateColor.php.html#50\">App\\Jobs\\UpdateColor::handle<\/a>"],[0,1,"<a href=\"Jobs\/UpdateFontFamily.php.html#32\">App\\Jobs\\UpdateFontFamily::__construct<\/a>"],[0,1,"<a href=\"Jobs\/UpdateFontFamily.php.html#43\">App\\Jobs\\UpdateFontFamily::handle<\/a>"],[0,1,"<a href=\"Jobs\/UpdateFontList.php.html#24\">App\\Jobs\\UpdateFontList::__construct<\/a>"],[0,1,"<a href=\"Jobs\/UpdateFontList.php.html#34\">App\\Jobs\\UpdateFontList::handle<\/a>"],[0,1,"<a href=\"Jobs\/UpdateFontVariant.php.html#40\">App\\Jobs\\UpdateFontVariant::__construct<\/a>"],[0,1,"<a href=\"Jobs\/UpdateFontVariant.php.html#52\">App\\Jobs\\UpdateFontVariant::handle<\/a>"],[100,1,"<a href=\"Mail\/ActivationLinkMail.php.html#23\">App\\Mail\\ActivationLinkMail::__construct<\/a>"],[100,1,"<a href=\"Mail\/ActivationLinkMail.php.html#34\">App\\Mail\\ActivationLinkMail::build<\/a>"],[100,1,"<a href=\"Models\/ActivationLink.php.html#16\">App\\ActivationLink::user<\/a>"],[100,1,"<a href=\"Models\/ActivationLink.php.html#21\">App\\ActivationLink::isActiveLink<\/a>"],[100,2,"<a href=\"Models\/Bridge.php.html#20\">App\\Bridge::boot<\/a>"],[100,2,"<a href=\"Models\/Bridge.php.html#24\">App\\Bridge::anonymousFunction:24#119<\/a>"],[0,1,"<a href=\"Models\/Bridge.php.html#36\">App\\Bridge::user<\/a>"],[0,1,"<a href=\"Models\/Bridge.php.html#48\">App\\Bridge::scopeFromUser<\/a>"],[100,1,"<a href=\"Models\/Bridge.php.html#53\">App\\Bridge::sections<\/a>"],[0,1,"<a href=\"Models\/Bridge.php.html#58\">App\\Bridge::iconSections<\/a>"],[0,1,"<a href=\"Models\/Bridge.php.html#63\">App\\Bridge::fontSections<\/a>"],[0,1,"<a href=\"Models\/Bridge.php.html#68\">App\\Bridge::imageSections<\/a>"],[0,1,"<a href=\"Models\/Bridge.php.html#73\">App\\Bridge::colorsSections<\/a>"],[0,1,"<a href=\"Models\/Bridge.php.html#78\">App\\Bridge::getSectionsFromType<\/a>"],[0,1,"<a href=\"Models\/Bridge.php.html#81\">App\\Bridge::anonymousFunction:81#440<\/a>"],[100,1,"<a href=\"Models\/Bridge.php.html#86\">App\\Bridge::getSectionsFromTypeModel<\/a>"],[50,1,"<a href=\"Models\/Bridge.php.html#88\">App\\Bridge::anonymousFunction:88#498<\/a>"],[100,1,"<a href=\"Models\/Bridge.php.html#93\">App\\Bridge::icons<\/a>"],[100,1,"<a href=\"Models\/Bridge.php.html#98\">App\\Bridge::images<\/a>"],[100,1,"<a href=\"Models\/Bridge.php.html#103\">App\\Bridge::fonts<\/a>"],[100,1,"<a href=\"Models\/Bridge.php.html#108\">App\\Bridge::colors<\/a>"],[100,1,"<a href=\"Models\/Color.php.html#15\">App\\Color::save<\/a>"],[0,1,"<a href=\"Models\/Color.php.html#24\">App\\Color::update<\/a>"],[100,2,"<a href=\"Models\/Color.php.html#33\">App\\Color::parseFromSwatchContents<\/a>"],[90.9090909090909,4,"<a href=\"Models\/Color.php.html#56\">App\\Color::rgb2Hex<\/a>"],[100,1,"<a href=\"Models\/Color.php.html#78\">App\\Color::rgb2Cmyk<\/a>"],[0,1,"<a href=\"Models\/Font.php.html#15\">App\\Font::variant<\/a>"],[0,1,"<a href=\"Models\/Font.php.html#20\">App\\Font::save<\/a>"],[0,1,"<a href=\"Models\/Font.php.html#31\">App\\Font::update<\/a>"],[0,1,"<a href=\"Models\/FontFamily.php.html#19\">App\\FontFamily::variants<\/a>"],[0,1,"<a href=\"Models\/FontVariant.php.html#19\">App\\FontVariant::fontFamily<\/a>"],[0,2,"<a href=\"Models\/Icon.php.html#18\">App\\Icon::getFilenamePngAttribute<\/a>"],[0,1,"<a href=\"Models\/Icon.php.html#24\">App\\Icon::converted<\/a>"],[0,1,"<a href=\"Models\/Icon.php.html#29\">App\\Icon::save<\/a>"],[0,1,"<a href=\"Models\/Icon.php.html#38\">App\\Icon::update<\/a>"],[0,1,"<a href=\"Models\/IconConverted.php.html#18\">App\\IconConverted::icon<\/a>"],[0,1,"<a href=\"Models\/Image.php.html#18\">App\\Image::converted<\/a>"],[0,1,"<a href=\"Models\/Image.php.html#23\">App\\Image::save<\/a>"],[0,1,"<a href=\"Models\/Image.php.html#33\">App\\Image::update<\/a>"],[0,1,"<a href=\"Models\/ImageConverted.php.html#18\">App\\ImageConverted::image<\/a>"],[100,1,"<a href=\"Models\/SectionType.php.html#24\">App\\SectionType::getIconsSectionType<\/a>"],[100,1,"<a href=\"Models\/SectionType.php.html#32\">App\\SectionType::getImagesSectionType<\/a>"],[0,1,"<a href=\"Models\/SectionType.php.html#40\">App\\SectionType::getFontsSectionType<\/a>"],[100,1,"<a href=\"Models\/SectionType.php.html#48\">App\\SectionType::getColorsSectionType<\/a>"],[100,1,"<a href=\"Models\/SectionType.php.html#57\">App\\SectionType::getSectionType<\/a>"],[100,1,"<a href=\"Policies\/BridgePolicy.php.html#20\">App\\Policies\\BridgePolicy::view<\/a>"],[0,1,"<a href=\"Policies\/BridgePolicy.php.html#31\">App\\Policies\\BridgePolicy::create<\/a>"],[100,1,"<a href=\"Policies\/BridgePolicy.php.html#43\">App\\Policies\\BridgePolicy::update<\/a>"],[100,1,"<a href=\"Policies\/BridgePolicy.php.html#55\">App\\Policies\\BridgePolicy::delete<\/a>"],[100,1,"<a href=\"Providers\/AppServiceProvider.php.html#15\">App\\Providers\\AppServiceProvider::boot<\/a>"],[100,1,"<a href=\"Providers\/AppServiceProvider.php.html#25\">App\\Providers\\AppServiceProvider::register<\/a>"],[100,1,"<a href=\"Providers\/AuthServiceProvider.php.html#23\">App\\Providers\\AuthServiceProvider::boot<\/a>"],[100,1,"<a href=\"Providers\/BroadcastServiceProvider.php.html#15\">App\\Providers\\BroadcastServiceProvider::boot<\/a>"],[100,1,"<a href=\"Providers\/EventServiceProvider.php.html#26\">App\\Providers\\EventServiceProvider::boot<\/a>"],[100,1,"<a href=\"Providers\/RouteServiceProvider.php.html#24\">App\\Providers\\RouteServiceProvider::boot<\/a>"],[100,1,"<a href=\"Providers\/RouteServiceProvider.php.html#36\">App\\Providers\\RouteServiceProvider::map<\/a>"],[100,1,"<a href=\"Providers\/RouteServiceProvider.php.html#52\">App\\Providers\\RouteServiceProvider::mapWebRoutes<\/a>"],[100,1,"<a href=\"Providers\/RouteServiceProvider.php.html#66\">App\\Providers\\RouteServiceProvider::mapApiRoutes<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>
