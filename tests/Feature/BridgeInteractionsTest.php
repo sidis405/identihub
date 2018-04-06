@@ -5,7 +5,6 @@ namespace Tests\Feature;
 use App\Bridge;
 use App\Section;
 use Tests\TestCase;
-use App\SectionType;
 use App\Events\BridgeCreated;
 use App\Events\BridgeDeleted;
 use App\Events\BridgeUpdated;
@@ -14,16 +13,6 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 class BridgeInteractionsTest extends TestCase
 {
     use RefreshDatabase;
-
-    // protected function setUp()
-    // {
-    //     parent::setUp();
-
-    //     create(SectionType::class, ['name' => 'ICONS']);
-    //     create(SectionType::class, ['name' => 'FONTS']);
-    //     create(SectionType::class, ['name' => 'IMAGES']);
-    //     create(SectionType::class, ['name' => 'COLORS']);
-    // }
 
     /** @test */
     public function bridgesCanBeListed()

@@ -27,8 +27,8 @@ abstract class TestCase extends BaseTestCase
         $this->baseUser = [
             'name' => 'Sidrit Trandafili',
             'email' => 'forge405@gmail.com',
-            'password' => 'sapiens',
-            'password_confirmation' => 'sapiens'
+            'password' => 'fooey2018',
+            'password_confirmation' => 'fooey2018'
         ];
 
         $this->seedTokens();

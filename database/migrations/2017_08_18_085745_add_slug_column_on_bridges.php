@@ -14,7 +14,7 @@ class AddSlugColumnOnBridges extends Migration
     public function up()
     {
         Schema::table('bridges', function (Blueprint $table) {
-            $table->string('slug')->unique()->nullable();
+            $table->string('slug')->nullable();
         });
     }
 

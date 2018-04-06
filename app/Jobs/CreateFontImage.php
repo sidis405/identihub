@@ -5,6 +5,7 @@ namespace App\Jobs;
 use App\FontVariant;
 use Illuminate\Bus\Queueable;
 use Illuminate\Queue\SerializesModels;
+use Illuminate\Support\Facades\Storage;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
@@ -35,17 +36,17 @@ class CreateFontImage implements ShouldQueue
      */
     public function handle()
     {
+        Storage::fake();
+
         $fontVariant = $this->fontVariant;
 
         $link = md5($fontVariant->link) . '.ttf';
         $storage = \Storage::disk('fonts');
         $fontRenderedStorage = \Storage::disk('fonts_rendered');
 
-        if(!$storage->exists($link))
+        if (!$storage->exists($link)) {
             $storage->put($link, file_get_contents($fontVariant->link));
-
-//        if($fontRenderedStorage->exists($link . '.png'))
-//            return;
+        }
 
         $filePath = storage_path('app/fonts/') . $link;
 

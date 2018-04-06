@@ -23,10 +23,10 @@ class Bridge extends Model
 
         static::created(function ($bridge) {
             foreach ([
-                                 SectionType::getColorsSectionType(),
-                                 SectionType::getIconsSectionType(),
-                                 SectionType::getImagesSectionType()
-                             ] as $sectionType) {
+                     SectionType::getColorsSectionType(),
+                     SectionType::getIconsSectionType(),
+                     SectionType::getImagesSectionType()
+                ] as $sectionType) {
                 (new CreateSection($bridge, $sectionType))->handle();
             }
         });
@@ -108,5 +108,10 @@ class Bridge extends Model
     public function colors()
     {
         return $this->hasMany(Color::class, 'bridge_id', 'id');
+    }
+
+    public function loadCommonRelations()
+    {
+        return $this->fresh()->load('sections', 'icons', 'icons.converted', 'images', 'images.converted', 'fonts', 'fonts.variant', 'fonts.variant.fontFamily', 'colors');
     }
 }

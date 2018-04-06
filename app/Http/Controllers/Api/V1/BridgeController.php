@@ -4,7 +4,6 @@ namespace App\Http\Controllers\Api\V1;
 
 use App\Bridge;
 use App\SectionType;
-use App\Jobs\CreateSection;
 use App\Events\BridgeCreated;
 use App\Events\BridgeDeleted;
 use App\Events\BridgeUpdated;
@@ -34,13 +33,7 @@ class BridgeController extends Controller
         $this->authorize('view', $bridge);
 
         return response()->json([
-                'bridge' => $bridge->load(
-                    'sections',
-                    'icons.converted',
-                    'images.converted',
-                    'fonts.variant.fontFamily',
-                    'colors'
-                ),
+                'bridge' => $bridge->loadCommonRelations(),
                 'section_types' => SectionType::all()
             ]);
     }
@@ -57,26 +50,10 @@ class BridgeController extends Controller
 
         $bridge = Bridge::create($bridgeData);
 
-        // // Create blank sections for every type
-        // foreach ([
-        //                      SectionType::getColorsSectionType(),
-        //                      SectionType::getIconsSectionType(),
-        //                      SectionType::getImagesSectionType()
-        //                  ] as $sectionType) {
-        //     (new CreateSection($bridge, $sectionType))->handle();
-        // }
-
         event(new BridgeCreated($bridge));
 
-
         return response()->json([
-                'bridge' => $bridge->load(
-                    'sections',
-                    'icons.converted',
-                    'images.converted',
-                    'fonts.variant.fontFamily',
-                    'colors'
-                )
+                'bridge' => $bridge->loadCommonRelations()
             ]);
     }
 
@@ -90,13 +67,7 @@ class BridgeController extends Controller
         event(new BridgeUpdated($bridge->fresh()));
 
         return response()->json([
-                'bridge' => $bridge->fresh()->load(
-                    'sections',
-                    'icons.converted',
-                    'images.converted',
-                    'fonts.variant.fontFamily',
-                    'colors'
-                )
+                'bridge' => $bridge->loadCommonRelations()
             ]);
     }
 
@@ -112,13 +83,7 @@ class BridgeController extends Controller
         event(new BridgeUpdated($bridge));
 
         return response()->json([
-                'bridge' => $bridge->fresh()->load(
-                    'sections',
-                    'icons.converted',
-                    'images.converted',
-                    'fonts.variant.fontFamily',
-                    'colors'
-                )
+                'bridge' => $bridge->loadCommonRelations()
             ]);
     }
 

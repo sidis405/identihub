@@ -53,7 +53,23 @@
         </ul>
         <h2 id="Tests\Feature\ColorSwatchAddingTest">Feature\ColorSwatchAdding</h2>
         <ul>
+            <li style="color: #555753;">✓ Loading swatch to non extistent swatch throws 404</li>
+            <li style="color: #555753;">✓ Loading swatch to not owned swatch throws 404</li>
             <li style="color: #555753;">✓ User can load swach</li>
+        </ul>
+        <h2 id="Tests\Feature\FontAndFontFamilyInteractionsTest">Feature\FontAndFontFamilyInteractions</h2>
+        <ul>
+            <li style="color: #555753;">✓ A font family can be searched</li>
+            <li style="color: #555753;">✓ Deleting a non existent font or belonging to a non existent bridge throws 404</li>
+            <li style="color: #555753;">✓ Deleting a font on a non owned bridge throws 404</li>
+            <li style="color: #555753;">✓ A font can be deleted</li>
+            <li style="color: #555753;">✓ Creating a font on a non existent bridge throws 404</li>
+            <li style="color: #555753;">✓ Creating a font on a not owned bridge throws 404</li>
+            <li style="color: #555753;">✓ A font can be created</li>
+        </ul>
+        <h2 id="Tests\Feature\MeResourceTest">Feature\MeResource</h2>
+        <ul>
+            <li style="color: #555753;">✓ A user can retrieve own profile</li>
         </ul>
         <h2 id="Tests\Feature\RegistrationAndAuthenticationFlowTest">Feature\RegistrationAndAuthenticationFlow</h2>
         <ul>
@@ -61,6 +77,10 @@
             <li style="color: #555753;">✓ The the confirmation email is plain</li>
             <li style="color: #555753;">✓ The inactive user cannot log in</li>
             <li style="color: #555753;">✓ The user can login after activation</li>
+        </ul>
+        <h2 id="Tests\Unit\BridgeTest">Unit\Bridge</h2>
+        <ul>
+            <li style="color: #555753;">✓ A bridge can load common relations</li>
         </ul>
     </body>
 </html>

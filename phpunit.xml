@@ -8,11 +8,11 @@
          convertWarningsToExceptions="true"
          processIsolation="false"
          stopOnFailure="false">
-     <logging>
-         <log type="coverage-clover" target="public/_reports/logs/clover.xml"/>
-         <log type="coverage-html" target="public/_reports/coverage" charset="UTF-8" yui="true" highlight="true" lowUpperBound="35" highLowerBound="70" />
-         <log type="testdox-html" target="public/_reports/testdox/executed.html"/>
-     </logging>
+         <logging>
+             <log type="coverage-clover" target="public/_reports/logs/clover.xml"/>
+             <log type="coverage-html" target="public/_reports/coverage" charset="UTF-8" yui="true" highlight="true" lowUpperBound="35" highLowerBound="70" />
+             <log type="testdox-html" target="public/_reports/testdox/executed.html"/>
+         </logging>
     <testsuites>
         <testsuite name="Feature Tests">
             <directory suffix="Test.php">./tests/Feature</directory>

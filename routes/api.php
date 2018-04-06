@@ -13,23 +13,30 @@
 */
 
 Route::group(['middleware' => 'auth:api', 'namespace' => 'Api\V1', 'prefix' => 'v1'], function () {
-    Route::get('/me', 'UsersController@me');
+    // Me
+    Route::get('/me', 'UsersController@me')->name('me');
+
+    // Bridges
     Route::resource('bridges', 'BridgeController');
     Route::patch('bridges/{bridge}/name', 'BridgeController@update')->name('bridges.updateName');
+
     Route::resource('bridges.sections', 'SectionController');
     Route::patch('bridges/{bridgeId}/sections/{sectionId}/updateTitle', 'SectionController@updateTitle');
     Route::patch('bridges/{bridgeId}/sections/{sectionId}/updateDescription', 'SectionController@updateDescription');
     Route::post('/bridges/{bridgeId}/icons', 'SourceFileController@storeIcon');
     Route::post('/bridges/{bridgeId}/icons/{iconId}/convert', 'SourceFileController@addIconConverted');
-    Route::get('/fonts/search/{search}', 'FontsController@search');
-    Route::post('/bridges/{bridgeId}/fonts', 'FontsController@createFont');
-    Route::delete('/bridges/{bridgeId}/fonts/{fontId}', 'FontsController@deleteFont');
 
-    Route::post('/bridges/{bridgeId}/colors', 'ColorsController@createColor');
-    Route::post('/bridges/{bridgeId}/bulk-colors', 'ColorsController@createBulkColors')->name('colors.createBulk');
+    // FONTS
+    Route::get('/fonts/search/{search}', 'FontsController@search')->name('fonts.search');
+    Route::post('/bridges/{bridge}/fonts', 'FontsController@store')->name('fonts.store');
+    Route::delete('/bridges/{bridge}/fonts/{font}', 'FontsController@destroy')->name('fonts.destroy');
 
-    Route::patch('/bridges/{bridgeId}/colors/{colorId}', 'ColorsController@updateColor');
-    Route::delete('/bridges/{bridgeId}/colors/{colorId}', 'ColorsController@deleteColor');
+    Route::post('/bridges/{bridgeId}/colors', 'ColorsController@store');
+    Route::post('/bridges/{bridge}/bulk-colors', 'ColorsController@storeBulkColors')->name('colors.storeBulk');
+    Route::patch('/bridges/{bridgeId}/colors/{colorId}', 'ColorsController@update');
+    Route::delete('/bridges/{bridgeId}/colors/{colorId}', 'ColorsController@destroy');
+
+
     Route::delete('/bridges/{bridgeId}/icons/{iconId}', 'SourceFileController@deleteIcon');
     Route::delete('/bridges/{bridgeId}/images/{iconId}', 'SourceFileController@deleteImage');
     Route::post('/bridges/{bridgeId}/icons/{iconId}/converted', 'SourceFileController@addIconConverted');

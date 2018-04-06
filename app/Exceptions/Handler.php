@@ -48,13 +48,13 @@ class Handler extends ExceptionHandler
     {
         if ($exception instanceof ModelNotFoundException && $request->wantsJson()) {
             return response()->json([
-                'error' => 'Entry not found'
+                'error' => 'Entry not found: ' . $exception->getMessage()
             ]);
         }
 
         if ($exception instanceof AuthorizationException && $request->wantsJson()) {
             return response()->json([
-                'error' => 'Entry not found'
+                'error' => 'Entry not found: ' . $exception->getMessage()
             ]);
         }
 
