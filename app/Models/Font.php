@@ -12,29 +12,33 @@ class Font extends Model
         'variant_id', 'section_id', 'order', 'bridge_id'
     ];
 
+    protected $casts = [
+        'variant_id' => 'int',
+        'section_id' => 'int',
+        'order' => 'int',
+        'bridge_id' => 'int'
+    ];
+
     public function variant()
     {
         return $this->hasOne(FontVariant::class, 'id', 'variant_id');
     }
 
-	public function save(array $options = [])
-	{
-		// before save code
+    public function save(array $options = [])
+    {
+        // before save code
 
-		parent::save();
-		// after save code
-		Bridge::whereId($this->bridge_id)->increment('nr_fonts');
+        parent::save();
+        // after save code
+        Bridge::whereId($this->bridge_id)->increment('nr_fonts');
+    }
 
+    public function update(array $attributes = [], array $options = [])
+    {
+        // before update code
 
-	}
-
-	public function update(array $attributes = [], array $options = [])
-	{
-		// before update code
-
-		parent::update();
-		// after update code
-		Bridge::whereId($this->bridge_id)->increment('nr_fonts');
-
-	}
+        parent::update();
+        // after update code
+        Bridge::whereId($this->bridge_id)->increment('nr_fonts');
+    }
 }

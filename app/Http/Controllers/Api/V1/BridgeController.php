@@ -38,6 +38,11 @@ class BridgeController extends Controller
             ]);
     }
 
+    /**
+     * Description
+     * @param App\Http\Requests\BridgeStoreRequest $request
+     * @return Illuminate\Http\Response
+     */
     public function store(BridgeStoreRequest $request)
     {
         $name = $request->get('name');

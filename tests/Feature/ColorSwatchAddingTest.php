@@ -15,7 +15,7 @@ class ColorSwatchAddingTest extends TestCase
     use RefreshDatabase;
 
     /** @test */
-    public function loadingSwatchToNonExtistentSwatchThrows404()
+    public function loadingSwatchToNonExtistentBridgeThrows404()
     {
         $this->signIn();
         $this->withExceptionHandling();
@@ -31,7 +31,7 @@ class ColorSwatchAddingTest extends TestCase
     }
 
     /** @test */
-    public function loadingSwatchToNotOwnedSwatchThrows404()
+    public function loadingSwatchToNotOwnedBridgeThrows404()
     {
         $this->signIn();
         $this->withExceptionHandling();

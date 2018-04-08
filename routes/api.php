@@ -31,10 +31,9 @@ Route::group(['middleware' => 'auth:api', 'namespace' => 'Api\V1', 'prefix' => '
     Route::post('/bridges/{bridge}/fonts', 'FontsController@store')->name('fonts.store');
     Route::delete('/bridges/{bridge}/fonts/{font}', 'FontsController@destroy')->name('fonts.destroy');
 
-    Route::post('/bridges/{bridgeId}/colors', 'ColorsController@store');
+    // COLORS
     Route::post('/bridges/{bridge}/bulk-colors', 'ColorsController@storeBulkColors')->name('colors.storeBulk');
-    Route::patch('/bridges/{bridgeId}/colors/{colorId}', 'ColorsController@update');
-    Route::delete('/bridges/{bridgeId}/colors/{colorId}', 'ColorsController@destroy');
+    Route::resource('/bridges/{bridge}/colors', 'ColorsController')->only('store', 'update', 'destroy');
 
 
     Route::delete('/bridges/{bridgeId}/icons/{iconId}', 'SourceFileController@deleteIcon');

@@ -1,0 +1,31 @@
+// /** @test */
+    // public function aBridgeCanBeDeleted()
+    // {
+    //     $this->signIn();
+    //     $this->withExceptionHandling();
+    //     $this->expectsEvents(BridgeUpdated::class);
+
+    //     $bridge = create(Bridge::class, ['user_id' => auth()->id()]);
+
+    //     $fontVariant = create(FontVariant::class, ['link' => 'http://fonts.gstatic.com/s/roboto/v16/7MygqTe2zs9YkP0adA9QQQ.ttf']);
+
+    //     $section = create(Section::class, ['bridge_id' => $bridge->id, 'section_type_id' => 1]);
+
+    //     $font = create(
+    //         Font::class,
+    //         [
+    //             'bridge_id' => $bridge->id,
+    //             'section_id' => $section->id,
+    //             'variant_id' => $fontVariant->id,
+    //         ]
+    //     );
+
+
+    //     $this->assertEquals(1, Font::all()->count());
+
+    //     $response = $this->json('DELETE', route('fonts.destroy', ['bridgeId' => 1, 'fontId' => 1]));
+
+    //     $this->assertEquals(0, Font::all()->count());
+
+    //     $response->assertJsonFragment(collect($bridge)->except('sections')->toArray());
+    // }
