@@ -22,16 +22,6 @@ class BridgePolicy
         return $user->id == $bridge->user_id;
     }
 
-    /**
-     * Determine whether the user can create bridges.
-     *
-     * @param  \App\User  $user
-     * @return mixed
-     */
-    public function create(User $user)
-    {
-        //
-    }
 
     /**
      * Determine whether the user can update the bridge.

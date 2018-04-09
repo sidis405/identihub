@@ -62,7 +62,7 @@ class SourceFileController extends Controller
                     'filename_png' => $iconAsPng,
                     'width_ratio' => $im->getImageWidth() / $im->getImageHeight(),
                     'section_id' => $section->id,
-                    'order' => Icon::where('section_id', $section->id)->where('bridge_id', $bridgeId)->get()->count()
+                    'order' => 1
                 ]);
 
                 IconConverted::create([
@@ -205,7 +205,7 @@ class SourceFileController extends Controller
                     'filename' => $filenameImage,
                     'width_ratio' => $im->getImageWidth() / $im->getImageHeight(),
                     'section_id' => $section->id,
-                    'order' => Image::where('section_id', $section->id)->where('bridge_id', $bridgeId)->get()->count()
+                    'order' => 1
                 ]);
 
                 ImageConverted::create([

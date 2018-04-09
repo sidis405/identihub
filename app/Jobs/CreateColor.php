@@ -56,7 +56,7 @@ class CreateColor implements ShouldQueue
             'rgb' => $this->params['rgb'],
             'bridge_id' => $this->bridgeId,
             'section_id' => $this->section->id,
-            'order' => Color::where('section_id', $this->section->id)->get()->count()
+            'order' => 1
         ]);
     }
 }

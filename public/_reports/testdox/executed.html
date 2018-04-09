@@ -28,85 +28,14 @@
         </style>
     </head>
     <body>
-        <h2 id="Tests\Feature\BridgeInteractionsTest">Feature\BridgeInteractions</h2>
+        <h2 id="Tests\Feature\OrderInteractionsTest">Feature\OrderInteractions</h2>
         <ul>
-            <li style="color: #555753;">✓ Bridges can be listed</li>
-            <li style="color: #555753;">✓ User can list only own bridges</li>
-            <li style="color: #555753;">✓ A bridge can be shown</li>
-            <li style="color: #555753;">✓ A non existent bridge throws 404</li>
-            <li style="color: #555753;">✓ A not owned bridge throws 404</li>
-            <li style="color: #555753;">✓ A bridge can be deleted</li>
-            <li style="color: #555753;">✓ Deleting a non existent bridge throws 404</li>
-            <li style="color: #555753;">✓ Trying to delete a not owned bridge throws 404</li>
-            <li style="color: #555753;">✓ A bridge can be updated</li>
-            <li style="color: #555753;">✓ Updating a non existent bridge throws 404</li>
-            <li style="color: #555753;">✓ Trying to update a not owned bridge throws 404</li>
-            <li style="color: #555753;">✓ A bridge name can be updated</li>
-            <li style="color: #555753;">✓ Updating name of a non existent bridge throws 404</li>
-            <li style="color: #555753;">✓ Trying to update name of a not owned bridge throws 404</li>
-            <li style="color: #555753;">✓ A bridge slug can be updated</li>
-            <li style="color: #555753;">✓ Updating slug of a non existent bridge throws 404</li>
-            <li style="color: #555753;">✓ Trying to update slug of a not owned bridge throws 404</li>
-            <li style="color: #555753;">✓ A bridge duplicate slug gets recalculated</li>
-            <li style="color: #555753;">✓ A bridge can be created</li>
-            <li style="color: #555753;">✓ If a bridge with the same slug exists it gets recalculated</li>
-        </ul>
-        <h2 id="Tests\Feature\ColorInteractionsTest">Feature\ColorInteractions</h2>
-        <ul>
-            <li style="color: #555753;">✓ Deleting a non existent color or belonging to a non existent bridge throws 404</li>
-            <li style="color: #555753;">✓ Deleting a color on a non owned bridge throws 404</li>
-            <li style="color: #555753;">✓ A color can deleted</li>
-            <li style="color: #555753;">✓ Updating a non existent color or belonging to a non existent bridge throws 404</li>
-            <li style="color: #555753;">✓ Updating a color on a non owned bridge throws 404</li>
-            <li style="color: #555753;">✓ A color can be updated</li>
-            <li style="color: #555753;">✓ A color can be stored</li>
-            <li style="color: #555753;">✓ Storing a color on a non owned bridge throws 404</li>
-        </ul>
-        <h2 id="Tests\Feature\ColorSwatchAddingTest">Feature\ColorSwatchAdding</h2>
-        <ul>
-            <li style="color: #555753;">✓ Loading swatch to non extistent bridge throws 404</li>
-            <li style="color: #555753;">✓ Loading swatch to not owned bridge throws 404</li>
-            <li style="color: #555753;">✓ User can load swach</li>
-        </ul>
-        <h2 id="Tests\Feature\FontAndFontFamilyInteractionsTest">Feature\FontAndFontFamilyInteractions</h2>
-        <ul>
-            <li style="color: #555753;">✓ A font family can be searched</li>
-            <li style="color: #555753;">✓ Deleting a non existent font or belonging to a non existent bridge throws 404</li>
-            <li style="color: #555753;">✓ Deleting a font on a non owned bridge throws 404</li>
-            <li style="color: #555753;">✓ A font can be deleted</li>
-            <li style="color: #555753;">✓ Creating a font on a non existent bridge throws 404</li>
-            <li style="color: #555753;">✓ Creating a font on a not owned bridge throws 404</li>
-            <li style="color: #555753;">✓ A font can be created</li>
-        </ul>
-        <h2 id="Tests\Feature\MeResourceTest">Feature\MeResource</h2>
-        <ul>
-            <li style="color: #555753;">✓ A user can retrieve own profile</li>
-        </ul>
-        <h2 id="Tests\Feature\RegistrationAndAuthenticationFlowTest">Feature\RegistrationAndAuthenticationFlow</h2>
-        <ul>
-            <li style="color: #555753;">✓ The user can register and mail is sent</li>
-            <li style="color: #555753;">✓ The the confirmation email is plain</li>
-            <li style="color: #555753;">✓ The inactive user cannot log in</li>
-            <li style="color: #555753;">✓ The user can login after activation</li>
-        </ul>
-        <h2 id="Tests\Feature\SectionInteractionsTest">Feature\SectionInteractions</h2>
-        <ul>
-            <li style="color: #555753;">✓ A section ca be created</li>
-            <li style="color: #555753;">✓ Creating a section on non owned bridge throws 404</li>
-            <li style="color: #555753;">✓ Creating a section on non existent bridge throws 404</li>
-            <li style="color: #555753;">✓ A section can be deleted</li>
-            <li style="color: #555753;">✓ Deleting a section on non owned bridge throws 404</li>
-            <li style="color: #555753;">✓ Deleting a non existent section or belonging to a non existent bridge throws 404</li>
-            <li style="color: #555753;">✓ A section title can be updated</li>
-            <li style="color: #555753;">✓ Updating a non existent section title or belonging to a non existent bridge throws 404</li>
-            <li style="color: #555753;">✓ Updating title of section on a not owned bridge throws 404</li>
-            <li style="color: #555753;">✓ A section description can be updated</li>
-            <li style="color: #555753;">✓ Updating description of section on a not owned bridge throws 404</li>
-            <li style="color: #555753;">✓ Updating a non existent section description or belonging to a non existent bridge throws 404</li>
-        </ul>
-        <h2 id="Tests\Unit\BridgeTest">Unit\Bridge</h2>
-        <ul>
-            <li style="color: #555753;">✓ A bridge can load common relations</li>
+            <li style="color: #555753;">✓ Colors in same section can be ordered</li>
+            <li style="color: #555753;">✓ Icons in same section can be ordered</li>
+            <li style="color: #555753;">✓ Images in same section can be ordered</li>
+            <li style="color: #555753;">✓ Updating an object of incorrect type throws 404</li>
+            <li style="color: #555753;">✓ Updating a non existing object throws 404</li>
+            <li style="color: #555753;">✓ Updating an object on a non owned throws 404</li>
         </ul>
     </body>
 </html>

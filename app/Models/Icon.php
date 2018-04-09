@@ -15,32 +15,43 @@ class Icon extends Model
         'filename', 'filename_png', 'bridge_id', 'width_ratio', 'section_id', 'order'
     ];
 
+    protected $casts = [
+        'order' => 'int'
+    ];
+
+    public static function boot()
+    {
+        static::created(function ($icon) {
+            Bridge::whereId($icon->bridge_id)->increment('nr_icons');
+        });
+
+        static::updated(function ($icon) {
+            Bridge::whereId($icon->bridge_id)->increment('nr_icons');
+        });
+
+        static::created(function ($icon) {
+            $icon->order = Icon::where('section_id', $icon->section->id)->where('bridge_id', $icon->bridge->id)->count();
+            $icon->save();
+        });
+    }
+
+    public function section()
+    {
+        return $this->belongsTo(Section::class);
+    }
+
+    public function bridge()
+    {
+        return $this->belongsTo(Bridge::class);
+    }
+
     public function getFilenamePngAttribute($value)
     {
         return (strlen($value) > 1) ? $value :  $this->filename;
-
     }
 
     public function converted()
     {
         return $this->hasMany(IconConverted::class, 'icon_id', 'id');
-    }
-
-    public function save(array $options = [])
-    {
-        // before save code
-
-        parent::save();
-        // after save code
-        Bridge::whereId($this->bridge_id)->increment('nr_icons');
-    }
-
-    public function update(array $attributes = [], array $options = [])
-    {
-        // before update code
-
-        parent::update();
-        // after update code
-        Bridge::whereId($this->bridge_id)->increment('nr_icons');
     }
 }

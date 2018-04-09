@@ -38,6 +38,6 @@ Route::group(['middleware' => 'auth:api', 'namespace' => 'Api\V1', 'prefix' => '
     Route::post('/bridges/{bridgeId}/images/{imageId}/filename', 'SourceFileController@updateImageFile');
 
     // ORDER
-    Route::post('/order/{type}/{objectId}/{newOrder}', 'OrderController@changedOrderOnSameSection');
-    Route::post('/changeSection/{type}/{objectid}/{newSection}', 'OrderController@changedSection');
+    Route::post('/order/{type}/{objectId}/{newOrder}', 'OrderController@changedOrderOnSameSection')->name('order.same');
+    Route::post('/changeSection/{type}/{objectid}/{newSection}', 'OrderController@changedSection')->name('order.changed');
 });

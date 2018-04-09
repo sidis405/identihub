@@ -12,4 +12,9 @@ class Section extends Model
     protected $fillable = [
         'order', 'section_type_id', 'bridge_id'
     ];
+
+    public function colors()
+    {
+        return $this->hasMany(Color::class);
+    }
 }

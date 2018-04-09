@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1523211684">
-  <project timestamp="1523211684">
+<coverage generated="1523260498">
+  <project timestamp="1523260498">
     <package name="App\Console\Commands">
       <file name="/Users/sid/Code/web/identihub/app/Console/Commands/CreateImagesFromFontVariants.php">
         <class name="App\Console\Commands\CreateImagesFromFontVariants" namespace="App\Console\Commands">
           <metrics complexity="5" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="2" elements="7" coveredelements="3"/>
         </class>
-        <line num="30" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="56"/>
-        <line num="32" type="stmt" count="56"/>
-        <line num="33" type="stmt" count="56"/>
+        <line num="30" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="6"/>
+        <line num="32" type="stmt" count="6"/>
+        <line num="33" type="stmt" count="6"/>
         <line num="42" type="method" name="anonymousFunction:42#108" complexity="2" crap="6.00" count="0"/>
         <line num="43" type="stmt" count="0"/>
         <line num="44" type="stmt" count="0"/>
@@ -20,9 +20,9 @@
         <class name="App\Console\Commands\UpdateFonts" namespace="App\Console\Commands">
           <metrics complexity="7" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="20" coveredstatements="2" elements="22" coveredelements="3"/>
         </class>
-        <line num="38" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="56"/>
-        <line num="40" type="stmt" count="56"/>
-        <line num="41" type="stmt" count="56"/>
+        <line num="38" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="6"/>
+        <line num="40" type="stmt" count="6"/>
+        <line num="41" type="stmt" count="6"/>
         <line num="48" type="method" name="handle" visibility="public" complexity="6" crap="42.00" count="0"/>
         <line num="50" type="stmt" count="0"/>
         <line num="51" type="stmt" count="0"/>
@@ -50,56 +50,56 @@
         <class name="App\Console\Kernel" namespace="App\Console">
           <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="6" elements="8" coveredelements="8"/>
         </class>
-        <line num="28" type="method" name="schedule" visibility="protected" complexity="1" crap="1" count="56"/>
-        <line num="30" type="stmt" count="56"/>
-        <line num="31" type="stmt" count="56"/>
-        <line num="32" type="stmt" count="56"/>
-        <line num="39" type="method" name="commands" visibility="protected" complexity="1" crap="1" count="56"/>
-        <line num="41" type="stmt" count="56"/>
-        <line num="42" type="stmt" count="56"/>
-        <line num="43" type="stmt" count="56"/>
+        <line num="28" type="method" name="schedule" visibility="protected" complexity="1" crap="1" count="6"/>
+        <line num="30" type="stmt" count="6"/>
+        <line num="31" type="stmt" count="6"/>
+        <line num="32" type="stmt" count="6"/>
+        <line num="39" type="method" name="commands" visibility="protected" complexity="1" crap="1" count="6"/>
+        <line num="41" type="stmt" count="6"/>
+        <line num="42" type="stmt" count="6"/>
+        <line num="43" type="stmt" count="6"/>
         <metrics loc="44" ncloc="28" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="6" elements="8" coveredelements="8"/>
       </file>
     </package>
     <package name="App\Events">
       <file name="/Users/sid/Code/web/identihub/app/Events/BridgeCreated.php">
         <class name="App\Events\BridgeCreated" namespace="App\Events">
-          <metrics complexity="3" methods="3" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="2" elements="7" coveredelements="3"/>
+          <metrics complexity="3" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="0" elements="7" coveredelements="0"/>
         </class>
-        <line num="28" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="2"/>
-        <line num="30" type="stmt" count="2"/>
-        <line num="31" type="stmt" count="2"/>
+        <line num="28" type="method" name="__construct" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="30" type="stmt" count="0"/>
+        <line num="31" type="stmt" count="0"/>
         <line num="38" type="method" name="broadcastOn" visibility="public" complexity="1" crap="2.00" count="0"/>
         <line num="40" type="stmt" count="0"/>
         <line num="43" type="method" name="broadcastWith" visibility="public" complexity="1" crap="2.00" count="0"/>
         <line num="45" type="stmt" count="0"/>
-        <metrics loc="47" ncloc="34" classes="1" methods="3" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="2" elements="7" coveredelements="3"/>
+        <metrics loc="47" ncloc="34" classes="1" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="0" elements="7" coveredelements="0"/>
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Events/BridgeDeleted.php">
         <class name="App\Events\BridgeDeleted" namespace="App\Events">
-          <metrics complexity="3" methods="3" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="2" elements="7" coveredelements="3"/>
+          <metrics complexity="3" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="0" elements="7" coveredelements="0"/>
         </class>
-        <line num="28" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="1"/>
-        <line num="31" type="stmt" count="1"/>
-        <line num="32" type="stmt" count="1"/>
+        <line num="28" type="method" name="__construct" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="31" type="stmt" count="0"/>
+        <line num="32" type="stmt" count="0"/>
         <line num="39" type="method" name="broadcastOn" visibility="public" complexity="1" crap="2.00" count="0"/>
         <line num="41" type="stmt" count="0"/>
         <line num="44" type="method" name="broadcastWith" visibility="public" complexity="1" crap="2.00" count="0"/>
         <line num="46" type="stmt" count="0"/>
-        <metrics loc="48" ncloc="33" classes="1" methods="3" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="2" elements="7" coveredelements="3"/>
+        <metrics loc="48" ncloc="33" classes="1" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="0" elements="7" coveredelements="0"/>
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Events/BridgeUpdated.php">
         <class name="App\Events\BridgeUpdated" namespace="App\Events">
-          <metrics complexity="3" methods="3" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="2" elements="7" coveredelements="3"/>
+          <metrics complexity="3" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="0" elements="7" coveredelements="0"/>
         </class>
-        <line num="27" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="14"/>
-        <line num="29" type="stmt" count="14"/>
-        <line num="30" type="stmt" count="14"/>
+        <line num="27" type="method" name="__construct" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="29" type="stmt" count="0"/>
+        <line num="30" type="stmt" count="0"/>
         <line num="37" type="method" name="broadcastOn" visibility="public" complexity="1" crap="2.00" count="0"/>
         <line num="39" type="stmt" count="0"/>
         <line num="47" type="method" name="broadcastWith" visibility="public" complexity="1" crap="2.00" count="0"/>
         <line num="49" type="stmt" count="0"/>
-        <metrics loc="51" ncloc="33" classes="1" methods="3" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="2" elements="7" coveredelements="3"/>
+        <metrics loc="51" ncloc="33" classes="1" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="0" elements="7" coveredelements="0"/>
       </file>
     </package>
     <package name="App\Exceptions">
@@ -113,24 +113,24 @@
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Exceptions/Handler.php">
         <class name="App\Exceptions\Handler" namespace="App\Exceptions">
-          <metrics complexity="8" methods="3" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="8" elements="15" coveredelements="9"/>
+          <metrics complexity="8" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="0" elements="15" coveredelements="0"/>
         </class>
-        <line num="35" type="method" name="report" visibility="public" complexity="1" crap="1" count="29"/>
-        <line num="37" type="stmt" count="29"/>
-        <line num="38" type="stmt" count="29"/>
-        <line num="47" type="method" name="render" visibility="public" complexity="5" crap="5.07" count="29"/>
-        <line num="49" type="stmt" count="29"/>
-        <line num="50" type="stmt" count="13"/>
-        <line num="51" type="stmt" count="13"/>
-        <line num="55" type="stmt" count="17"/>
-        <line num="56" type="stmt" count="17"/>
-        <line num="57" type="stmt" count="17"/>
+        <line num="35" type="method" name="report" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="37" type="stmt" count="0"/>
+        <line num="38" type="stmt" count="0"/>
+        <line num="47" type="method" name="render" visibility="public" complexity="5" crap="30.00" count="0"/>
+        <line num="49" type="stmt" count="0"/>
+        <line num="50" type="stmt" count="0"/>
+        <line num="51" type="stmt" count="0"/>
+        <line num="55" type="stmt" count="0"/>
+        <line num="56" type="stmt" count="0"/>
+        <line num="57" type="stmt" count="0"/>
         <line num="61" type="stmt" count="0"/>
         <line num="71" type="method" name="unauthenticated" visibility="protected" complexity="2" crap="6.00" count="0"/>
         <line num="73" type="stmt" count="0"/>
         <line num="74" type="stmt" count="0"/>
         <line num="77" type="stmt" count="0"/>
-        <metrics loc="79" ncloc="52" classes="1" methods="3" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="8" elements="15" coveredelements="9"/>
+        <metrics loc="79" ncloc="52" classes="1" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="0" elements="15" coveredelements="0"/>
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Exceptions/IconShouldBeSVG.php">
         <class name="App\Exceptions\IconShouldBeSVG" namespace="App\Exceptions">
@@ -150,11 +150,11 @@
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Exceptions/UserDoesntExist.php">
         <class name="App\Exceptions\UserDoesntExist" namespace="App\Exceptions">
-          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+          <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
         </class>
-        <line num="23" type="method" name="getMessageBag" visibility="public" complexity="1" crap="1" count="1"/>
-        <line num="25" type="stmt" count="1"/>
-        <metrics loc="26" ncloc="15" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+        <line num="23" type="method" name="getMessageBag" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="25" type="stmt" count="0"/>
+        <metrics loc="26" ncloc="15" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
       </file>
     </package>
     <package name="App\Helpers">
@@ -188,192 +188,196 @@
         <class name="App\Helpers\EnvWriterServiceProvider" namespace="App\Helpers">
           <metrics complexity="2" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="1" elements="3" coveredelements="1"/>
         </class>
-        <line num="13" type="method" name="anonymousFunction:13#49" complexity="1" crap="1.12" count="56"/>
+        <line num="13" type="method" name="anonymousFunction:13#49" complexity="1" crap="1.12" count="6"/>
         <line num="14" type="stmt" count="0"/>
-        <line num="15" type="stmt" count="56"/>
-        <line num="16" type="stmt" count="56"/>
+        <line num="15" type="stmt" count="6"/>
+        <line num="16" type="stmt" count="6"/>
         <metrics loc="17" ncloc="17" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="2" elements="4" coveredelements="2"/>
       </file>
     </package>
     <package name="App\Http\Controllers\Api\V1">
       <file name="/Users/sid/Code/web/identihub/app/Http/Controllers/Api/V1/BridgeController.php">
         <class name="App\Http\Controllers\Api\V1\BridgeController" namespace="App\Http\Controllers\Api\V1">
-          <metrics complexity="8" methods="7" coveredmethods="7" conditionals="0" coveredconditionals="0" statements="50" coveredstatements="50" elements="57" coveredelements="57"/>
+          <metrics complexity="8" methods="7" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="50" coveredstatements="0" elements="57" coveredelements="0"/>
         </class>
-        <line num="17" type="method" name="index" visibility="public" complexity="1" crap="1" count="2"/>
-        <line num="19" type="stmt" count="2"/>
-        <line num="20" type="stmt" count="2"/>
-        <line num="21" type="stmt" count="2"/>
-        <line num="22" type="stmt" count="2"/>
-        <line num="23" type="stmt" count="2"/>
-        <line num="24" type="stmt" count="2"/>
-        <line num="25" type="stmt" count="2"/>
-        <line num="26" type="stmt" count="2"/>
-        <line num="27" type="stmt" count="2"/>
-        <line num="31" type="method" name="show" visibility="public" complexity="1" crap="1" count="2"/>
-        <line num="33" type="stmt" count="2"/>
-        <line num="35" type="stmt" count="1"/>
-        <line num="36" type="stmt" count="1"/>
-        <line num="37" type="stmt" count="1"/>
-        <line num="46" type="method" name="store" visibility="public" complexity="1" crap="1" count="2"/>
-        <line num="48" type="stmt" count="2"/>
-        <line num="51" type="stmt" count="2"/>
-        <line num="52" type="stmt" count="2"/>
-        <line num="53" type="stmt" count="2"/>
-        <line num="56" type="stmt" count="2"/>
-        <line num="58" type="stmt" count="2"/>
-        <line num="60" type="stmt" count="2"/>
-        <line num="61" type="stmt" count="2"/>
-        <line num="65" type="method" name="update" visibility="public" complexity="1" crap="1" count="4"/>
-        <line num="67" type="stmt" count="4"/>
-        <line num="69" type="stmt" count="2"/>
-        <line num="70" type="stmt" count="2"/>
-        <line num="72" type="stmt" count="2"/>
-        <line num="74" type="stmt" count="2"/>
-        <line num="75" type="stmt" count="2"/>
-        <line num="79" type="method" name="updateSlug" visibility="public" complexity="1" crap="1" count="3"/>
-        <line num="81" type="stmt" count="3"/>
-        <line num="83" type="stmt" count="2"/>
-        <line num="85" type="stmt" count="2"/>
-        <line num="86" type="stmt" count="2"/>
-        <line num="88" type="stmt" count="2"/>
-        <line num="90" type="stmt" count="2"/>
-        <line num="91" type="stmt" count="2"/>
-        <line num="95" type="method" name="getSlug" visibility="private" complexity="2" crap="2" count="4"/>
-        <line num="97" type="stmt" count="4"/>
-        <line num="98" type="stmt" count="4"/>
-        <line num="99" type="stmt" count="2"/>
-        <line num="101" type="stmt" count="2"/>
-        <line num="104" type="method" name="destroy" visibility="public" complexity="1" crap="1" count="2"/>
-        <line num="106" type="stmt" count="2"/>
-        <line num="108" type="stmt" count="1"/>
-        <line num="110" type="stmt" count="1"/>
-        <line num="112" type="stmt" count="1"/>
-        <line num="113" type="stmt" count="1"/>
-        <line num="114" type="stmt" count="1"/>
-        <line num="115" type="stmt" count="1"/>
-        <line num="116" type="stmt" count="1"/>
-        <line num="117" type="stmt" count="1"/>
-        <line num="118" type="stmt" count="1"/>
-        <line num="119" type="stmt" count="1"/>
-        <line num="120" type="stmt" count="1"/>
-        <metrics loc="123" ncloc="118" classes="1" methods="7" coveredmethods="7" conditionals="0" coveredconditionals="0" statements="50" coveredstatements="50" elements="57" coveredelements="57"/>
-      </file>
-      <file name="/Users/sid/Code/web/identihub/app/Http/Controllers/Api/V1/ColorsController.php">
-        <class name="App\Http\Controllers\Api\V1\ColorsController" namespace="App\Http\Controllers\Api\V1">
-          <metrics complexity="4" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="28" coveredstatements="28" elements="32" coveredelements="32"/>
-        </class>
-        <line num="19" type="method" name="storeBulkColors" visibility="public" complexity="1" crap="1" count="2"/>
-        <line num="21" type="stmt" count="2"/>
-        <line num="23" type="stmt" count="1"/>
-        <line num="24" type="stmt" count="1"/>
-        <line num="26" type="stmt" count="1"/>
-        <line num="28" type="stmt" count="1"/>
-        <line num="30" type="stmt" count="1"/>
-        <line num="31" type="stmt" count="1"/>
-        <line num="32" type="stmt" count="1"/>
-        <line num="36" type="method" name="store" visibility="public" complexity="1" crap="1" count="2"/>
-        <line num="38" type="stmt" count="2"/>
-        <line num="40" type="stmt" count="1"/>
-        <line num="41" type="stmt" count="1"/>
-        <line num="43" type="stmt" count="1"/>
-        <line num="45" type="stmt" count="1"/>
-        <line num="47" type="stmt" count="1"/>
-        <line num="48" type="stmt" count="1"/>
-        <line num="49" type="stmt" count="1"/>
-        <line num="53" type="method" name="update" visibility="public" complexity="1" crap="1" count="2"/>
-        <line num="55" type="stmt" count="2"/>
-        <line num="57" type="stmt" count="1"/>
-        <line num="59" type="stmt" count="1"/>
-        <line num="61" type="stmt" count="1"/>
-        <line num="62" type="stmt" count="1"/>
-        <line num="63" type="stmt" count="1"/>
-        <line num="67" type="method" name="destroy" visibility="public" complexity="1" crap="1" count="2"/>
-        <line num="69" type="stmt" count="2"/>
-        <line num="71" type="stmt" count="1"/>
-        <line num="73" type="stmt" count="1"/>
-        <line num="75" type="stmt" count="1"/>
-        <line num="76" type="stmt" count="1"/>
-        <line num="77" type="stmt" count="1"/>
-        <metrics loc="80" ncloc="80" classes="1" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="28" coveredstatements="28" elements="32" coveredelements="32"/>
-      </file>
-      <file name="/Users/sid/Code/web/identihub/app/Http/Controllers/Api/V1/FontsController.php">
-        <class name="App\Http\Controllers\Api\V1\FontsController" namespace="App\Http\Controllers\Api\V1">
-          <metrics complexity="3" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="22" coveredstatements="22" elements="25" coveredelements="25"/>
-        </class>
-        <line num="21" type="method" name="search" visibility="public" complexity="1" crap="1" count="1"/>
-        <line num="23" type="stmt" count="1"/>
-        <line num="24" type="stmt" count="1"/>
-        <line num="28" type="method" name="store" visibility="public" complexity="1" crap="1" count="2"/>
-        <line num="30" type="stmt" count="2"/>
-        <line num="32" type="stmt" count="1"/>
-        <line num="34" type="stmt" count="1"/>
-        <line num="36" type="stmt" count="1"/>
-        <line num="37" type="stmt" count="1"/>
-        <line num="39" type="stmt" count="1"/>
-        <line num="41" type="stmt" count="1"/>
-        <line num="43" type="stmt" count="1"/>
-        <line num="46" type="stmt" count="1"/>
-        <line num="47" type="stmt" count="1"/>
-        <line num="48" type="stmt" count="1"/>
-        <line num="52" type="method" name="destroy" visibility="public" complexity="1" crap="1" count="2"/>
-        <line num="54" type="stmt" count="2"/>
-        <line num="56" type="stmt" count="1"/>
-        <line num="57" type="stmt" count="1"/>
-        <line num="58" type="stmt" count="1"/>
-        <line num="60" type="stmt" count="1"/>
-        <line num="62" type="stmt" count="1"/>
-        <line num="64" type="stmt" count="1"/>
-        <line num="65" type="stmt" count="1"/>
-        <line num="66" type="stmt" count="1"/>
-        <metrics loc="69" ncloc="69" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="22" coveredstatements="22" elements="25" coveredelements="25"/>
-      </file>
-      <file name="/Users/sid/Code/web/identihub/app/Http/Controllers/Api/V1/OrderController.php">
-        <class name="App\Http\Controllers\Api\V1\OrderController" namespace="App\Http\Controllers\Api\V1">
-          <metrics complexity="23" methods="4" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="82" coveredstatements="0" elements="86" coveredelements="0"/>
-        </class>
-        <line num="20" type="method" name="changedOrderOnSameSection" visibility="public" complexity="13" crap="182.00" count="0"/>
+        <line num="17" type="method" name="index" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="19" type="stmt" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="21" type="stmt" count="0"/>
+        <line num="22" type="stmt" count="0"/>
+        <line num="23" type="stmt" count="0"/>
+        <line num="24" type="stmt" count="0"/>
         <line num="25" type="stmt" count="0"/>
         <line num="26" type="stmt" count="0"/>
         <line num="27" type="stmt" count="0"/>
-        <line num="28" type="stmt" count="0"/>
-        <line num="29" type="stmt" count="0"/>
-        <line num="30" type="stmt" count="0"/>
-        <line num="31" type="stmt" count="0"/>
-        <line num="32" type="stmt" count="0"/>
+        <line num="31" type="method" name="show" visibility="public" complexity="1" crap="2.00" count="0"/>
         <line num="33" type="stmt" count="0"/>
-        <line num="34" type="stmt" count="0"/>
         <line num="35" type="stmt" count="0"/>
         <line num="36" type="stmt" count="0"/>
-        <line num="38" type="stmt" count="0"/>
-        <line num="41" type="stmt" count="0"/>
-        <line num="42" type="stmt" count="0"/>
-        <line num="43" type="stmt" count="0"/>
-        <line num="44" type="stmt" count="0"/>
-        <line num="46" type="stmt" count="0"/>
+        <line num="37" type="stmt" count="0"/>
+        <line num="46" type="method" name="store" visibility="public" complexity="1" crap="2.00" count="0"/>
         <line num="48" type="stmt" count="0"/>
-        <line num="49" type="stmt" count="0"/>
         <line num="51" type="stmt" count="0"/>
         <line num="52" type="stmt" count="0"/>
         <line num="53" type="stmt" count="0"/>
-        <line num="54" type="stmt" count="0"/>
         <line num="56" type="stmt" count="0"/>
         <line num="58" type="stmt" count="0"/>
+        <line num="60" type="stmt" count="0"/>
         <line num="61" type="stmt" count="0"/>
+        <line num="65" type="method" name="update" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="67" type="stmt" count="0"/>
+        <line num="69" type="stmt" count="0"/>
+        <line num="70" type="stmt" count="0"/>
+        <line num="72" type="stmt" count="0"/>
+        <line num="74" type="stmt" count="0"/>
+        <line num="75" type="stmt" count="0"/>
+        <line num="79" type="method" name="updateSlug" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="81" type="stmt" count="0"/>
+        <line num="83" type="stmt" count="0"/>
+        <line num="85" type="stmt" count="0"/>
+        <line num="86" type="stmt" count="0"/>
+        <line num="88" type="stmt" count="0"/>
+        <line num="90" type="stmt" count="0"/>
+        <line num="91" type="stmt" count="0"/>
+        <line num="95" type="method" name="getSlug" visibility="private" complexity="2" crap="6.00" count="0"/>
+        <line num="97" type="stmt" count="0"/>
+        <line num="98" type="stmt" count="0"/>
+        <line num="99" type="stmt" count="0"/>
+        <line num="101" type="stmt" count="0"/>
+        <line num="104" type="method" name="destroy" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="106" type="stmt" count="0"/>
+        <line num="108" type="stmt" count="0"/>
+        <line num="110" type="stmt" count="0"/>
+        <line num="112" type="stmt" count="0"/>
+        <line num="113" type="stmt" count="0"/>
+        <line num="114" type="stmt" count="0"/>
+        <line num="115" type="stmt" count="0"/>
+        <line num="116" type="stmt" count="0"/>
+        <line num="117" type="stmt" count="0"/>
+        <line num="118" type="stmt" count="0"/>
+        <line num="119" type="stmt" count="0"/>
+        <line num="120" type="stmt" count="0"/>
+        <metrics loc="123" ncloc="118" classes="1" methods="7" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="50" coveredstatements="0" elements="57" coveredelements="0"/>
+      </file>
+      <file name="/Users/sid/Code/web/identihub/app/Http/Controllers/Api/V1/ColorsController.php">
+        <class name="App\Http\Controllers\Api\V1\ColorsController" namespace="App\Http\Controllers\Api\V1">
+          <metrics complexity="4" methods="4" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="28" coveredstatements="0" elements="32" coveredelements="0"/>
+        </class>
+        <line num="19" type="method" name="storeBulkColors" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="21" type="stmt" count="0"/>
+        <line num="23" type="stmt" count="0"/>
+        <line num="24" type="stmt" count="0"/>
+        <line num="26" type="stmt" count="0"/>
+        <line num="28" type="stmt" count="0"/>
+        <line num="30" type="stmt" count="0"/>
+        <line num="31" type="stmt" count="0"/>
+        <line num="32" type="stmt" count="0"/>
+        <line num="36" type="method" name="store" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="38" type="stmt" count="0"/>
+        <line num="40" type="stmt" count="0"/>
+        <line num="41" type="stmt" count="0"/>
+        <line num="43" type="stmt" count="0"/>
+        <line num="45" type="stmt" count="0"/>
+        <line num="47" type="stmt" count="0"/>
+        <line num="48" type="stmt" count="0"/>
+        <line num="49" type="stmt" count="0"/>
+        <line num="53" type="method" name="update" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="55" type="stmt" count="0"/>
+        <line num="57" type="stmt" count="0"/>
+        <line num="59" type="stmt" count="0"/>
+        <line num="61" type="stmt" count="0"/>
+        <line num="62" type="stmt" count="0"/>
+        <line num="63" type="stmt" count="0"/>
+        <line num="67" type="method" name="destroy" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="69" type="stmt" count="0"/>
+        <line num="71" type="stmt" count="0"/>
+        <line num="73" type="stmt" count="0"/>
+        <line num="75" type="stmt" count="0"/>
+        <line num="76" type="stmt" count="0"/>
+        <line num="77" type="stmt" count="0"/>
+        <metrics loc="80" ncloc="80" classes="1" methods="4" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="28" coveredstatements="0" elements="32" coveredelements="0"/>
+      </file>
+      <file name="/Users/sid/Code/web/identihub/app/Http/Controllers/Api/V1/FontsController.php">
+        <class name="App\Http\Controllers\Api\V1\FontsController" namespace="App\Http\Controllers\Api\V1">
+          <metrics complexity="3" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="22" coveredstatements="0" elements="25" coveredelements="0"/>
+        </class>
+        <line num="21" type="method" name="search" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="23" type="stmt" count="0"/>
+        <line num="24" type="stmt" count="0"/>
+        <line num="28" type="method" name="store" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="30" type="stmt" count="0"/>
+        <line num="32" type="stmt" count="0"/>
+        <line num="34" type="stmt" count="0"/>
+        <line num="36" type="stmt" count="0"/>
+        <line num="37" type="stmt" count="0"/>
+        <line num="39" type="stmt" count="0"/>
+        <line num="41" type="stmt" count="0"/>
+        <line num="43" type="stmt" count="0"/>
+        <line num="46" type="stmt" count="0"/>
+        <line num="47" type="stmt" count="0"/>
+        <line num="48" type="stmt" count="0"/>
+        <line num="52" type="method" name="destroy" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="54" type="stmt" count="0"/>
+        <line num="56" type="stmt" count="0"/>
+        <line num="57" type="stmt" count="0"/>
+        <line num="58" type="stmt" count="0"/>
+        <line num="60" type="stmt" count="0"/>
         <line num="62" type="stmt" count="0"/>
         <line num="64" type="stmt" count="0"/>
         <line num="65" type="stmt" count="0"/>
         <line num="66" type="stmt" count="0"/>
-        <line num="67" type="stmt" count="0"/>
-        <line num="70" type="stmt" count="0"/>
-        <line num="71" type="stmt" count="0"/>
-        <line num="72" type="stmt" count="0"/>
-        <line num="74" type="stmt" count="0"/>
-        <line num="75" type="stmt" count="0"/>
-        <line num="76" type="stmt" count="0"/>
-        <line num="81" type="method" name="inRange" visibility="private" complexity="2" crap="6.00" count="0"/>
+        <metrics loc="69" ncloc="69" classes="1" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="22" coveredstatements="0" elements="25" coveredelements="0"/>
+      </file>
+      <file name="/Users/sid/Code/web/identihub/app/Http/Controllers/Api/V1/OrderController.php">
+        <class name="App\Http\Controllers\Api\V1\OrderController" namespace="App\Http\Controllers\Api\V1">
+          <metrics complexity="21" methods="4" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="76" coveredstatements="36" elements="80" coveredelements="38"/>
+        </class>
+        <line num="18" type="method" name="changedOrderOnSameSection" visibility="public" complexity="12" crap="12" count="6"/>
+        <line num="22" type="stmt" count="6"/>
+        <line num="23" type="stmt" count="2"/>
+        <line num="24" type="stmt" count="2"/>
+        <line num="25" type="stmt" count="2"/>
+        <line num="26" type="stmt" count="4"/>
+        <line num="27" type="stmt" count="1"/>
+        <line num="28" type="stmt" count="1"/>
+        <line num="29" type="stmt" count="1"/>
+        <line num="30" type="stmt" count="3"/>
+        <line num="31" type="stmt" count="2"/>
+        <line num="32" type="stmt" count="1"/>
+        <line num="33" type="stmt" count="1"/>
+        <line num="35" type="stmt" count="1"/>
+        <line num="38" type="stmt" count="4"/>
+        <line num="39" type="stmt" count="4"/>
+        <line num="40" type="stmt" count="4"/>
+        <line num="41" type="stmt" count="1"/>
+        <line num="44" type="stmt" count="3"/>
+        <line num="46" type="stmt" count="3"/>
+        <line num="47" type="stmt" count="3"/>
+        <line num="49" type="stmt" count="3"/>
+        <line num="50" type="stmt" count="3"/>
+        <line num="51" type="stmt" count="3"/>
+        <line num="52" type="stmt" count="1"/>
+        <line num="54" type="stmt" count="2"/>
+        <line num="56" type="stmt" count="3"/>
+        <line num="59" type="stmt" count="3"/>
+        <line num="60" type="stmt" count="3"/>
+        <line num="62" type="stmt" count="3"/>
+        <line num="63" type="stmt" count="3"/>
+        <line num="64" type="stmt" count="3"/>
+        <line num="65" type="stmt" count="3"/>
+        <line num="67" type="stmt" count="3"/>
+        <line num="68" type="stmt" count="3"/>
+        <line num="69" type="stmt" count="3"/>
+        <line num="74" type="method" name="inRange" visibility="private" complexity="2" crap="2" count="3"/>
+        <line num="76" type="stmt" count="3"/>
+        <line num="79" type="method" name="changedSection" visibility="public" complexity="5" crap="30.00" count="0"/>
         <line num="83" type="stmt" count="0"/>
-        <line num="86" type="method" name="changedSection" visibility="public" complexity="6" crap="42.00" count="0"/>
+        <line num="84" type="stmt" count="0"/>
+        <line num="85" type="stmt" count="0"/>
+        <line num="86" type="stmt" count="0"/>
+        <line num="87" type="stmt" count="0"/>
+        <line num="88" type="stmt" count="0"/>
+        <line num="89" type="stmt" count="0"/>
         <line num="90" type="stmt" count="0"/>
         <line num="91" type="stmt" count="0"/>
         <line num="92" type="stmt" count="0"/>
@@ -394,63 +398,53 @@
         <line num="107" type="stmt" count="0"/>
         <line num="108" type="stmt" count="0"/>
         <line num="109" type="stmt" count="0"/>
-        <line num="110" type="stmt" count="0"/>
         <line num="111" type="stmt" count="0"/>
-        <line num="112" type="stmt" count="0"/>
-        <line num="113" type="stmt" count="0"/>
         <line num="114" type="stmt" count="0"/>
         <line num="115" type="stmt" count="0"/>
         <line num="116" type="stmt" count="0"/>
-        <line num="118" type="stmt" count="0"/>
+        <line num="117" type="stmt" count="0"/>
+        <line num="119" type="stmt" count="0"/>
+        <line num="120" type="stmt" count="0"/>
         <line num="121" type="stmt" count="0"/>
-        <line num="122" type="stmt" count="0"/>
-        <line num="123" type="stmt" count="0"/>
-        <line num="124" type="stmt" count="0"/>
+        <line num="126" type="method" name="checkIfBridgeIsFromTheSameUser" visibility="private" complexity="2" crap="6.00" count="0"/>
         <line num="128" type="stmt" count="0"/>
         <line num="129" type="stmt" count="0"/>
         <line num="130" type="stmt" count="0"/>
-        <line num="132" type="stmt" count="0"/>
+        <line num="131" type="stmt" count="0"/>
         <line num="133" type="stmt" count="0"/>
-        <line num="134" type="stmt" count="0"/>
-        <line num="139" type="method" name="checkIfBridgeIsFromTheSameUser" visibility="private" complexity="2" crap="6.00" count="0"/>
-        <line num="140" type="stmt" count="0"/>
-        <line num="141" type="stmt" count="0"/>
-        <line num="142" type="stmt" count="0"/>
-        <line num="143" type="stmt" count="0"/>
-        <line num="144" type="stmt" count="0"/>
-        <metrics loc="146" ncloc="146" classes="1" methods="4" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="82" coveredstatements="0" elements="86" coveredelements="0"/>
+        <metrics loc="134" ncloc="134" classes="1" methods="4" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="76" coveredstatements="36" elements="80" coveredelements="38"/>
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Http/Controllers/Api/V1/SectionsController.php">
         <class name="App\Http\Controllers\Api\V1\SectionsController" namespace="App\Http\Controllers\Api\V1">
-          <metrics complexity="4" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="22" coveredstatements="22" elements="26" coveredelements="26"/>
+          <metrics complexity="4" methods="4" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="22" coveredstatements="0" elements="26" coveredelements="0"/>
         </class>
-        <line num="17" type="method" name="store" visibility="public" complexity="1" crap="1" count="3"/>
-        <line num="19" type="stmt" count="3"/>
-        <line num="20" type="stmt" count="1"/>
-        <line num="21" type="stmt" count="1"/>
-        <line num="22" type="stmt" count="1"/>
-        <line num="23" type="stmt" count="1"/>
-        <line num="27" type="method" name="destroy" visibility="public" complexity="1" crap="1" count="3"/>
-        <line num="29" type="stmt" count="3"/>
-        <line num="30" type="stmt" count="1"/>
-        <line num="31" type="stmt" count="1"/>
-        <line num="32" type="stmt" count="1"/>
-        <line num="33" type="stmt" count="1"/>
-        <line num="37" type="method" name="updateTitle" visibility="public" complexity="1" crap="1" count="2"/>
-        <line num="39" type="stmt" count="2"/>
-        <line num="40" type="stmt" count="1"/>
-        <line num="41" type="stmt" count="1"/>
-        <line num="43" type="stmt" count="1"/>
-        <line num="45" type="stmt" count="1"/>
-        <line num="46" type="stmt" count="1"/>
-        <line num="50" type="method" name="updateDescription" visibility="public" complexity="1" crap="1" count="2"/>
-        <line num="52" type="stmt" count="2"/>
-        <line num="53" type="stmt" count="1"/>
-        <line num="54" type="stmt" count="1"/>
-        <line num="55" type="stmt" count="1"/>
-        <line num="57" type="stmt" count="1"/>
-        <line num="58" type="stmt" count="1"/>
-        <metrics loc="61" ncloc="61" classes="1" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="22" coveredstatements="22" elements="26" coveredelements="26"/>
+        <line num="17" type="method" name="store" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="19" type="stmt" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="21" type="stmt" count="0"/>
+        <line num="22" type="stmt" count="0"/>
+        <line num="23" type="stmt" count="0"/>
+        <line num="27" type="method" name="destroy" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="29" type="stmt" count="0"/>
+        <line num="30" type="stmt" count="0"/>
+        <line num="31" type="stmt" count="0"/>
+        <line num="32" type="stmt" count="0"/>
+        <line num="33" type="stmt" count="0"/>
+        <line num="37" type="method" name="updateTitle" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="39" type="stmt" count="0"/>
+        <line num="40" type="stmt" count="0"/>
+        <line num="41" type="stmt" count="0"/>
+        <line num="43" type="stmt" count="0"/>
+        <line num="45" type="stmt" count="0"/>
+        <line num="46" type="stmt" count="0"/>
+        <line num="50" type="method" name="updateDescription" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="52" type="stmt" count="0"/>
+        <line num="53" type="stmt" count="0"/>
+        <line num="54" type="stmt" count="0"/>
+        <line num="55" type="stmt" count="0"/>
+        <line num="57" type="stmt" count="0"/>
+        <line num="58" type="stmt" count="0"/>
+        <metrics loc="61" ncloc="61" classes="1" methods="4" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="22" coveredstatements="0" elements="26" coveredelements="0"/>
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Http/Controllers/Api/V1/SourceFileController.php">
         <class name="App\Http\Controllers\Api\V1\SourceFileController" namespace="App\Http\Controllers\Api\V1">
@@ -765,12 +759,12 @@
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Http/Controllers/Api/V1/UsersController.php">
         <class name="App\Http\Controllers\Api\V1\UsersController" namespace="App\Http\Controllers\Api\V1">
-          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+          <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="3" coveredelements="0"/>
         </class>
-        <line num="10" type="method" name="me" visibility="public" complexity="1" crap="1" count="1"/>
-        <line num="12" type="stmt" count="1"/>
-        <line num="13" type="stmt" count="1"/>
-        <metrics loc="16" ncloc="16" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+        <line num="10" type="method" name="me" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="12" type="stmt" count="0"/>
+        <line num="13" type="stmt" count="0"/>
+        <metrics loc="16" ncloc="16" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="3" coveredelements="0"/>
       </file>
     </package>
     <package name="App\Http\Controllers\App">
@@ -797,7 +791,7 @@
     <package name="App\Http\Controllers\Auth">
       <file name="/Users/sid/Code/web/identihub/app/Http/Controllers/Auth/ActivationLinkController.php">
         <class name="App\Http\Controllers\Auth\ActivationLinkController" namespace="App\Http\Controllers\Auth">
-          <metrics complexity="6" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="21" coveredstatements="10" elements="24" coveredelements="10"/>
+          <metrics complexity="6" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="21" coveredstatements="0" elements="24" coveredelements="0"/>
         </class>
         <line num="16" type="method" name="activateLinkPage" visibility="public" complexity="1" crap="2.00" count="0"/>
         <line num="18" type="stmt" count="0"/>
@@ -810,20 +804,20 @@
         <line num="29" type="stmt" count="0"/>
         <line num="30" type="stmt" count="0"/>
         <line num="32" type="stmt" count="0"/>
-        <line num="36" type="method" name="activate" visibility="public" complexity="3" crap="3.04" count="1"/>
-        <line num="38" type="stmt" count="1"/>
-        <line num="39" type="stmt" count="1"/>
+        <line num="36" type="method" name="activate" visibility="public" complexity="3" crap="12.00" count="0"/>
+        <line num="38" type="stmt" count="0"/>
+        <line num="39" type="stmt" count="0"/>
         <line num="40" type="stmt" count="0"/>
-        <line num="42" type="stmt" count="1"/>
-        <line num="43" type="stmt" count="1"/>
-        <line num="44" type="stmt" count="1"/>
-        <line num="45" type="stmt" count="1"/>
-        <line num="46" type="stmt" count="1"/>
-        <line num="47" type="stmt" count="1"/>
-        <line num="48" type="stmt" count="1"/>
-        <line num="49" type="stmt" count="1"/>
+        <line num="42" type="stmt" count="0"/>
+        <line num="43" type="stmt" count="0"/>
+        <line num="44" type="stmt" count="0"/>
+        <line num="45" type="stmt" count="0"/>
+        <line num="46" type="stmt" count="0"/>
+        <line num="47" type="stmt" count="0"/>
+        <line num="48" type="stmt" count="0"/>
+        <line num="49" type="stmt" count="0"/>
         <line num="52" type="stmt" count="0"/>
-        <metrics loc="55" ncloc="53" classes="1" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="21" coveredstatements="10" elements="24" coveredelements="10"/>
+        <metrics loc="55" ncloc="53" classes="1" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="21" coveredstatements="0" elements="24" coveredelements="0"/>
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Http/Controllers/Auth/ForgotPasswordController.php">
         <class name="App\Http\Controllers\Auth\ForgotPasswordController" namespace="App\Http\Controllers\Auth">
@@ -836,17 +830,17 @@
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Http/Controllers/Auth/LoginController.php">
         <class name="App\Http\Controllers\Auth\LoginController" namespace="App\Http\Controllers\Auth">
-          <metrics complexity="5" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="7" elements="16" coveredelements="8"/>
+          <metrics complexity="5" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="0" elements="16" coveredelements="0"/>
         </class>
-        <line num="40" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="1"/>
-        <line num="42" type="stmt" count="1"/>
-        <line num="43" type="stmt" count="1"/>
-        <line num="45" type="method" name="login" visibility="public" complexity="4" crap="7.18" count="1"/>
-        <line num="47" type="stmt" count="1"/>
-        <line num="49" type="stmt" count="1"/>
-        <line num="50" type="stmt" count="1"/>
-        <line num="52" type="stmt" count="1"/>
-        <line num="53" type="stmt" count="1"/>
+        <line num="40" type="method" name="__construct" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="42" type="stmt" count="0"/>
+        <line num="43" type="stmt" count="0"/>
+        <line num="45" type="method" name="login" visibility="public" complexity="4" crap="20.00" count="0"/>
+        <line num="47" type="stmt" count="0"/>
+        <line num="49" type="stmt" count="0"/>
+        <line num="50" type="stmt" count="0"/>
+        <line num="52" type="stmt" count="0"/>
+        <line num="53" type="stmt" count="0"/>
         <line num="67" type="stmt" count="0"/>
         <line num="68" type="stmt" count="0"/>
         <line num="70" type="stmt" count="0"/>
@@ -854,33 +848,33 @@
         <line num="74" type="stmt" count="0"/>
         <line num="80" type="stmt" count="0"/>
         <line num="82" type="stmt" count="0"/>
-        <metrics loc="84" ncloc="38" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="7" elements="16" coveredelements="8"/>
+        <metrics loc="84" ncloc="38" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="0" elements="16" coveredelements="0"/>
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Http/Controllers/Auth/RegisterController.php">
         <class name="App\Http\Controllers\Auth\RegisterController" namespace="App\Http\Controllers\Auth">
-          <metrics complexity="6" methods="5" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="15" elements="20" coveredelements="20"/>
+          <metrics complexity="6" methods="5" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="0" elements="20" coveredelements="0"/>
         </class>
-        <line num="41" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="4"/>
-        <line num="43" type="stmt" count="4"/>
-        <line num="45" type="stmt" count="4"/>
-        <line num="53" type="method" name="validator" visibility="protected" complexity="1" crap="1" count="4"/>
-        <line num="55" type="stmt" count="4"/>
-        <line num="56" type="stmt" count="4"/>
-        <line num="62" type="method" name="register" visibility="public" complexity="2" crap="2" count="4"/>
-        <line num="64" type="stmt" count="4"/>
-        <line num="66" type="stmt" count="4"/>
-        <line num="70" type="stmt" count="4"/>
-        <line num="71" type="stmt" count="4"/>
-        <line num="74" type="method" name="registered" visibility="protected" complexity="1" crap="1" count="4"/>
-        <line num="76" type="stmt" count="4"/>
-        <line num="77" type="stmt" count="4"/>
-        <line num="78" type="stmt" count="4"/>
-        <line num="89" type="method" name="create" visibility="protected" complexity="1" crap="1" count="4"/>
-        <line num="91" type="stmt" count="4"/>
-        <line num="92" type="stmt" count="4"/>
-        <line num="93" type="stmt" count="4"/>
-        <line num="94" type="stmt" count="4"/>
-        <metrics loc="97" ncloc="61" classes="1" methods="5" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="15" elements="20" coveredelements="20"/>
+        <line num="41" type="method" name="__construct" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="43" type="stmt" count="0"/>
+        <line num="45" type="stmt" count="0"/>
+        <line num="53" type="method" name="validator" visibility="protected" complexity="1" crap="2.00" count="0"/>
+        <line num="55" type="stmt" count="0"/>
+        <line num="56" type="stmt" count="0"/>
+        <line num="62" type="method" name="register" visibility="public" complexity="2" crap="6.00" count="0"/>
+        <line num="64" type="stmt" count="0"/>
+        <line num="66" type="stmt" count="0"/>
+        <line num="70" type="stmt" count="0"/>
+        <line num="71" type="stmt" count="0"/>
+        <line num="74" type="method" name="registered" visibility="protected" complexity="1" crap="2.00" count="0"/>
+        <line num="76" type="stmt" count="0"/>
+        <line num="77" type="stmt" count="0"/>
+        <line num="78" type="stmt" count="0"/>
+        <line num="89" type="method" name="create" visibility="protected" complexity="1" crap="2.00" count="0"/>
+        <line num="91" type="stmt" count="0"/>
+        <line num="92" type="stmt" count="0"/>
+        <line num="93" type="stmt" count="0"/>
+        <line num="94" type="stmt" count="0"/>
+        <metrics loc="97" ncloc="61" classes="1" methods="5" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="0" elements="20" coveredelements="0"/>
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Http/Controllers/Auth/ResetPasswordController.php">
         <class name="App\Http\Controllers\Auth\ResetPasswordController" namespace="App\Http\Controllers\Auth">
@@ -898,12 +892,12 @@
         <class name="App\Http\Controllers\Controller" namespace="App\Http\Controllers">
           <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="6" coveredelements="6"/>
         </class>
-        <line num="19" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="52"/>
-        <line num="21" type="stmt" count="52"/>
-        <line num="22" type="stmt" count="52"/>
-        <line num="23" type="stmt" count="52"/>
-        <line num="24" type="stmt" count="52"/>
-        <line num="25" type="stmt" count="52"/>
+        <line num="19" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="6"/>
+        <line num="21" type="stmt" count="6"/>
+        <line num="22" type="stmt" count="6"/>
+        <line num="23" type="stmt" count="6"/>
+        <line num="24" type="stmt" count="6"/>
+        <line num="25" type="stmt" count="6"/>
         <metrics loc="26" ncloc="26" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="6" coveredelements="6"/>
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Http/Controllers/FrontController.php">
@@ -984,23 +978,23 @@
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Http/Middleware/InstallationChecker.php">
         <class name="App\Http\Middleware\InstallationChecker" namespace="App\Http\Middleware">
-          <metrics complexity="2" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="2" elements="4" coveredelements="2"/>
+          <metrics complexity="2" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
         </class>
-        <line num="17" type="method" name="handle" visibility="public" complexity="2" crap="2.15" count="4"/>
-        <line num="19" type="stmt" count="4"/>
+        <line num="17" type="method" name="handle" visibility="public" complexity="2" crap="6.00" count="0"/>
+        <line num="19" type="stmt" count="0"/>
         <line num="20" type="stmt" count="0"/>
-        <line num="21" type="stmt" count="4"/>
-        <metrics loc="23" ncloc="16" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="2" elements="4" coveredelements="2"/>
+        <line num="21" type="stmt" count="0"/>
+        <metrics loc="23" ncloc="16" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Http/Middleware/RedirectIfAuthenticated.php">
         <class name="App\Http\Middleware\RedirectIfAuthenticated" namespace="App\Http\Middleware">
-          <metrics complexity="2" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="2" elements="4" coveredelements="2"/>
+          <metrics complexity="2" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
         </class>
-        <line num="18" type="method" name="handle" visibility="public" complexity="2" crap="2.15" count="4"/>
-        <line num="20" type="stmt" count="4"/>
+        <line num="18" type="method" name="handle" visibility="public" complexity="2" crap="6.00" count="0"/>
+        <line num="20" type="stmt" count="0"/>
         <line num="21" type="stmt" count="0"/>
-        <line num="24" type="stmt" count="4"/>
-        <metrics loc="26" ncloc="18" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="2" elements="4" coveredelements="2"/>
+        <line num="24" type="stmt" count="0"/>
+        <metrics loc="26" ncloc="18" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Http/Middleware/TrimStrings.php">
         <class name="App\Http\Middleware\TrimStrings" namespace="App\Http\Middleware">
@@ -1028,23 +1022,23 @@
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Http/Requests/BridgeStoreRequest.php">
         <class name="App\Http\Requests\BridgeStoreRequest" namespace="App\Http\Requests">
-          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+          <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="4" coveredelements="0"/>
         </class>
-        <line num="14" type="method" name="authorize" visibility="public" complexity="1" crap="1" count="2"/>
-        <line num="16" type="stmt" count="2"/>
-        <line num="24" type="method" name="rules" visibility="public" complexity="1" crap="1" count="2"/>
-        <line num="27" type="stmt" count="2"/>
-        <metrics loc="30" ncloc="20" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+        <line num="14" type="method" name="authorize" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="24" type="method" name="rules" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <metrics loc="30" ncloc="20" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="4" coveredelements="0"/>
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Http/Requests/BridgeUpdateRequest.php">
         <class name="App\Http\Requests\BridgeUpdateRequest" namespace="App\Http\Requests">
-          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+          <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="4" coveredelements="0"/>
         </class>
-        <line num="14" type="method" name="authorize" visibility="public" complexity="1" crap="1" count="4"/>
-        <line num="16" type="stmt" count="4"/>
-        <line num="24" type="method" name="rules" visibility="public" complexity="1" crap="1" count="4"/>
-        <line num="27" type="stmt" count="4"/>
-        <metrics loc="30" ncloc="20" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+        <line num="14" type="method" name="authorize" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="24" type="method" name="rules" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <metrics loc="30" ncloc="20" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="4" coveredelements="0"/>
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Http/Requests/ConvertedStoreRequest.php">
         <class name="App\Http\Requests\ConvertedStoreRequest" namespace="App\Http\Requests">
@@ -1058,23 +1052,23 @@
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Http/Requests/CreateBulkColorRequest.php">
         <class name="App\Http\Requests\CreateBulkColorRequest" namespace="App\Http\Requests">
-          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+          <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="4" coveredelements="0"/>
         </class>
-        <line num="14" type="method" name="authorize" visibility="public" complexity="1" crap="1" count="2"/>
-        <line num="16" type="stmt" count="2"/>
-        <line num="24" type="method" name="rules" visibility="public" complexity="1" crap="1" count="2"/>
-        <line num="27" type="stmt" count="2"/>
-        <metrics loc="30" ncloc="20" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+        <line num="14" type="method" name="authorize" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="24" type="method" name="rules" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <metrics loc="30" ncloc="20" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="4" coveredelements="0"/>
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Http/Requests/CreateColorRequest.php">
         <class name="App\Http\Requests\CreateColorRequest" namespace="App\Http\Requests">
-          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+          <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="4" coveredelements="0"/>
         </class>
-        <line num="14" type="method" name="authorize" visibility="public" complexity="1" crap="1" count="4"/>
-        <line num="16" type="stmt" count="4"/>
-        <line num="24" type="method" name="rules" visibility="public" complexity="1" crap="1" count="4"/>
-        <line num="27" type="stmt" count="4"/>
-        <metrics loc="32" ncloc="22" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+        <line num="14" type="method" name="authorize" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="24" type="method" name="rules" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <metrics loc="32" ncloc="22" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="4" coveredelements="0"/>
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Http/Requests/CreateConvertedIcon.php">
         <class name="App\Http\Requests\CreateConvertedIcon" namespace="App\Http\Requests">
@@ -1088,13 +1082,13 @@
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Http/Requests/CreateSectionRequest.php">
         <class name="App\Http\Requests\CreateSectionRequest" namespace="App\Http\Requests">
-          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+          <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="4" coveredelements="0"/>
         </class>
-        <line num="14" type="method" name="authorize" visibility="public" complexity="1" crap="1" count="3"/>
-        <line num="16" type="stmt" count="3"/>
-        <line num="24" type="method" name="rules" visibility="public" complexity="1" crap="1" count="3"/>
-        <line num="27" type="stmt" count="3"/>
-        <metrics loc="30" ncloc="20" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+        <line num="14" type="method" name="authorize" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="24" type="method" name="rules" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <metrics loc="30" ncloc="20" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="4" coveredelements="0"/>
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Http/Requests/IconStoreRequest.php">
         <class name="App\Http\Requests\IconStoreRequest" namespace="App\Http\Requests">
@@ -1128,23 +1122,23 @@
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Http/Requests/SectionDescriptionRequest.php">
         <class name="App\Http\Requests\SectionDescriptionRequest" namespace="App\Http\Requests">
-          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+          <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="4" coveredelements="0"/>
         </class>
-        <line num="14" type="method" name="authorize" visibility="public" complexity="1" crap="1" count="2"/>
-        <line num="16" type="stmt" count="2"/>
-        <line num="24" type="method" name="rules" visibility="public" complexity="1" crap="1" count="2"/>
-        <line num="27" type="stmt" count="2"/>
-        <metrics loc="30" ncloc="20" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+        <line num="14" type="method" name="authorize" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="24" type="method" name="rules" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <metrics loc="30" ncloc="20" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="4" coveredelements="0"/>
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Http/Requests/SectionTitleRequest.php">
         <class name="App\Http\Requests\SectionTitleRequest" namespace="App\Http\Requests">
-          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+          <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="4" coveredelements="0"/>
         </class>
-        <line num="14" type="method" name="authorize" visibility="public" complexity="1" crap="1" count="2"/>
-        <line num="16" type="stmt" count="2"/>
-        <line num="24" type="method" name="rules" visibility="public" complexity="1" crap="1" count="2"/>
-        <line num="27" type="stmt" count="2"/>
-        <metrics loc="30" ncloc="20" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+        <line num="14" type="method" name="authorize" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="24" type="method" name="rules" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <metrics loc="30" ncloc="20" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="4" coveredelements="0"/>
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Http/Requests/StoreColorRequest.php">
         <class name="App\Http\Requests\StoreColorRequest" namespace="App\Http\Requests">
@@ -1158,13 +1152,13 @@
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Http/Requests/StoreFontRequest.php">
         <class name="App\Http\Requests\StoreFontRequest" namespace="App\Http\Requests">
-          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+          <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="4" coveredelements="0"/>
         </class>
-        <line num="14" type="method" name="authorize" visibility="public" complexity="1" crap="1" count="2"/>
-        <line num="16" type="stmt" count="2"/>
-        <line num="24" type="method" name="rules" visibility="public" complexity="1" crap="1" count="2"/>
-        <line num="27" type="stmt" count="2"/>
-        <metrics loc="30" ncloc="20" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+        <line num="14" type="method" name="authorize" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="24" type="method" name="rules" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <metrics loc="30" ncloc="20" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="4" coveredelements="0"/>
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Http/Requests/StoreOrganization.php">
         <class name="App\Http\Requests\StoreOrganization" namespace="App\Http\Requests">
@@ -1178,13 +1172,13 @@
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Http/Requests/UpdateBridgeSlugRequest.php">
         <class name="App\Http\Requests\UpdateBridgeSlugRequest" namespace="App\Http\Requests">
-          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+          <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="4" coveredelements="0"/>
         </class>
-        <line num="14" type="method" name="authorize" visibility="public" complexity="1" crap="1" count="3"/>
-        <line num="16" type="stmt" count="3"/>
-        <line num="24" type="method" name="rules" visibility="public" complexity="1" crap="1" count="3"/>
-        <line num="27" type="stmt" count="3"/>
-        <metrics loc="30" ncloc="20" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+        <line num="14" type="method" name="authorize" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="24" type="method" name="rules" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <metrics loc="30" ncloc="20" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="4" coveredelements="0"/>
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Http/Requests/UserStoreRequest.php">
         <class name="App\Http\Requests\UserStoreRequest" namespace="App\Http\Requests">
@@ -1200,74 +1194,74 @@
     <package name="App\Jobs">
       <file name="/Users/sid/Code/web/identihub/app/Jobs/CreateActivationLink.php">
         <class name="App\Jobs\CreateActivationLink" namespace="App\Jobs">
-          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="7" coveredelements="7"/>
+          <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="0" elements="7" coveredelements="0"/>
         </class>
-        <line num="26" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="4"/>
-        <line num="28" type="stmt" count="4"/>
-        <line num="29" type="stmt" count="4"/>
-        <line num="35" type="method" name="handle" visibility="public" complexity="1" crap="1" count="4"/>
-        <line num="37" type="stmt" count="4"/>
-        <line num="38" type="stmt" count="4"/>
-        <line num="39" type="stmt" count="4"/>
-        <metrics loc="42" ncloc="30" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="7" coveredelements="7"/>
+        <line num="26" type="method" name="__construct" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="28" type="stmt" count="0"/>
+        <line num="29" type="stmt" count="0"/>
+        <line num="35" type="method" name="handle" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="37" type="stmt" count="0"/>
+        <line num="38" type="stmt" count="0"/>
+        <line num="39" type="stmt" count="0"/>
+        <metrics loc="42" ncloc="30" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="0" elements="7" coveredelements="0"/>
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Jobs/CreateBulkColors.php">
         <class name="App\Jobs\CreateBulkColors" namespace="App\Jobs">
-          <metrics complexity="3" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="15" elements="17" coveredelements="17"/>
+          <metrics complexity="3" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="0" elements="17" coveredelements="0"/>
         </class>
-        <line num="39" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="1"/>
-        <line num="41" type="stmt" count="1"/>
-        <line num="42" type="stmt" count="1"/>
-        <line num="43" type="stmt" count="1"/>
-        <line num="44" type="stmt" count="1"/>
-        <line num="51" type="method" name="handle" visibility="public" complexity="2" crap="2" count="1"/>
-        <line num="54" type="stmt" count="1"/>
-        <line num="55" type="stmt" count="1"/>
-        <line num="57" type="stmt" count="1"/>
-        <line num="58" type="stmt" count="1"/>
-        <line num="59" type="stmt" count="1"/>
-        <line num="60" type="stmt" count="1"/>
-        <line num="61" type="stmt" count="1"/>
-        <line num="62" type="stmt" count="1"/>
-        <line num="63" type="stmt" count="1"/>
-        <line num="64" type="stmt" count="1"/>
-        <line num="67" type="stmt" count="1"/>
-        <metrics loc="68" ncloc="45" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="15" elements="17" coveredelements="17"/>
+        <line num="39" type="method" name="__construct" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="41" type="stmt" count="0"/>
+        <line num="42" type="stmt" count="0"/>
+        <line num="43" type="stmt" count="0"/>
+        <line num="44" type="stmt" count="0"/>
+        <line num="51" type="method" name="handle" visibility="public" complexity="2" crap="6.00" count="0"/>
+        <line num="54" type="stmt" count="0"/>
+        <line num="55" type="stmt" count="0"/>
+        <line num="57" type="stmt" count="0"/>
+        <line num="58" type="stmt" count="0"/>
+        <line num="59" type="stmt" count="0"/>
+        <line num="60" type="stmt" count="0"/>
+        <line num="61" type="stmt" count="0"/>
+        <line num="62" type="stmt" count="0"/>
+        <line num="63" type="stmt" count="0"/>
+        <line num="64" type="stmt" count="0"/>
+        <line num="67" type="stmt" count="0"/>
+        <metrics loc="68" ncloc="45" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="0" elements="17" coveredelements="0"/>
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Jobs/CreateColor.php">
         <class name="App\Jobs\CreateColor" namespace="App\Jobs">
-          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="11" elements="13" coveredelements="13"/>
+          <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="0" elements="13" coveredelements="0"/>
         </class>
-        <line num="39" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="1"/>
-        <line num="41" type="stmt" count="1"/>
-        <line num="42" type="stmt" count="1"/>
-        <line num="43" type="stmt" count="1"/>
-        <line num="44" type="stmt" count="1"/>
-        <line num="51" type="method" name="handle" visibility="public" complexity="1" crap="1" count="1"/>
-        <line num="53" type="stmt" count="1"/>
-        <line num="54" type="stmt" count="1"/>
-        <line num="55" type="stmt" count="1"/>
-        <line num="56" type="stmt" count="1"/>
-        <line num="57" type="stmt" count="1"/>
-        <line num="58" type="stmt" count="1"/>
-        <line num="59" type="stmt" count="1"/>
-        <metrics loc="62" ncloc="41" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="11" elements="13" coveredelements="13"/>
+        <line num="39" type="method" name="__construct" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="41" type="stmt" count="0"/>
+        <line num="42" type="stmt" count="0"/>
+        <line num="43" type="stmt" count="0"/>
+        <line num="44" type="stmt" count="0"/>
+        <line num="51" type="method" name="handle" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="53" type="stmt" count="0"/>
+        <line num="54" type="stmt" count="0"/>
+        <line num="55" type="stmt" count="0"/>
+        <line num="56" type="stmt" count="0"/>
+        <line num="57" type="stmt" count="0"/>
+        <line num="58" type="stmt" count="0"/>
+        <line num="59" type="stmt" count="0"/>
+        <metrics loc="62" ncloc="41" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="0" elements="13" coveredelements="0"/>
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Jobs/CreateFont.php">
         <class name="App\Jobs\CreateFont" namespace="App\Jobs">
-          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="10" coveredelements="10"/>
+          <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="0" elements="10" coveredelements="0"/>
         </class>
-        <line num="38" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="1"/>
-        <line num="40" type="stmt" count="1"/>
-        <line num="41" type="stmt" count="1"/>
-        <line num="42" type="stmt" count="1"/>
-        <line num="49" type="method" name="handle" visibility="public" complexity="1" crap="1" count="1"/>
-        <line num="54" type="stmt" count="1"/>
-        <line num="55" type="stmt" count="1"/>
-        <line num="56" type="stmt" count="1"/>
-        <line num="57" type="stmt" count="1"/>
-        <line num="58" type="stmt" count="1"/>
-        <metrics loc="61" ncloc="38" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="10" coveredelements="10"/>
+        <line num="38" type="method" name="__construct" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="40" type="stmt" count="0"/>
+        <line num="41" type="stmt" count="0"/>
+        <line num="42" type="stmt" count="0"/>
+        <line num="49" type="method" name="handle" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="54" type="stmt" count="0"/>
+        <line num="55" type="stmt" count="0"/>
+        <line num="56" type="stmt" count="0"/>
+        <line num="57" type="stmt" count="0"/>
+        <line num="58" type="stmt" count="0"/>
+        <metrics loc="61" ncloc="38" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="0" elements="10" coveredelements="0"/>
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Jobs/CreateFontFamily.php">
         <class name="App\Jobs\CreateFontFamily" namespace="App\Jobs">
@@ -1285,42 +1279,42 @@
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Jobs/CreateFontImage.php">
         <class name="App\Jobs\CreateFontImage" namespace="App\Jobs">
-          <metrics complexity="3" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="31" coveredstatements="31" elements="33" coveredelements="33"/>
+          <metrics complexity="3" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="31" coveredstatements="0" elements="33" coveredelements="0"/>
         </class>
-        <line num="27" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="1"/>
-        <line num="29" type="stmt" count="1"/>
-        <line num="30" type="stmt" count="1"/>
-        <line num="37" type="method" name="handle" visibility="public" complexity="2" crap="2" count="1"/>
-        <line num="39" type="stmt" count="1"/>
-        <line num="41" type="stmt" count="1"/>
-        <line num="43" type="stmt" count="1"/>
-        <line num="44" type="stmt" count="1"/>
-        <line num="45" type="stmt" count="1"/>
-        <line num="47" type="stmt" count="1"/>
-        <line num="48" type="stmt" count="1"/>
-        <line num="51" type="stmt" count="1"/>
-        <line num="53" type="stmt" count="1"/>
-        <line num="54" type="stmt" count="1"/>
-        <line num="55" type="stmt" count="1"/>
-        <line num="56" type="stmt" count="1"/>
-        <line num="57" type="stmt" count="1"/>
-        <line num="59" type="stmt" count="1"/>
-        <line num="60" type="stmt" count="1"/>
-        <line num="61" type="stmt" count="1"/>
-        <line num="62" type="stmt" count="1"/>
-        <line num="63" type="stmt" count="1"/>
-        <line num="64" type="stmt" count="1"/>
-        <line num="65" type="stmt" count="1"/>
-        <line num="67" type="stmt" count="1"/>
-        <line num="68" type="stmt" count="1"/>
-        <line num="69" type="stmt" count="1"/>
-        <line num="70" type="stmt" count="1"/>
-        <line num="71" type="stmt" count="1"/>
-        <line num="73" type="stmt" count="1"/>
-        <line num="74" type="stmt" count="1"/>
-        <line num="75" type="stmt" count="1"/>
-        <line num="76" type="stmt" count="1"/>
-        <metrics loc="77" ncloc="63" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="31" coveredstatements="31" elements="33" coveredelements="33"/>
+        <line num="27" type="method" name="__construct" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="29" type="stmt" count="0"/>
+        <line num="30" type="stmt" count="0"/>
+        <line num="37" type="method" name="handle" visibility="public" complexity="2" crap="6.00" count="0"/>
+        <line num="39" type="stmt" count="0"/>
+        <line num="41" type="stmt" count="0"/>
+        <line num="43" type="stmt" count="0"/>
+        <line num="44" type="stmt" count="0"/>
+        <line num="45" type="stmt" count="0"/>
+        <line num="47" type="stmt" count="0"/>
+        <line num="48" type="stmt" count="0"/>
+        <line num="51" type="stmt" count="0"/>
+        <line num="53" type="stmt" count="0"/>
+        <line num="54" type="stmt" count="0"/>
+        <line num="55" type="stmt" count="0"/>
+        <line num="56" type="stmt" count="0"/>
+        <line num="57" type="stmt" count="0"/>
+        <line num="59" type="stmt" count="0"/>
+        <line num="60" type="stmt" count="0"/>
+        <line num="61" type="stmt" count="0"/>
+        <line num="62" type="stmt" count="0"/>
+        <line num="63" type="stmt" count="0"/>
+        <line num="64" type="stmt" count="0"/>
+        <line num="65" type="stmt" count="0"/>
+        <line num="67" type="stmt" count="0"/>
+        <line num="68" type="stmt" count="0"/>
+        <line num="69" type="stmt" count="0"/>
+        <line num="70" type="stmt" count="0"/>
+        <line num="71" type="stmt" count="0"/>
+        <line num="73" type="stmt" count="0"/>
+        <line num="74" type="stmt" count="0"/>
+        <line num="75" type="stmt" count="0"/>
+        <line num="76" type="stmt" count="0"/>
+        <metrics loc="77" ncloc="63" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="31" coveredstatements="0" elements="33" coveredelements="0"/>
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Jobs/CreateFontVariant.php">
         <class name="App\Jobs\CreateFontVariant" namespace="App\Jobs">
@@ -1342,21 +1336,21 @@
         <class name="App\Jobs\CreateSection" namespace="App\Jobs">
           <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="13" coveredstatements="13" elements="15" coveredelements="15"/>
         </class>
-        <line num="33" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="43"/>
-        <line num="35" type="stmt" count="43"/>
-        <line num="36" type="stmt" count="43"/>
-        <line num="37" type="stmt" count="43"/>
-        <line num="44" type="method" name="handle" visibility="public" complexity="1" crap="1" count="43"/>
-        <line num="47" type="stmt" count="43"/>
-        <line num="48" type="stmt" count="43"/>
-        <line num="49" type="stmt" count="43"/>
-        <line num="50" type="stmt" count="43"/>
-        <line num="52" type="stmt" count="43"/>
-        <line num="53" type="stmt" count="43"/>
-        <line num="54" type="stmt" count="43"/>
-        <line num="55" type="stmt" count="43"/>
-        <line num="56" type="stmt" count="43"/>
-        <line num="57" type="stmt" count="43"/>
+        <line num="33" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="5"/>
+        <line num="35" type="stmt" count="5"/>
+        <line num="36" type="stmt" count="5"/>
+        <line num="37" type="stmt" count="5"/>
+        <line num="44" type="method" name="handle" visibility="public" complexity="1" crap="1" count="5"/>
+        <line num="47" type="stmt" count="5"/>
+        <line num="48" type="stmt" count="5"/>
+        <line num="49" type="stmt" count="5"/>
+        <line num="50" type="stmt" count="5"/>
+        <line num="52" type="stmt" count="5"/>
+        <line num="53" type="stmt" count="5"/>
+        <line num="54" type="stmt" count="5"/>
+        <line num="55" type="stmt" count="5"/>
+        <line num="56" type="stmt" count="5"/>
+        <line num="57" type="stmt" count="5"/>
         <metrics loc="60" ncloc="43" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="13" coveredstatements="13" elements="15" coveredelements="15"/>
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Jobs/DeleteBridge.php">
@@ -1450,21 +1444,21 @@
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Jobs/UpdateColor.php">
         <class name="App\Jobs\UpdateColor" namespace="App\Jobs">
-          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="10" elements="12" coveredelements="12"/>
+          <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="0" elements="12" coveredelements="0"/>
         </class>
-        <line num="38" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="1"/>
-        <line num="40" type="stmt" count="1"/>
-        <line num="41" type="stmt" count="1"/>
-        <line num="42" type="stmt" count="1"/>
-        <line num="43" type="stmt" count="1"/>
-        <line num="50" type="method" name="handle" visibility="public" complexity="1" crap="1" count="1"/>
-        <line num="52" type="stmt" count="1"/>
-        <line num="53" type="stmt" count="1"/>
-        <line num="54" type="stmt" count="1"/>
-        <line num="55" type="stmt" count="1"/>
-        <line num="56" type="stmt" count="1"/>
-        <line num="57" type="stmt" count="1"/>
-        <metrics loc="59" ncloc="38" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="10" elements="12" coveredelements="12"/>
+        <line num="38" type="method" name="__construct" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="40" type="stmt" count="0"/>
+        <line num="41" type="stmt" count="0"/>
+        <line num="42" type="stmt" count="0"/>
+        <line num="43" type="stmt" count="0"/>
+        <line num="50" type="method" name="handle" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="52" type="stmt" count="0"/>
+        <line num="53" type="stmt" count="0"/>
+        <line num="54" type="stmt" count="0"/>
+        <line num="55" type="stmt" count="0"/>
+        <line num="56" type="stmt" count="0"/>
+        <line num="57" type="stmt" count="0"/>
+        <metrics loc="59" ncloc="38" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="0" elements="12" coveredelements="0"/>
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Jobs/UpdateFontFamily.php">
         <class name="App\Jobs\UpdateFontFamily" namespace="App\Jobs">
@@ -1518,49 +1512,49 @@
     <package name="App\Mail">
       <file name="/Users/sid/Code/web/identihub/app/Mail/ActivationLinkMail.php">
         <class name="App\Mail\ActivationLinkMail" namespace="App\Mail">
-          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="6" coveredelements="6"/>
+          <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="0" elements="6" coveredelements="0"/>
         </class>
-        <line num="23" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="4"/>
-        <line num="26" type="stmt" count="4"/>
-        <line num="27" type="stmt" count="4"/>
-        <line num="34" type="method" name="build" visibility="public" complexity="1" crap="1" count="1"/>
-        <line num="36" type="stmt" count="1"/>
-        <line num="38" type="stmt" count="1"/>
-        <metrics loc="40" ncloc="23" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="6" coveredelements="6"/>
+        <line num="23" type="method" name="__construct" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="26" type="stmt" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <line num="34" type="method" name="build" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="36" type="stmt" count="0"/>
+        <line num="38" type="stmt" count="0"/>
+        <metrics loc="40" ncloc="23" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="0" elements="6" coveredelements="0"/>
       </file>
     </package>
     <package name="App">
       <file name="/Users/sid/Code/web/identihub/app/Models/ActivationLink.php">
         <class name="App\ActivationLink" namespace="App">
-          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="6" coveredelements="6"/>
+          <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="0" elements="6" coveredelements="0"/>
         </class>
-        <line num="16" type="method" name="user" visibility="public" complexity="1" crap="1" count="1"/>
-        <line num="18" type="stmt" count="1"/>
-        <line num="21" type="method" name="isActiveLink" visibility="public" complexity="1" crap="1" count="1"/>
-        <line num="23" type="stmt" count="1"/>
-        <line num="24" type="stmt" count="1"/>
-        <line num="25" type="stmt" count="1"/>
-        <metrics loc="27" ncloc="27" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="6" coveredelements="6"/>
+        <line num="16" type="method" name="user" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="18" type="stmt" count="0"/>
+        <line num="21" type="method" name="isActiveLink" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="23" type="stmt" count="0"/>
+        <line num="24" type="stmt" count="0"/>
+        <line num="25" type="stmt" count="0"/>
+        <metrics loc="27" ncloc="27" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="0" elements="6" coveredelements="0"/>
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Models/Bridge.php">
         <class name="App\Bridge" namespace="App">
-          <metrics complexity="20" methods="17" coveredmethods="9" conditionals="0" coveredconditionals="0" statements="23" coveredstatements="14" elements="40" coveredelements="23"/>
+          <metrics complexity="20" methods="17" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="23" coveredstatements="13" elements="40" coveredelements="21"/>
         </class>
-        <line num="20" type="method" name="boot" visibility="public" complexity="2" crap="2" count="50"/>
-        <line num="22" type="stmt" count="50"/>
-        <line num="24" type="method" name="anonymousFunction:24#119" complexity="2" crap="2" count="50"/>
-        <line num="26" type="stmt" count="43"/>
-        <line num="27" type="stmt" count="43"/>
-        <line num="28" type="stmt" count="43"/>
-        <line num="30" type="stmt" count="43"/>
-        <line num="32" type="stmt" count="50"/>
-        <line num="33" type="stmt" count="50"/>
+        <line num="20" type="method" name="boot" visibility="public" complexity="2" crap="2" count="5"/>
+        <line num="22" type="stmt" count="5"/>
+        <line num="24" type="method" name="anonymousFunction:24#119" complexity="2" crap="2" count="5"/>
+        <line num="26" type="stmt" count="5"/>
+        <line num="27" type="stmt" count="5"/>
+        <line num="28" type="stmt" count="5"/>
+        <line num="30" type="stmt" count="5"/>
+        <line num="32" type="stmt" count="5"/>
+        <line num="33" type="stmt" count="5"/>
         <line num="36" type="method" name="user" visibility="public" complexity="1" crap="2.00" count="0"/>
         <line num="38" type="stmt" count="0"/>
         <line num="48" type="method" name="scopeFromUser" visibility="public" complexity="1" crap="2.00" count="0"/>
         <line num="50" type="stmt" count="0"/>
-        <line num="53" type="method" name="sections" visibility="public" complexity="1" crap="1" count="43"/>
-        <line num="55" type="stmt" count="43"/>
+        <line num="53" type="method" name="sections" visibility="public" complexity="1" crap="1" count="5"/>
+        <line num="55" type="stmt" count="5"/>
         <line num="58" type="method" name="iconSections" visibility="public" complexity="1" crap="2.00" count="0"/>
         <line num="60" type="stmt" count="0"/>
         <line num="63" type="method" name="fontSections" visibility="public" complexity="1" crap="2.00" count="0"/>
@@ -1574,124 +1568,136 @@
         <line num="81" type="method" name="anonymousFunction:81#440" complexity="1" crap="2.00" count="0"/>
         <line num="82" type="stmt" count="0"/>
         <line num="83" type="stmt" count="0"/>
-        <line num="88" type="method" name="anonymousFunction:88#498" complexity="1" crap="1" count="43"/>
-        <line num="89" type="stmt" count="2"/>
-        <line num="90" type="stmt" count="43"/>
-        <line num="93" type="method" name="icons" visibility="public" complexity="1" crap="1" count="20"/>
-        <line num="95" type="stmt" count="20"/>
-        <line num="98" type="method" name="images" visibility="public" complexity="1" crap="1" count="20"/>
-        <line num="100" type="stmt" count="20"/>
-        <line num="103" type="method" name="fonts" visibility="public" complexity="1" crap="1" count="20"/>
-        <line num="105" type="stmt" count="20"/>
-        <line num="108" type="method" name="colors" visibility="public" complexity="1" crap="1" count="20"/>
-        <line num="110" type="stmt" count="20"/>
-        <line num="113" type="method" name="loadCommonRelations" visibility="public" complexity="1" crap="1" count="18"/>
-        <line num="115" type="stmt" count="18"/>
-        <metrics loc="117" ncloc="110" classes="1" methods="17" coveredmethods="9" conditionals="0" coveredconditionals="0" statements="24" coveredstatements="15" elements="41" coveredelements="24"/>
+        <line num="88" type="method" name="anonymousFunction:88#498" complexity="1" crap="1.12" count="5"/>
+        <line num="89" type="stmt" count="0"/>
+        <line num="90" type="stmt" count="5"/>
+        <line num="93" type="method" name="icons" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="95" type="stmt" count="3"/>
+        <line num="98" type="method" name="images" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="100" type="stmt" count="3"/>
+        <line num="103" type="method" name="fonts" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="105" type="stmt" count="3"/>
+        <line num="108" type="method" name="colors" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="110" type="stmt" count="3"/>
+        <line num="113" type="method" name="loadCommonRelations" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="115" type="stmt" count="3"/>
+        <metrics loc="117" ncloc="110" classes="1" methods="17" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="24" coveredstatements="14" elements="41" coveredelements="22"/>
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Models/Color.php">
         <class name="App\Color" namespace="App">
-          <metrics complexity="9" methods="5" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="43" coveredstatements="39" elements="48" coveredelements="42"/>
+          <metrics complexity="12" methods="7" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="45" coveredstatements="8" elements="52" coveredelements="12"/>
         </class>
-        <line num="15" type="method" name="save" visibility="public" complexity="1" crap="1" count="6"/>
-        <line num="19" type="stmt" count="6"/>
-        <line num="21" type="stmt" count="6"/>
-        <line num="22" type="stmt" count="6"/>
-        <line num="24" type="method" name="update" visibility="public" complexity="1" crap="2.00" count="0"/>
-        <line num="28" type="stmt" count="0"/>
-        <line num="30" type="stmt" count="0"/>
-        <line num="31" type="stmt" count="0"/>
-        <line num="33" type="method" name="parseFromSwatchContents" visibility="public" complexity="2" crap="2" count="1"/>
-        <line num="35" type="stmt" count="1"/>
-        <line num="36" type="stmt" count="1"/>
+        <line num="21" type="method" name="anonymousFunction:21#98" complexity="1" crap="1" count="4"/>
+        <line num="22" type="stmt" count="1"/>
+        <line num="23" type="stmt" count="4"/>
+        <line num="25" type="method" name="anonymousFunction:25#129" complexity="1" crap="1" count="4"/>
+        <line num="26" type="stmt" count="1"/>
+        <line num="27" type="stmt" count="4"/>
+        <line num="29" type="method" name="anonymousFunction:29#160" complexity="1" crap="1" count="4"/>
+        <line num="30" type="stmt" count="1"/>
+        <line num="31" type="stmt" count="1"/>
+        <line num="32" type="stmt" count="4"/>
+        <line num="33" type="stmt" count="4"/>
+        <line num="35" type="method" name="section" visibility="public" complexity="1" crap="1" count="1"/>
         <line num="37" type="stmt" count="1"/>
-        <line num="38" type="stmt" count="1"/>
-        <line num="39" type="stmt" count="1"/>
-        <line num="40" type="stmt" count="1"/>
-        <line num="42" type="stmt" count="1"/>
-        <line num="44" type="stmt" count="1"/>
-        <line num="45" type="stmt" count="1"/>
-        <line num="47" type="stmt" count="1"/>
-        <line num="48" type="stmt" count="1"/>
-        <line num="49" type="stmt" count="1"/>
-        <line num="50" type="stmt" count="1"/>
-        <line num="53" type="stmt" count="1"/>
-        <line num="56" type="method" name="rgb2Hex" visibility="private" complexity="4" crap="4.01" count="1"/>
-        <line num="58" type="stmt" count="1"/>
-        <line num="60" type="stmt" count="1"/>
-        <line num="61" type="stmt" count="1"/>
-        <line num="62" type="stmt" count="1"/>
-        <line num="65" type="stmt" count="1"/>
-        <line num="66" type="stmt" count="1"/>
-        <line num="67" type="stmt" count="0"/>
-        <line num="70" type="stmt" count="1"/>
-        <line num="71" type="stmt" count="1"/>
-        <line num="72" type="stmt" count="1"/>
-        <line num="75" type="stmt" count="1"/>
-        <line num="78" type="method" name="rgb2Cmyk" visibility="public" complexity="1" crap="1" count="1"/>
-        <line num="80" type="stmt" count="1"/>
-        <line num="82" type="stmt" count="1"/>
-        <line num="83" type="stmt" count="1"/>
-        <line num="84" type="stmt" count="1"/>
-        <line num="85" type="stmt" count="1"/>
-        <line num="86" type="stmt" count="1"/>
-        <line num="87" type="stmt" count="1"/>
-        <line num="88" type="stmt" count="1"/>
-        <line num="89" type="stmt" count="1"/>
-        <line num="90" type="stmt" count="1"/>
-        <line num="91" type="stmt" count="1"/>
-        <line num="92" type="stmt" count="1"/>
-        <metrics loc="94" ncloc="86" classes="1" methods="5" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="43" coveredstatements="39" elements="48" coveredelements="42"/>
+        <line num="41" type="method" name="parseFromSwatchContents" visibility="public" complexity="2" crap="6.00" count="0"/>
+        <line num="43" type="stmt" count="0"/>
+        <line num="44" type="stmt" count="0"/>
+        <line num="45" type="stmt" count="0"/>
+        <line num="46" type="stmt" count="0"/>
+        <line num="47" type="stmt" count="0"/>
+        <line num="48" type="stmt" count="0"/>
+        <line num="50" type="stmt" count="0"/>
+        <line num="52" type="stmt" count="0"/>
+        <line num="53" type="stmt" count="0"/>
+        <line num="55" type="stmt" count="0"/>
+        <line num="56" type="stmt" count="0"/>
+        <line num="57" type="stmt" count="0"/>
+        <line num="58" type="stmt" count="0"/>
+        <line num="61" type="stmt" count="0"/>
+        <line num="64" type="method" name="rgb2Hex" visibility="private" complexity="4" crap="20.00" count="0"/>
+        <line num="66" type="stmt" count="0"/>
+        <line num="68" type="stmt" count="0"/>
+        <line num="69" type="stmt" count="0"/>
+        <line num="70" type="stmt" count="0"/>
+        <line num="73" type="stmt" count="0"/>
+        <line num="74" type="stmt" count="0"/>
+        <line num="75" type="stmt" count="0"/>
+        <line num="78" type="stmt" count="0"/>
+        <line num="79" type="stmt" count="0"/>
+        <line num="80" type="stmt" count="0"/>
+        <line num="83" type="stmt" count="0"/>
+        <line num="86" type="method" name="rgb2Cmyk" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="88" type="stmt" count="0"/>
+        <line num="90" type="stmt" count="0"/>
+        <line num="91" type="stmt" count="0"/>
+        <line num="92" type="stmt" count="0"/>
+        <line num="93" type="stmt" count="0"/>
+        <line num="94" type="stmt" count="0"/>
+        <line num="95" type="stmt" count="0"/>
+        <line num="96" type="stmt" count="0"/>
+        <line num="97" type="stmt" count="0"/>
+        <line num="98" type="stmt" count="0"/>
+        <line num="99" type="stmt" count="0"/>
+        <line num="100" type="stmt" count="0"/>
+        <metrics loc="102" ncloc="102" classes="1" methods="7" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="46" coveredstatements="9" elements="53" coveredelements="13"/>
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Models/Font.php">
         <class name="App\Font" namespace="App">
-          <metrics complexity="3" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="4" elements="10" coveredelements="6"/>
+          <metrics complexity="3" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="0" elements="10" coveredelements="0"/>
         </class>
-        <line num="22" type="method" name="variant" visibility="public" complexity="1" crap="1" count="1"/>
-        <line num="24" type="stmt" count="1"/>
-        <line num="27" type="method" name="save" visibility="public" complexity="1" crap="1" count="3"/>
-        <line num="31" type="stmt" count="3"/>
-        <line num="33" type="stmt" count="3"/>
-        <line num="34" type="stmt" count="3"/>
+        <line num="22" type="method" name="variant" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="24" type="stmt" count="0"/>
+        <line num="27" type="method" name="save" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="31" type="stmt" count="0"/>
+        <line num="33" type="stmt" count="0"/>
+        <line num="34" type="stmt" count="0"/>
         <line num="36" type="method" name="update" visibility="public" complexity="1" crap="2.00" count="0"/>
         <line num="40" type="stmt" count="0"/>
         <line num="42" type="stmt" count="0"/>
         <line num="43" type="stmt" count="0"/>
-        <metrics loc="44" ncloc="36" classes="1" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="4" elements="10" coveredelements="6"/>
+        <metrics loc="44" ncloc="36" classes="1" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="0" elements="10" coveredelements="0"/>
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Models/FontFamily.php">
         <class name="App\FontFamily" namespace="App">
-          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+          <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
         </class>
-        <line num="19" type="method" name="variants" visibility="public" complexity="1" crap="1" count="1"/>
-        <line num="21" type="stmt" count="1"/>
-        <metrics loc="23" ncloc="23" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+        <line num="19" type="method" name="variants" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="21" type="stmt" count="0"/>
+        <metrics loc="23" ncloc="23" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Models/FontVariant.php">
         <class name="App\FontVariant" namespace="App">
-          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+          <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
         </class>
-        <line num="19" type="method" name="fontFamily" visibility="public" complexity="1" crap="1" count="1"/>
-        <line num="21" type="stmt" count="1"/>
-        <metrics loc="23" ncloc="23" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+        <line num="19" type="method" name="fontFamily" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="21" type="stmt" count="0"/>
+        <metrics loc="23" ncloc="23" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Models/Icon.php">
         <class name="App\Icon" namespace="App">
-          <metrics complexity="5" methods="4" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="0" elements="12" coveredelements="0"/>
+          <metrics complexity="9" methods="7" coveredmethods="7" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="11" elements="18" coveredelements="18"/>
         </class>
-        <line num="18" type="method" name="getFilenamePngAttribute" visibility="public" complexity="2" crap="6.00" count="0"/>
-        <line num="20" type="stmt" count="0"/>
-        <line num="24" type="method" name="converted" visibility="public" complexity="1" crap="2.00" count="0"/>
-        <line num="26" type="stmt" count="0"/>
-        <line num="29" type="method" name="save" visibility="public" complexity="1" crap="2.00" count="0"/>
-        <line num="33" type="stmt" count="0"/>
-        <line num="35" type="stmt" count="0"/>
-        <line num="36" type="stmt" count="0"/>
-        <line num="38" type="method" name="update" visibility="public" complexity="1" crap="2.00" count="0"/>
-        <line num="42" type="stmt" count="0"/>
-        <line num="44" type="stmt" count="0"/>
-        <line num="45" type="stmt" count="0"/>
-        <metrics loc="46" ncloc="38" classes="1" methods="4" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="0" elements="12" coveredelements="0"/>
+        <line num="24" type="method" name="anonymousFunction:24#114" complexity="1" crap="1" count="3"/>
+        <line num="25" type="stmt" count="1"/>
+        <line num="26" type="stmt" count="3"/>
+        <line num="28" type="method" name="anonymousFunction:28#145" complexity="1" crap="1" count="3"/>
+        <line num="29" type="stmt" count="1"/>
+        <line num="30" type="stmt" count="3"/>
+        <line num="32" type="method" name="anonymousFunction:32#176" complexity="1" crap="1" count="3"/>
+        <line num="33" type="stmt" count="1"/>
+        <line num="34" type="stmt" count="1"/>
+        <line num="35" type="stmt" count="3"/>
+        <line num="36" type="stmt" count="3"/>
+        <line num="38" type="method" name="section" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="40" type="stmt" count="1"/>
+        <line num="43" type="method" name="bridge" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="45" type="stmt" count="1"/>
+        <line num="48" type="method" name="getFilenamePngAttribute" visibility="public" complexity="2" crap="2" count="1"/>
+        <line num="50" type="stmt" count="1"/>
+        <line num="53" type="method" name="converted" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="55" type="stmt" count="1"/>
+        <metrics loc="57" ncloc="57" classes="1" methods="7" coveredmethods="7" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="12" elements="19" coveredelements="19"/>
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Models/IconConverted.php">
         <class name="App\IconConverted" namespace="App">
@@ -1704,19 +1710,26 @@
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Models/Image.php">
         <class name="App\Image" namespace="App">
-          <metrics complexity="3" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="0" elements="10" coveredelements="0"/>
+          <metrics complexity="7" methods="6" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="10" elements="16" coveredelements="16"/>
         </class>
-        <line num="18" type="method" name="converted" visibility="public" complexity="1" crap="2.00" count="0"/>
-        <line num="20" type="stmt" count="0"/>
-        <line num="23" type="method" name="save" visibility="public" complexity="1" crap="2.00" count="0"/>
-        <line num="27" type="stmt" count="0"/>
-        <line num="29" type="stmt" count="0"/>
-        <line num="31" type="stmt" count="0"/>
-        <line num="33" type="method" name="update" visibility="public" complexity="1" crap="2.00" count="0"/>
-        <line num="37" type="stmt" count="0"/>
-        <line num="39" type="stmt" count="0"/>
-        <line num="41" type="stmt" count="0"/>
-        <metrics loc="42" ncloc="34" classes="1" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="0" elements="10" coveredelements="0"/>
+        <line num="24" type="method" name="anonymousFunction:24#111" complexity="1" crap="1" count="5"/>
+        <line num="25" type="stmt" count="3"/>
+        <line num="26" type="stmt" count="5"/>
+        <line num="28" type="method" name="anonymousFunction:28#142" complexity="1" crap="1" count="5"/>
+        <line num="29" type="stmt" count="3"/>
+        <line num="30" type="stmt" count="5"/>
+        <line num="32" type="method" name="anonymousFunction:32#173" complexity="1" crap="1" count="5"/>
+        <line num="33" type="stmt" count="3"/>
+        <line num="34" type="stmt" count="3"/>
+        <line num="35" type="stmt" count="5"/>
+        <line num="36" type="stmt" count="5"/>
+        <line num="38" type="method" name="section" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="40" type="stmt" count="3"/>
+        <line num="43" type="method" name="bridge" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="45" type="stmt" count="3"/>
+        <line num="48" type="method" name="converted" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="50" type="stmt" count="1"/>
+        <metrics loc="52" ncloc="52" classes="1" methods="6" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="11" elements="17" coveredelements="17"/>
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Models/ImageConverted.php">
         <class name="App\ImageConverted" namespace="App">
@@ -1729,24 +1742,26 @@
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Models/Section.php">
         <class name="App\Section" namespace="App">
-          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+          <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
         </class>
-        <metrics loc="15" ncloc="15" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        <line num="16" type="method" name="colors" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="18" type="stmt" count="0"/>
+        <metrics loc="20" ncloc="20" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Models/SectionType.php">
         <class name="App\SectionType" namespace="App">
           <metrics complexity="5" methods="5" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="4" elements="10" coveredelements="8"/>
         </class>
-        <line num="24" type="method" name="getIconsSectionType" visibility="public" complexity="1" crap="1" count="43"/>
-        <line num="26" type="stmt" count="43"/>
-        <line num="32" type="method" name="getImagesSectionType" visibility="public" complexity="1" crap="1" count="43"/>
-        <line num="34" type="stmt" count="43"/>
+        <line num="24" type="method" name="getIconsSectionType" visibility="public" complexity="1" crap="1" count="5"/>
+        <line num="26" type="stmt" count="5"/>
+        <line num="32" type="method" name="getImagesSectionType" visibility="public" complexity="1" crap="1" count="5"/>
+        <line num="34" type="stmt" count="5"/>
         <line num="40" type="method" name="getFontsSectionType" visibility="public" complexity="1" crap="2.00" count="0"/>
         <line num="42" type="stmt" count="0"/>
-        <line num="48" type="method" name="getColorsSectionType" visibility="public" complexity="1" crap="1" count="43"/>
-        <line num="50" type="stmt" count="43"/>
-        <line num="57" type="method" name="getSectionType" visibility="public" complexity="1" crap="1" count="43"/>
-        <line num="59" type="stmt" count="43"/>
+        <line num="48" type="method" name="getColorsSectionType" visibility="public" complexity="1" crap="1" count="5"/>
+        <line num="50" type="stmt" count="5"/>
+        <line num="57" type="method" name="getSectionType" visibility="public" complexity="1" crap="1" count="5"/>
+        <line num="59" type="stmt" count="5"/>
         <metrics loc="61" ncloc="45" classes="1" methods="5" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="4" elements="10" coveredelements="8"/>
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Models/User.php">
@@ -1759,17 +1774,15 @@
     <package name="App\Policies">
       <file name="/Users/sid/Code/web/identihub/app/Policies/BridgePolicy.php">
         <class name="App\Policies\BridgePolicy" namespace="App\Policies">
-          <metrics complexity="4" methods="4" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="3" elements="8" coveredelements="6"/>
+          <metrics complexity="3" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="6" coveredelements="0"/>
         </class>
-        <line num="20" type="method" name="view" visibility="public" complexity="1" crap="1" count="2"/>
-        <line num="22" type="stmt" count="2"/>
-        <line num="31" type="method" name="create" visibility="public" complexity="1" crap="2.00" count="0"/>
-        <line num="34" type="stmt" count="0"/>
-        <line num="43" type="method" name="update" visibility="public" complexity="1" crap="1" count="29"/>
-        <line num="45" type="stmt" count="29"/>
-        <line num="55" type="method" name="delete" visibility="public" complexity="1" crap="1" count="2"/>
-        <line num="57" type="stmt" count="2"/>
-        <metrics loc="59" ncloc="30" classes="1" methods="4" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="3" elements="8" coveredelements="6"/>
+        <line num="20" type="method" name="view" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="22" type="stmt" count="0"/>
+        <line num="33" type="method" name="update" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="35" type="stmt" count="0"/>
+        <line num="45" type="method" name="delete" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="47" type="stmt" count="0"/>
+        <metrics loc="49" ncloc="28" classes="1" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="6" coveredelements="0"/>
       </file>
     </package>
     <package name="App\Providers">
@@ -1777,66 +1790,66 @@
         <class name="App\Providers\AppServiceProvider" namespace="App\Providers">
           <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
         </class>
-        <line num="15" type="method" name="boot" visibility="public" complexity="1" crap="1" count="56"/>
-        <line num="17" type="stmt" count="56"/>
-        <line num="18" type="stmt" count="56"/>
-        <line num="25" type="method" name="register" visibility="public" complexity="1" crap="1" count="56"/>
-        <line num="28" type="stmt" count="56"/>
+        <line num="15" type="method" name="boot" visibility="public" complexity="1" crap="1" count="6"/>
+        <line num="17" type="stmt" count="6"/>
+        <line num="18" type="stmt" count="6"/>
+        <line num="25" type="method" name="register" visibility="public" complexity="1" crap="1" count="6"/>
+        <line num="28" type="stmt" count="6"/>
         <metrics loc="29" ncloc="17" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Providers/AuthServiceProvider.php">
         <class name="App\Providers\AuthServiceProvider" namespace="App\Providers">
           <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
         </class>
-        <line num="23" type="method" name="boot" visibility="public" complexity="1" crap="1" count="56"/>
-        <line num="25" type="stmt" count="56"/>
-        <line num="26" type="stmt" count="56"/>
+        <line num="23" type="method" name="boot" visibility="public" complexity="1" crap="1" count="6"/>
+        <line num="25" type="stmt" count="6"/>
+        <line num="26" type="stmt" count="6"/>
         <metrics loc="27" ncloc="17" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Providers/BroadcastServiceProvider.php">
         <class name="App\Providers\BroadcastServiceProvider" namespace="App\Providers">
           <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="4" coveredelements="4"/>
         </class>
-        <line num="15" type="method" name="boot" visibility="public" complexity="1" crap="1" count="56"/>
-        <line num="17" type="stmt" count="56"/>
-        <line num="19" type="stmt" count="56"/>
-        <line num="20" type="stmt" count="56"/>
+        <line num="15" type="method" name="boot" visibility="public" complexity="1" crap="1" count="6"/>
+        <line num="17" type="stmt" count="6"/>
+        <line num="19" type="stmt" count="6"/>
+        <line num="20" type="stmt" count="6"/>
         <metrics loc="21" ncloc="16" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="4" coveredelements="4"/>
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Providers/EventServiceProvider.php">
         <class name="App\Providers\EventServiceProvider" namespace="App\Providers">
           <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
         </class>
-        <line num="26" type="method" name="boot" visibility="public" complexity="1" crap="1" count="56"/>
-        <line num="28" type="stmt" count="56"/>
-        <line num="31" type="stmt" count="56"/>
+        <line num="26" type="method" name="boot" visibility="public" complexity="1" crap="1" count="6"/>
+        <line num="28" type="stmt" count="6"/>
+        <line num="31" type="stmt" count="6"/>
         <metrics loc="32" ncloc="20" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
       </file>
       <file name="/Users/sid/Code/web/identihub/app/Providers/RouteServiceProvider.php">
         <class name="App\Providers\RouteServiceProvider" namespace="App\Providers">
           <metrics complexity="4" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="14" elements="18" coveredelements="18"/>
         </class>
-        <line num="24" type="method" name="boot" visibility="public" complexity="1" crap="1" count="56"/>
-        <line num="28" type="stmt" count="56"/>
-        <line num="29" type="stmt" count="56"/>
-        <line num="36" type="method" name="map" visibility="public" complexity="1" crap="1" count="56"/>
-        <line num="38" type="stmt" count="56"/>
-        <line num="40" type="stmt" count="56"/>
-        <line num="43" type="stmt" count="56"/>
-        <line num="52" type="method" name="mapWebRoutes" visibility="protected" complexity="1" crap="1" count="56"/>
-        <line num="54" type="stmt" count="56"/>
-        <line num="55" type="stmt" count="56"/>
-        <line num="56" type="stmt" count="56"/>
-        <line num="57" type="stmt" count="56"/>
-        <line num="66" type="method" name="mapApiRoutes" visibility="protected" complexity="1" crap="1" count="56"/>
-        <line num="68" type="stmt" count="56"/>
-        <line num="69" type="stmt" count="56"/>
-        <line num="70" type="stmt" count="56"/>
-        <line num="71" type="stmt" count="56"/>
-        <line num="72" type="stmt" count="56"/>
+        <line num="24" type="method" name="boot" visibility="public" complexity="1" crap="1" count="6"/>
+        <line num="28" type="stmt" count="6"/>
+        <line num="29" type="stmt" count="6"/>
+        <line num="36" type="method" name="map" visibility="public" complexity="1" crap="1" count="6"/>
+        <line num="38" type="stmt" count="6"/>
+        <line num="40" type="stmt" count="6"/>
+        <line num="43" type="stmt" count="6"/>
+        <line num="52" type="method" name="mapWebRoutes" visibility="protected" complexity="1" crap="1" count="6"/>
+        <line num="54" type="stmt" count="6"/>
+        <line num="55" type="stmt" count="6"/>
+        <line num="56" type="stmt" count="6"/>
+        <line num="57" type="stmt" count="6"/>
+        <line num="66" type="method" name="mapApiRoutes" visibility="protected" complexity="1" crap="1" count="6"/>
+        <line num="68" type="stmt" count="6"/>
+        <line num="69" type="stmt" count="6"/>
+        <line num="70" type="stmt" count="6"/>
+        <line num="71" type="stmt" count="6"/>
+        <line num="72" type="stmt" count="6"/>
         <metrics loc="73" ncloc="38" classes="1" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="14" elements="18" coveredelements="18"/>
       </file>
     </package>
-    <metrics files="93" loc="4552" ncloc="3534" classes="87" methods="219" coveredmethods="103" conditionals="0" coveredconditionals="0" statements="1023" coveredstatements="402" elements="1242" coveredelements="505"/>
+    <metrics files="93" loc="4564" ncloc="3578" classes="88" methods="227" coveredmethods="47" conditionals="0" coveredconditionals="0" statements="1028" coveredstatements="140" elements="1255" coveredelements="187"/>
   </project>
 </coverage>

@@ -12,23 +12,31 @@ class Color extends Model
         'hex', 'rgb', 'cmyk', 'section_id', 'order', 'bridge_id'
     ];
 
-    public function save(array $options = [])
-    {
-        // before save code
+    protected $casts = [
+        'order' => 'int'
+    ];
 
-        parent::save();
-        // after save code
-        Bridge::whereId($this->bridge_id)->increment('nr_colors');
+    public static function boot()
+    {
+        static::created(function ($color) {
+            Bridge::whereId($color->bridge_id)->increment('nr_colors');
+        });
+
+        static::updated(function ($color) {
+            Bridge::whereId($color->bridge_id)->increment('nr_colors');
+        });
+
+        static::created(function ($color) {
+            $color->order = Color::where('section_id', $color->section->id)->get()->count();
+            $color->save();
+        });
     }
 
-    public function update(array $attributes = [], array $options = [])
+    public function section()
     {
-        // before save code
-
-        parent::update();
-        // after save code
-        Bridge::whereId($this->bridge_id)->increment('nr_colors');
+        return $this->belongsTo(Section::class);
     }
+
 
     public static function parseFromSwatchContents($swatchContents)
     {
