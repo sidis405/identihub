@@ -104,7 +104,7 @@ class OrderInteractionsTest extends TestCase
     }
 
     /** @test */
-    public function updatingAnObjectOnANonOwnedThrows404()
+    public function updatingAnObjectOnANonOwnedBridgeThrows404()
     {
         $bridge = create(Bridge::class, ['user_id' => 2]);
         $section = create(Section::class, ['section_type_id' => 3]);
@@ -113,6 +113,131 @@ class OrderInteractionsTest extends TestCase
         $images = create(Image::class, ['bridge_id' => $bridge->id, 'section_id' => $section->id], 4);
 
         $response = $this->json('POST', route('order.same', ['type' => 'image', 'objectId' => 1, 'newOrder' => 0]));
+
+        $response->assertJsonFragment(['error']);
+    }
+
+    /** @test */
+    public function colorsCanSwitchSections()
+    {
+        $bridge = create(Bridge::class, ['user_id' => auth()->id()]);
+        $section = create(Section::class, ['bridge_id' => $bridge->id, 'section_type_id' => 1]);
+
+        $color = create(Color::class, ['bridge_id' => $bridge->id, 'cmyk' => 199, 'section_id' => $section->id]);
+        $colors = create(Color::class, ['bridge_id' => $bridge->id, 'section_id' => $section->id], 4);
+
+        $sectionNew = create(Section::class, ['bridge_id' => $bridge->id, 'section_type_id' => 1]);
+
+        $response = $this->json('POST', route('order.changed', ['type' => 'color', 'objectId' => 1, 'newSection' => $sectionNew->id]));
+
+        $this->assertSame(Color::where('section_id', $section->id)->pluck('order', 'id')->toArray(), [
+            2 => 0,
+            3 => 1,
+            4 => 2,
+            5 => 3,
+        ]);
+
+        $this->assertSame(Color::where('section_id', $sectionNew->id)->pluck('order', 'id')->toArray(), [
+            1 => 0
+        ]);
+    }
+
+    /** @test */
+    public function iconsCanSwitchSections()
+    {
+        $bridge = create(Bridge::class, ['user_id' => auth()->id()]);
+        $section = create(Section::class, ['bridge_id' => $bridge->id, 'section_type_id' => 1]);
+
+        $icon = create(Icon::class, ['bridge_id' => $bridge->id, 'filename' => 'foobar', 'section_id' => $section->id]);
+        $icons = create(Icon::class, ['bridge_id' => $bridge->id, 'section_id' => $section->id], 4);
+
+        $sectionNew = create(Section::class, ['bridge_id' => $bridge->id, 'section_type_id' => 1]);
+
+        $response = $this->json('POST', route('order.changed', ['type' => 'icon', 'objectId' => 1, 'newSection' => $sectionNew->id]));
+
+        $this->assertSame(Icon::where('section_id', $section->id)->pluck('order', 'id')->toArray(), [
+            2 => 0,
+            3 => 1,
+            4 => 2,
+            5 => 3,
+        ]);
+
+        $this->assertSame(Icon::where('section_id', $sectionNew->id)->pluck('order', 'id')->toArray(), [
+            1 => 0
+        ]);
+    }
+
+    /** @test */
+    public function imagesCanSwitchSections()
+    {
+        $bridge = create(Bridge::class, ['user_id' => auth()->id()]);
+        $section = create(Section::class, ['bridge_id' => $bridge->id, 'section_type_id' => 1]);
+
+        $image = create(Image::class, ['bridge_id' => $bridge->id, 'filename' => 'foobar', 'section_id' => $section->id]);
+        $images = create(Image::class, ['bridge_id' => $bridge->id, 'section_id' => $section->id], 4);
+
+        $sectionNew = create(Section::class, ['bridge_id' => $bridge->id, 'section_type_id' => 1]);
+
+        $response = $this->json('POST', route('order.changed', ['type' => 'image', 'objectId' => 1, 'newSection' => $sectionNew->id]));
+
+        $this->assertSame(Image::where('section_id', $section->id)->pluck('order', 'id')->toArray(), [
+            2 => 0,
+            3 => 1,
+            4 => 2,
+            5 => 3,
+        ]);
+
+        $this->assertSame(Image::where('section_id', $sectionNew->id)->pluck('order', 'id')->toArray(), [
+            1 => 0
+        ]);
+    }
+
+    /** @test */
+    public function movingAnObjectOfIncorrectTypeThrows404()
+    {
+        $bridge = create(Bridge::class, ['user_id' => auth()->id()]);
+        $section = create(Section::class, ['bridge_id' => $bridge->id, 'section_type_id' => 1]);
+
+        $image = create(Image::class, ['bridge_id' => $bridge->id, 'filename' => 'foobar', 'section_id' => $section->id]);
+        $images = create(Image::class, ['bridge_id' => $bridge->id, 'section_id' => $section->id], 4);
+
+        $sectionNew = create(Section::class, ['bridge_id' => $bridge->id, 'section_type_id' => 1]);
+
+        $response = $this->json('POST', route('order.changed', ['type' => 'foobar', 'objectId' => 1, 'newSection' => $sectionNew->id]));
+
+        $response->assertJsonFragment(['error']);
+    }
+
+    /** @test */
+    public function movingANonExistingObjectThrows404()
+    {
+        $bridge = create(Bridge::class, ['user_id' => 1]);
+        $section = create(Section::class, ['bridge_id' => $bridge->id, 'section_type_id' => 1]);
+
+        $image = create(Image::class, ['bridge_id' => $bridge->id, 'filename' => 'foobar', 'section_id' => $section->id]);
+        $images = create(Image::class, ['bridge_id' => $bridge->id, 'section_id' => $section->id], 4);
+
+        $sectionNew = create(Section::class, ['bridge_id' => $bridge->id, 'section_type_id' => 1]);
+
+        $response = $this->json('POST', route('order.changed', ['type' => 'image', 'objectId' => 99, 'newSection' => $sectionNew->id]));
+
+
+        $response->assertJsonFragment(['error']);
+    }
+
+    /** @test */
+    public function movingAnObjectOnANonOwnedBridgeThrows404()
+    {
+        $bridge = create(Bridge::class, ['user_id' => 2]);
+        $section = create(Section::class, ['bridge_id' => $bridge->id, 'section_type_id' => 1]);
+
+        $image = create(Image::class, ['bridge_id' => $bridge->id, 'filename' => 'foobar', 'section_id' => $section->id]);
+        $images = create(Image::class, ['bridge_id' => $bridge->id, 'section_id' => $section->id], 4);
+
+        $sectionNew = create(Section::class, ['bridge_id' => $bridge->id, 'section_type_id' => 1]);
+
+        $response = $this->json('POST', route('order.changed', ['type' => 'image', 'objectId' => 1, 'newSection' => $sectionNew->id]));
+
 
         $response->assertJsonFragment(['error']);
     }

@@ -45,7 +45,7 @@ class ColorInteractionsTest extends TestCase
     }
 
     /** @test */
-    public function aColorCanDeleted()
+    public function aColorCanBeDeleted()
     {
         $this->expectsEvents(BridgeUpdated::class);
 
@@ -53,12 +53,13 @@ class ColorInteractionsTest extends TestCase
 
         $color = create(Color::class, ['bridge_id' => $bridge->id]);
 
-        $this->assertDatabaseHas('colors', $color->toArray());
-        $this->assertEquals(1, Color::all()->count());
+        $colorData = $color->toArray();
+        unset($colorData['order']);
+
+        $this->assertEquals(1, Color::get()->count());
 
         $response = $this->json('DELETE', route('colors.destroy', ['bridgeId' => $bridge->id, 'colorId' => $color->id]));
 
-        $this->assertDatabaseMissing('colors', $color->toArray());
         $this->assertEquals(0, Color::all()->count());
     }
 

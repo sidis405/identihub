@@ -2,7 +2,6 @@
 
 namespace App\Jobs;
 
-use App\Section;
 use Illuminate\Bus\Queueable;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Queue\InteractsWithQueue;
@@ -36,7 +35,7 @@ class ReorderAfterDelete implements ShouldQueue
      */
     public function handle()
     {
-        for($i = 0; $i < $this->models->count(); $i++){
+        for ($i = 0; $i < $this->models->count(); $i++) {
             $model = $this->models[$i];
             $model->order = $i;
             $model->save();
