@@ -25,17 +25,17 @@ Route::group(['middleware' => 'auth:api', 'namespace' => 'Api\V1', 'prefix' => '
     ->name('sections.updateDescription');
 
     // ICONS
-    Route::post('/bridges/{bridgeId}/icons', 'SourceFileController@storeIcon');
-    Route::post('/bridges/{bridgeId}/icons/{iconId}/convert', 'SourceFileController@addIconConverted');
-    Route::delete('/bridges/{bridgeId}/icons/{iconId}', 'SourceFileController@deleteIcon');
-    Route::delete('/bridges/{bridgeId}/images/{iconId}', 'SourceFileController@deleteImage');
-    Route::post('/bridges/{bridgeId}/icons/{iconId}/converted', 'SourceFileController@addIconConverted');
-    Route::post('/bridges/{bridgeId}/icons/{iconId}/filename', 'SourceFileController@updateIconFile');
+    Route::post('/bridges/{bridgeId}/icons', 'IconsController@storeIcon');
+    Route::delete('/bridges/{bridgeId}/icons/{iconId}', 'IconsController@deleteIcon');
+    Route::post('/bridges/{bridgeId}/icons/{iconId}/converted', 'IconsController@addIconConverted');
+    Route::post('/bridges/{bridgeId}/icons/{iconId}/filename', 'IconsController@updateIconFile');
+    Route::post('/bridges/{bridgeId}/icons/{iconId}/convert', 'IconsController@addIconConverted');
 
     // IMAGES
-    Route::post('/bridges/{bridgeId}/images/', 'SourceFileController@storeImage');
-    Route::post('/bridges/{bridgeId}/images/{imageId}/converted', 'SourceFileController@addImageConverted');
-    Route::post('/bridges/{bridgeId}/images/{imageId}/filename', 'SourceFileController@updateImageFile');
+    Route::post('/bridges/{bridgeId}/images/', 'ImagesController@storeImage');
+    Route::delete('/bridges/{bridgeId}/images/{iconId}', 'ImagesController@deleteImage');
+    Route::post('/bridges/{bridgeId}/images/{imageId}/converted', 'ImagesController@addImageConverted');
+    Route::post('/bridges/{bridgeId}/images/{imageId}/filename', 'ImagesController@updateImageFile');
 
     // ORDER
     Route::post('/order/{type}/{objectId}/{newOrder}', 'OrderController@changedOrderOnSameSection')->name('order.same');

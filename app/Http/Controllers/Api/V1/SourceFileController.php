@@ -347,7 +347,6 @@ class SourceFileController extends Controller
         }
     }
 
-
     public function deleteIcon(Request $request, $bridgeId, $iconId)
     {
         try {

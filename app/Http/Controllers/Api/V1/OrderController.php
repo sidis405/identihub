@@ -59,7 +59,7 @@ class OrderController extends Controller
             $object->order = $newOrder;
             $object->save();
 
-            $bridge = Bridge::with('sections', 'icons', 'icons.converted', 'images', 'images.converted', 'fonts', 'fonts.variant', 'fonts.variant.fontFamily', 'colors')->findOrFail($object->bridge_id);
+            $bridge = $bridge->loadCommonRelations();
             return response()->json([
                 'bridge' => $bridge,
                 'section_types' => SectionType::all()
@@ -111,7 +111,7 @@ class OrderController extends Controller
                     throw new ModelNotFoundException("Not good type");
             }
 
-            $bridge = Bridge::with('sections', 'icons', 'icons.converted', 'images', 'images.converted', 'fonts', 'fonts.variant', 'fonts.variant.fontFamily', 'colors')->findOrFail($object->bridge_id);
+            $bridge = $bridge->loadCommonRelations();
             return response()->json([
                 'bridge' => $bridge,
                 'section_types' => SectionType::all()
